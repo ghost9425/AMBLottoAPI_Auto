@@ -1,0 +1,134 @@
+.modal-header {
+    color: #19A17A !important;
+    background-color: #043E35 !important;
+    padding: 20px 30px 20px 30px !important;
+}
+/* 043E35 */
+.btn-yellow {
+    color: #043E35 !important;
+}
+
+.btn-info {
+    background-color: #043E35 !important;
+    color: #ffffff !important;
+}
+
+.fixed-sn main {
+    background: #043E35 !important;
+    padding-right: 20px !important;
+    padding-bottom: 100% !important;
+    /*best*/
+    /*padding-top: 100px !important;*/
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+/*body {
+    font-size: 1.2rem !important;
+}*/
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /*overflow-y: scroll;*/
+}
+
+pre {
+    margin: 0px;
+}
+
+.Point {
+    cursor: pointer !important;
+}
+
+.koh-faqs-page-title {
+    font-family: Nexa W01 Heavy;
+    font-size: 30px;
+    color: #04202E;
+    font-weight: 700;
+}
+
+.koh-faq-question-span {
+    font-family: Helvetica Neue LT Pro Roman !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 700 !important;
+    display: inline-block;
+}
+
+.koh-faq-answer {
+    font-family: Helvetica Neue LT Pro Roman;
+    color: #000;
+    font-weight: 400;
+    display: block;
+    margin-left: 8%;
+}
+
+.icon {
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.fa {
+    transition: transform .2s;
+}
+
+    .fa.active {
+        transform: rotateZ(180deg);
+    }
+
+.PicSize {
+    height: 70px;
+    text-align: center;
+}
+
+.IconSize {
+    height: 50px;
+    text-align: center;
+}
+
+.bRight {
+    border-right: 1px #ced4da solid !important;
+}
+
+.bBottom {
+    border-bottom: 1px #ced4da solid !important;
+}
+
+.txtRight {
+    text-align: right;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.txtMid {
+    vertical-align: middle !important;
+}
+
+.ex {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.aLink {
+    color: #2F80ED !important;
+    font-style: italic;
+}
+
+.divBox {
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    border-radius: 0.375rem;
+    color: black;
+    padding: 10px;
+    margin-left: 9%;
+    width: 730px;
+    margin-bottom: 20px;
+}
