@@ -1016,26 +1016,26 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentap"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                        <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk"</span>,
-                                        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off"</span>,
-                                        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
-                                    }
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    }
-                                   
-                                </code></pre>
+        <pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">"data"</span>: {
+            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentap"</span>,
+            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+            <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk"</span>,
+            <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off"</span>,
+            <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
+        },
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+        }
+        
+    </code></pre>
                                     <script src="./API_files/ex4_4B.js.download"></script>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group col-12 ex">
+                    <!-- <div class="form-group col-12 ex">
                         <lable><b style="color: #cfa137 !important;" set-lan="text:** Optional">** Optional for
                                 direct/re-direct link.</b></lable>
                     </div>
@@ -1238,7 +1238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pb-5"></div>
+                <div class="pb-5"></div> -->
 
 
                 <div class="col-12" id="tabFive">
@@ -1310,11 +1310,11 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>
-                                    }</code></pre>
+        <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+        <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_5.js.download"></script>
                                 </div>
                             </div>
@@ -1444,18 +1444,18 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50</span>,
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-    
-                                    }
-                                    <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
-                                    }</code></pre>
+        <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+        <span class="hljs-attr">"data"</span>: {
+            <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50</span>,
+            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+
+        }
+        <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_5B.js.download"></script>
                                 </div>
                             </div>
@@ -1546,13 +1546,13 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                    <span class="hljs-attr">"balance"</span>: <span class="hljs-number">100</span>,
-                                    <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"25f0c27dbea3f32s61f2cd6612676125127126761216541276512"</span>
-                                    }</code></pre>
+            <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">{
+            <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+            <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+            <span class="hljs-attr">"balance"</span>: <span class="hljs-number">100</span>,
+            <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"25f0c27dbea3f32s61f2cd6612676125127126761216541276512"</span>
+            }</code></pre>
                                     <script src="./API_files/ex4_6.js.download"></script>
                                 </div>
                             </div>
@@ -1717,20 +1717,20 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+        <pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
 
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
-                                        <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
-                                        <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">100</span>,
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
-                                    }
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
-                                    }</code></pre>
+        <span class="hljs-attr">"data"</span>: {
+            <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
+            <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
+            <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">100</span>,
+            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+            <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
+        },
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_6B.js.download"></script>
                                 </div>
                             </div>
@@ -1820,13 +1820,13 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                    <span class="hljs-attr">"balance"</span>: <span class="hljs-number">100</span>,
-                                    <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"25f0c27dbea3f3261f2cd66126761251s2712676121657"</span>
-                                    }</code></pre>
+        <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+        <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+        <span class="hljs-attr">"balance"</span>: <span class="hljs-number">100</span>,
+        <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"25f0c27dbea3f3261f2cd66126761251s2712676121657"</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_7.js.download"></script>
                                 </div>
                             </div>
@@ -1988,20 +1988,20 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
-                                        <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
-                                        <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">0</span>,
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                                        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
-                                    }
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
-                                    }</code></pre>
+        <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+
+        <span class="hljs-attr">"data"</span>: {
+            <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
+            <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
+            <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+            <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
+        }
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_7B.js.download"></script>
                                 </div>
                             </div>
@@ -2100,15 +2100,15 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"a18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-                                    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
-                                    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
-                                    <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
-                                    <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1</span>    
-                                }</code></pre>
+        <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+        <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"a18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+        <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
+        <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
+        <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1</span>    
+    }</code></pre>
                                     <script src="./API_files/ex4_8.js.download"></script>
                                 </div>
                             </div>
@@ -2462,57 +2462,58 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                                    <span class="hljs-attr">"data"</span> {
-                                        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
-                                        <span class="hljs-attr">"startDate"</span>: <span class="hljs-number">"2021-07-14 15:04:05",</span>
-                                        <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
-                                        <span class="hljs-attr">"result"</span>: {
-                                            <span class="hljs-attr">"docs"</span>: [
-                                                    {
-                                                        <span class="hljs-attr">"no"</span>: <span class="hljs-number">1,</span>
-                                                        <span class="hljs-attr"> "playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
-                                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"testuserapi001@agentapi",</span>
-                                                        <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-15 18:44:36",</span>
-                                                        <span class="hljs-attr">"ticketId"</span>:<span class="hljs-number"> 6609,</span>
-                                                        <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
-                                                        <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
-                                                        <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
-                                                        <span class="hljs-attr">"totalBetAmt"</span>:<span class="hljs-number"> 50,</span>
-                                                        <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
-                                                        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0,</span>
-                                                        <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-50,</span>
-                                                        <span class="hljs-attr">"status"</span>: <span class="hljs-number">"pending",</span>
-                                                        <span class="hljs-attr">"txtList"</span>: [
-                                                            {
-                                                                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
-                                                                <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1",</span>
-                                                                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3",</span>
-                                                                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"222",</span>
-                                                                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-                                                                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">50,</span>
-                                                                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">50,</span>
-                                                                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
-                                                                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
-                                                                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                                                            }
-                                                        ]
-                                                    }
-                                                ],
-                                                <span class="hljs-attr"> "totalDocs"</span>: <span class="hljs-number">1,</span>
-                                                <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
-                                                <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
-                                                <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
-                                                <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
-                                                <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
-                                                <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
-                                                <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
-                                            }
-                                        },
-                                
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    }</code></pre>
+        <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">"data"</span> {
+            <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
+            <span class="hljs-attr">"startDate"</span>: <span class="hljs-number">"2021-07-14 15:04:05",</span>
+            <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
+            <span class="hljs-attr">"result"</span>: {
+                <span class="hljs-attr">"docs"</span>: [
+                        {
+                            <span class="hljs-attr">"no"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr"> "playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
+                            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"testuserapi001@agentapi",</span>
+                            <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-15 18:44:36",</span>
+                            <span class="hljs-attr">"ticketId"</span>:<span class="hljs-number"> 6609,</span>
+                            <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
+                            <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
+                            <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
+                            <span class="hljs-attr">"totalBetAmt"</span>:<span class="hljs-number"> 50,</span>
+                            <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
+                            <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0,</span>
+                            <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-50,</span>
+                            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"pending",</span>
+                            <span class="hljs-attr">"txtList"</span>: [
+                                {
+                                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
+                                    <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1",</span>
+                                    <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3",</span>
+                                    <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"222",</span>
+                                    <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
+                                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">50,</span>
+                                    <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">50,</span>
+                                    <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
+                                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
+                                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                                }
+                            ]
+                        }
+                    ],
+                    <span class="hljs-attr"> "totalDocs"</span>: <span class="hljs-number">1,</span>
+                    <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
+                    <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
+                    <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
+                    <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
+                    <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
+                    <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
+                    <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null,</span>
+                },
+                <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+            }
+    
+       
+        }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
                             </div>
@@ -2606,13 +2607,13 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
-                                    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
-                                    <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>
-                                    }</code></pre>
+        <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+        <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+        <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
+        <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>
+        }</code></pre>
                                     <script src="./API_files/ex4_9.js.download"></script>
                                 </div>
                             </div>
@@ -3093,10 +3094,9 @@
                                 <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
                                 <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
                                 <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
-                            }
-                        },
-                
-                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+                            },
+                            <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+                        }
                     }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -3439,11 +3439,11 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"78ff3b4f248e58bfb5de6545b471684f27f5ce959565d2c78df44dc74abc"</span>
-                                    }</code></pre>
+            <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">{
+            <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+            <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+            <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"78ff3b4f248e58bfb5de6545b471684f27f5ce959565d2c78df44dc74abc"</span>
+            }</code></pre>
                                     <script src="./API_files/ex4_11A.js.download"></script>
                                 </div>
                             </div>
@@ -3593,21 +3593,21 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-               
-                                    <span class="hljs-attr">"data"</span>: {
-                                        
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                                        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b"</span>,
-                                        <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
-                                        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
-                                        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
-                                    },
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    }</code></pre>
+            <pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">{
+            <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+
+            <span class="hljs-attr">"data"</span>: {
+                
+                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+                <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b"</span>,
+                <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
+                <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
+                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
+            },
+            <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+            }</code></pre>
                                     <script src="./API_files/ex4_11B.js.download"></script>
                                 </div>
                             </div>
@@ -3685,11 +3685,13 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
-                                    <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>
-                                    }</code></pre>
+                <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">
+                {
+                <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+                <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+                <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>
+                }
+            </code></pre>
                                     <script src="./API_files/ex4_12A.js.download"></script>
                                 </div>
                             </div>
@@ -3836,19 +3838,20 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                                        <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>,
-                                        <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
-                                        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
-                                        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
-                                    }
-                                    }</code></pre>
+                        <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
+                        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+                        <span class="hljs-attr">"data"</span>: {
+                            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+                            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+                            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+                            <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>,
+                            <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
+                            <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
+                            <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
+                        },
+                        <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
+                        }</code></pre>
                                     <script src="./API_files/ex4_12B.js.download"></script>
                                 </div>
                             </div>
