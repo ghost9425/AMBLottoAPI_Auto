@@ -11,11 +11,11 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #cfa137 !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
+                <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
                         Transferwallet Api</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
                             Introduction Transferwallet API</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.2 Workflow">5.2 Workflow</b></lable>
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.2 Workflow">5.2 Workflow</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.3 Setting">5.3 Setting</b></lable>
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.3 Setting">5.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -79,7 +79,7 @@
 
 
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.4 login request">5.4 login request</b>
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.4 login request">5.4 login request</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -163,7 +163,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="3_4A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -877,7 +877,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -942,7 +942,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1012,7 +1012,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Response
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Response
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -1037,7 +1037,7 @@
                         </div>
                     </div>
                     <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:** Optional">** Optional for
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:** Optional">** Optional for
                                 direct/re-direct link.</b></lable>
                     </div>
                     <div class="form-group col-12">
@@ -1104,7 +1104,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Game direct link</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Game direct link</b></lable>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1134,7 +1134,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Language</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Language</b></lable>
                     </div>
                     <div class="form-group col-12">
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -1212,7 +1212,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Signout re-direct optional link:</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Signout re-direct optional link:</b></lable>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1243,7 +1243,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.5 getUserBalance">5.5
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.5 getUserBalance">5.5
                             getUserBalance</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1269,7 +1269,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1308,7 +1308,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
         <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">
@@ -1323,7 +1323,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1388,7 +1388,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1442,7 +1442,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -1469,7 +1469,7 @@
 
 
                 <div class="col-12" id="tabSix">
-                    <lable><b style="color: #cfa137 !important;">5.6 deposit</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.6 deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1494,7 +1494,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1546,7 +1546,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
             <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">
@@ -1563,7 +1563,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1645,7 +1645,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1717,7 +1717,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -1745,7 +1745,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #cfa137 !important;">5.7 withdrawal</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.7 withdrawal</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1770,7 +1770,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1821,7 +1821,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
         <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">
@@ -1838,7 +1838,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1920,7 +1920,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1989,7 +1989,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -2017,7 +2017,7 @@
 
 
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #cfa137 !important;">5.8 memberBetHistories</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.8 memberBetHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2042,7 +2042,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -2102,7 +2102,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
         <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">
@@ -2121,7 +2121,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2381,7 +2381,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2464,7 +2464,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -2530,7 +2530,7 @@
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #cfa137 !important;">5.9 betHistories</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.9 betHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2555,7 +2555,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -2610,7 +2610,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
         <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">
@@ -2627,7 +2627,7 @@
                         </div>
                     </div>
                     <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Bet Position</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Bet Position</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2659,7 +2659,7 @@
                         </div>
                     </div> -->
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2919,7 +2919,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2993,7 +2993,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Calculation Description</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Calculation Description</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3027,7 +3027,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -3117,7 +3117,7 @@
 
 <!-- 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #cfa137 !important;">5.10 getMemberWinLoseTurnOver</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.10 getMemberWinLoseTurnOver</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3142,7 +3142,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3191,7 +3191,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
@@ -3207,7 +3207,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3283,7 +3283,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3354,7 +3354,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -3380,7 +3380,7 @@
 
 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #cfa137 !important;">5.10 depositWithdrawHistory</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.10 depositWithdrawHistory</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3405,7 +3405,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3445,7 +3445,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
             <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">
@@ -3460,7 +3460,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3544,7 +3544,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3599,7 +3599,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
@@ -3628,7 +3628,7 @@
 
 
                 <div class="col-12" id="tab11">
-                    <lable><b style="color: #cfa137 !important;">5.11 depositWithdrawHistoryByTransId</b></lable>
+                    <lable><b style="color: #19A17A  !important;">5.11 depositWithdrawHistoryByTransId</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3653,7 +3653,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3693,7 +3693,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                 <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">
@@ -3709,7 +3709,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Response Body</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3793,7 +3793,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3845,7 +3845,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #cfa137 !important;">Example Service Respond
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
