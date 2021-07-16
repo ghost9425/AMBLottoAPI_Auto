@@ -13,10 +13,7 @@
                         <div class="form-group col-12">
                             <label
                                 set-lan="html:Introduction Detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The
-                                API Service is used to access condition for working system including registration,
-                                query user accounts, user betting record query and game account balance transfer
-                                function.This document includes detail for access extend API service of
-                                system</label>
+                                API Service สร้างขึ้นเพื่อให้ผู้ใช้งานเข้าถึงเงื่อนไขสำหรับการทำงาน เช่น ฟังก์ชันการจัดการสมาชิก ฟังก์ชันการจัดการรายงาน ฟังก์ชันการจัดการสต๊อกและฟังก์ชันการชำระเงิน เอกสารนี้มีรายละเอียดสำหรับการเข้าถึงบริการการขยาย API ของระบบ</label>
                         </div>
                     </div>
 

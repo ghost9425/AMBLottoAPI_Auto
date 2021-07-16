@@ -22,8 +22,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            This section is to illustrate the detail of implementing seamless in external partner
-                            system.</label>
+                            ในส่วนนี้จะแสดงรายละเอียดเพื่ออธิบายการทำงานของระบบ seamless ระบบของคู่ธุรกิจ</label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
@@ -36,11 +35,10 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Preliminary information in order to run the API, the partner system must have prevalence
-                            of commands So that the system can run the API under conditions.</label>
+                            ข้อมูลเบื้องต้นแสดงการทำงานในการเรียกใช้ API ของระบบคู่ธุรกิจ เพื่อให้ระบบสามารถเรียกใช้ API ได้ภายใต้เงื่อนไขได้อย่างถูกต้อง</label>
                     </div>
                     <div class="col-12">
-                        <img src="./API_files/seamless-dia.png" style="width: 80%; margin-left: 10%;">
+                        <img src="./API_files/SeamlessFlow.png" style="width: 80%; margin-left: 10%;">
                     </div>
                 </div>
                 <div class="pb-5"></div>
@@ -53,46 +51,38 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
-                            set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*If
-                            you hold a master account, please create an agent API account under your master account
-                            and login with created agent API account before following this setting step.</label>
+                            set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API 
+                            ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน 
+                            แล้วทำตามขั้นตอนการตั้งค่า ดังนี้
+</label>
                         <label
-                            set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.
-                            Login</label>
+                            set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.เข้าสู่ระบบ</label>
                         <div class="col-12">
-                            <img src="./API_files/001.jpg" style="width: 30%; margin-left: 10%;">
+                            <img src="./API_files/Login001.png" style="width: 30%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label
-                            set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.
-                            Click the Account menu and select the Profile menu</label>
+                            set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2.คลิกเมนูบัญชีและเลือกเมนูโปรไฟล์</label>
                         <div class="col-12">
-                            <img src="./API_files/002.jpg" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/Account002.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label id="tabZero"
-                            set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.
-                            Define the following API information</label>
+                            set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.กำหนดข้อมูล API ต่อไปนี้</label>
                         <div class="col-12">
                             <label
                                 set-lan="html:4.1 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.1 You can add multiple IP addresses by press the button</label>
-                            <img src="./API_files/003_2.jpg" style="height: 35px;">
+                                3.1 คุณสามารถเพิ่มที่อยู่ IP ได้โดยกรอกข้อมูลที่ Callback Url</label>
                         </div>
                         <div class="col-12">
                             <label
                                 set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.2 You can click “API Document” button for preview Information</label>
-                            <img src="./API_files/003_4.jpg" style="height: 35px;">
+                                3.2 คุณสามารถคลิกปุ่ม “บันทึก” เพื่อบันทึกข้อมูล</label>
                         </div>
                         <div class="col-12">
-                            <label
-                                set-lan="html:4.3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.3 You can click “Save Profile” button for saving data</label>
-                            <img src="./API_files/003_4.jpg" style="height: 35px;">
-                        </div>
-                        <div class="col-12">
-                            <img src="./API_files/003_5.jpg" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/3.png" style="width: 80%; margin-left: 10%;">
                         </div>
                     </div>
                 </div>
@@ -115,7 +105,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://api-dev.prettygaming.asia/apiRoute/member/loginRequest
+                                https://dev-api.pirate168.com/apiRoute/member/loginRequest
                             </label>
                         </div>
                         <div class="col-12">
@@ -141,40 +131,29 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">
+                                            Description</th>
+                                        <th set-lan="html:Remark" class="txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Agent account , Account length is restricted to 36 chars at most</td>
+                                        <td class="bRight">Agent account , Account length is restricted to 36 chars at most.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>System generate <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx#tabZero"
-                                                class="aLink">key</a> ID after crate Agent</td>
+                                        <td class="bRight">System generate key ID after crate Agent</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Player account , Account length is restricted to 36 chars at most</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">betLimit</td>
-                                        <td class="bRight">arrayNumber</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>betLimit can containt <span style="color: red;">maximum 6 values</span>
-                                            depends on the currency. you can see the limits in this table: <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
-                                                class="aLink">Currency / Bet Limit</a></td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -191,15 +170,10 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="3_4A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"sb234567123"</span>,
-                <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"33c0d59d-51b9-45e0-ba7f-4ca442cd8421"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"as001"</span>,
-                <span class="hljs-attr">"betLimit"</span>: [
-                <span class="hljs-number">1001</span>,
-                <span class="hljs-number">1006</span>,
-                <span class="hljs-number">1012</span>
-                ]
-            }</code></pre>
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"compseamless"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"3e5ecb1f7d639dff2e3bcc05948726a8e7cafa0a75a07117b9562c4b7bc67c665a409cec17f9dfa02"</span>,
+    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -217,54 +191,65 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Type" class="bRight txtCenter">Description
+                                        </th>
+                                        <th set-lan="html:Remark" class="txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td></td>
+                                        <td class="bRight">Information message.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object response.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td></td>
+                                        <td class="bRight"></td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">tkUuid</td>
                                         <td class="bRight">String</td>
-                                        <td>Can use only 1 time. limit to 24 hours from generate time.</td>
+                                        <td class="bRight">Can use only 1 time. limit to 24 hours from generate time.</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">uriDesktop</td>
+                                        <td class="bRight">url</td>
                                         <td class="bRight">String</td>
-                                        <td>Game link(Desktop version)</td>
+                                        <td class="bRight">AMBLotto link</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">uriMobile</td>
+                                        <td class="bRight">urlFullPage</td>
                                         <td class="bRight">String</td>
-                                        <td>Game link(Mobile version)</td>
+                                        <td class="bRight">AMBLotto link fullpage</td>
+                                        <td class="bRight txtCenter">-</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -290,16 +275,32 @@
                                         <td>success</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">0</td>
+                                        <td>missing filed 'agentUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>missing filed 'playerUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>missing filed 'agentApiKey'.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">41001</td>
                                         <td>Error Request body is not an object.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">61001</td>
-                                        <td>IP address is not allowed.</td>
+                                        <td>Invalid UserAgent or ApiKey</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
+                                        <td class="bRight">61001</td>
+                                        <td>request error Player not found.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">61001</td>
+                                        <td>request error callback url requst error destination error</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71005</td>
@@ -307,12 +308,7 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">71006</td>
-                                        <td>username must not contain any special characters and can only contain
-                                            letters a-z and numbers 0-9.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71007</td>
-                                        <td>invalid bet limit id.</td>
+                                        <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -328,22 +324,22 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="3_4B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"5ebd1f57dc7cdc7900125a64"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"seamless@sb234567123"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"seamless"</span>,
-                <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"5ebd1f57dc7cdc7900125a65"</span>,
-                <span class="hljs-attr">"uriDesktop"</span>: <span class="hljs-string">"http://hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65"</span>,
-                <span class="hljs-attr">"uriMobile"</span>: <span class="hljs-string">"http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-attr">"data"</span>: { <span class="hljs-string">"SUCCESS"</span>,
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg"</span>,
+        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=off"</span>,
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&header=on"</span>
+    },
+    <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group col-12 ex">
+                    <!-- <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:** Optional">** Optional for
                                 direct/re-direct link.</b></lable>
                     </div>
@@ -404,9 +400,9 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;">Game direct link</b></lable>
                     </div>
@@ -449,8 +445,8 @@
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Remark: please use exactly code with example.</label>
                     </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                </div> -->
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-2"></div>
                     <div class="form-group col-6">
                         <div class="table-wrapper">
@@ -524,13 +520,13 @@
                                 class="txtHead">lang=VT</label>
                         </div>
                     </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                </div> -->
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;">Signout re-direct optional link:</b></lable>
                     </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                </div> -->
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox" style="font-size: 0.681rem;">
                         <div class="col-12">
                             <label class="txtHead">Baccarat
@@ -558,7 +554,7 @@
                                 class="txtHead">input your link here(full link with https://)</label>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="pb-5"></div>
 
 
@@ -570,17 +566,218 @@
                 <div class="col-12">
                     <label
                         set-lan="html:*Please keep">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        *Please keep all of 'Call Back Service' <b
-                            style="color: red;">confidentially</b>.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        - Optional production
-                        security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        You can also whitelist IP on the production environment. If need, please request our NAT IP
-                        to do whitelist.</label>
+                        *โปรดเก็บข้อมูล ”Call Back Service” <b
+                            style="color: red;">ทั้งหมดไว้เป็นความลับ</b>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
                 </div>
                 <lable><b style="color: #19A17A !important;"></b></lable>
-                <div class="pb-4"></div>
+                <div class="pb-5"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
                     <lable><b style="color: #19A17A !important;" set-lan="text:4.5.1 GetUserBalance">4.5.1
+                            GetUserDetail</b>
+                    </lable>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12">
+                            <label
+                                set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
+                    </div>
+                    <div class="form-group col-12 ex">
+                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                            </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable351">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="txtCenter">Remark</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">service</td>
+                                        <td class="bRight">String</td>
+                                        <td>Fixed value"GetUserDetail"</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object respone.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Player username from partner system.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"GetUserDetail"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agent"</span>
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                            </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable351">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                        </th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="txtCenter">Remark</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">username</td>
+                                        <td class="bRight">String</td>
+                                        <td>Username from partner system.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">phone</td>
+                                        <td class="bRight">Number</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">email</td>
+                                        <td class="bRight">String</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">line</td>
+                                        <td class="bRight">String</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rate</td>
+                                        <td class="bRight">Number</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Code">Request Code</b>
+                            </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable351">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td class="bRight">success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">911009</td>
+                                        <td class="bRight">Bad parameters.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">911008</td>
+                                        <td class="bRight">Player not found.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                            set-lan="text:Example Request Body">Example Request Body</b><i
+                                            class="fa fa-chevron-down" aria-hidden="true"
+                                            style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-string">0</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"username"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"081111111111"</span>,
+        <span class="hljs-attr">"email"</span>: <span class="hljs-string">"google1@gmail.com"</span>,
+        <span class="hljs-attr">"line"</span>: <span class="hljs-string">"line1"</span>,
+        <span class="hljs-attr">"rate"</span>: {   <span class="hljs-string">"line1"</span>
+        },
+    }
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabSixs" style="margin-left: 10px;">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.1 GetUserBalance">4.5.2
                             GetUserBalance</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -588,8 +785,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            When a player enters the homepage or other pages, the Pretty Gaming system sends a
-                            request to obtain the amount of the actual player balance.</label>
+                            เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -754,7 +950,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.2 UserPlaceBet">4.5.2
+                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.2 UserPlaceBet">4.5.3
                             UserPlaceBet</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1078,7 +1274,7 @@
 
 
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #19A17A !important;">4.5.3 UserPlaceBetCancel</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.4 UserPlaceBetCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1380,7 +1576,7 @@
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #19A17A !important;">4.5.4 UserPlacePayout</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.5 UserPlacePayout</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1718,7 +1914,7 @@
 
 
                 <div class="col-12" id="tab15">
-                    <lable><b style="color: #19A17A !important;">4.5.5 UserPayTips</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.6 UserPayTips</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2018,7 +2214,7 @@
 
 
                 <div class="col-12" id="tab16">
-                    <lable><b style="color: #19A17A !important;">4.5.6 UserPayTipsCancel</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.7 UserPayTipsCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2294,7 +2490,7 @@
 
 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #19A17A !important;">4.5.7 Response Code</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.8 Response Code</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3469,7 +3665,7 @@
 
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='version.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='lottotype.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>

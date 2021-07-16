@@ -43,7 +43,7 @@
                             </button>
                         </div>
                         <div class="col-md-6" style="text-align: right;">
-                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='lottotype.php'">
                                 <lan set-lan="html:Next">Next</lan>
                             </button>
                         </div>

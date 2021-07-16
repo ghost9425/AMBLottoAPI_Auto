@@ -152,28 +152,32 @@
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
                                         <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">4.5.1
+                                            GetUserDetail</span></a>
+                                </li>
+                                <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSixs">
+                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">4.5.2
                                             GetUserBalance</span></a>
                                 </li>
                                 <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
-                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">4.5.2
+                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">4.5.3
                                             UserPlaceBet</span></a>
                                 </li>
                                 <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
-                                        <span class="sv-normal" set-lan="text:3.5.3">4.5.3
+                                        <span class="sv-normal" set-lan="text:3.5.3">4.5.4
                                             UserPlaceBetCancel</span></a>
                                 </li>
                                 <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
-                                        <span class="sv-normal" set-lan="text:3.5.4">4.5.4
+                                        <span class="sv-normal" set-lan="text:3.5.4">4.5.5
                                             UserPlacePayout</span></a>
                                 </li>
                                 <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
-                                        <span class="sv-normal">4.5.5 UserPayTips</span></a>
+                                        <span class="sv-normal">4.5.6 UserPayTips</span></a>
                                 </li>
                                 <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
-                                        <span class="sv-normal">4.5.6 UserPayTipsCancel</span></a>
+                                        <span class="sv-normal">4.5.7 UserPayTipsCancel</span></a>
                                 </li>
                                 <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
-                                        <span class="sv-normal">4.5.7 Response Code</span></a>
+                                        <span class="sv-normal">4.5.8 Response Code</span></a>
                                 </li>
                                 <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
                                         <span class="sv-normal" set-lan="text:3.6">4.6 Optional
