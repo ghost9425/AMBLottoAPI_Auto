@@ -23,7 +23,7 @@
                                     <td class="bRight"></td>
                                     <td></td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td class="bRight">2.0</td>
                                     <td class="bRight"></td>
                                     <td></td>
@@ -32,7 +32,7 @@
                                     <td class="bRight">3.0</td>
                                     <td class="bRight"></td>
                                     <td></td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>

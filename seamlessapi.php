@@ -766,8 +766,700 @@
         <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"081111111111"</span>,
         <span class="hljs-attr">"email"</span>: <span class="hljs-string">"google1@gmail.com"</span>,
         <span class="hljs-attr">"line"</span>: <span class="hljs-string">"line1"</span>,
-        <span class="hljs-attr">"rate"</span>: {   <span class="hljs-string">"line1"</span>
-        },
+        <span class="hljs-attr">"rate"</span>: {   
+            <span class="hljs-attr">"baaclotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">10</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"gsblotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylotto_set"</span>: {
+                <span class="hljs-string">"back2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"front2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">40</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">350</span>
+                },
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">1000</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottospecial_set"</span>: {
+                <span class="hljs-string">"back2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"front2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">40</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">350</span>
+                },
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">1000</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"hanoylottovip_set"</span>: {
+                <span class="hljs-string">"back2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"front2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">40</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">350</span>
+                },
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">1000</span>
+                }
+            },
+            <span class="hljs-attr">"laoslotto_set"</span>: {
+                <span class="hljs-string">"back2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"front2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">40</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">350</span>
+                },
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">1000</span>
+                }
+            },
+            <span class="hljs-attr">"laoslotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">12</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">7000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">220</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4500</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"malaylotto_set"</span>: {
+                <span class="hljs-string">"back2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"front2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">15</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">40</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">350</span>
+                },
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">600</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">1000</span>
+                }
+            },
+            <span class="hljs-attr">"pingponglotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">12</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">125</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">7000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">225</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">850</span>
+                }
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">5000</span>
+                }
+                <span class="hljs-string">"top5"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">2000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25000</span>
+                }
+                <span class="hljs-string">"top6"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">1000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">50000</span>
+                }
+            },
+            <span class="hljs-attr">"stock"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            },
+            <span class="hljs-attr">"thailotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"bottom3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">225</span>
+                },
+                <span class="hljs-string">"row2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">12</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"row4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">7000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">225</span>
+                }
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                }
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                }
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+                <span class="hljs-string">"top4"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">5000</span>
+                }
+                <span class="hljs-string">"top5"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">2000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">25000</span>
+                }
+                <span class="hljs-string">"top6"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">1000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">50000</span>
+                }
+            },
+            <span class="hljs-attr">"yeekeelotto"</span>: {
+                <span class="hljs-string">"bottom1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">4.2</span>
+                },
+                <span class="hljs-string">"bottom2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"row3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">150</span>
+                },
+                <span class="hljs-string">"top1"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">200000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">3.2</span>
+                },
+                <span class="hljs-string">"top2"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">20000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">90</span>
+                },
+                <span class="hljs-string">"top3"</span>: {
+                    <span class="hljs-string">"discount"</span>: <span class="hljs-string">0</span>,
+                    <span class="hljs-string">"max"</span>: <span class="hljs-string">5000</span>,
+                    <span class="hljs-string">"min"</span>: <span class="hljs-string">1</span>,
+                    <span class="hljs-string">"payout"</span>: <span class="hljs-string">900</span>
+                }
+            }
+        }
     }
 }</code></pre>
                                 </div>
@@ -801,39 +1493,41 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight Remark">Remark
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td>Fixed value"GetUserBalance"</td>
+                                        <td class="bRight">Fixed value"GetUserDetail"</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object respone.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Player username from partner system.</td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">requestDate</td>
-                                        <td class="bRight">String</td>
-                                        <td>System request date. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -850,14 +1544,13 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"service"</span>: <span class="hljs-string">"GetUserBalance"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startseamlessmember@startapiseamless"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-03 19:16:47"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"GetUserBalance"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startseamlessmember@startapiseamless"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>
+    }
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -875,22 +1568,22 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        <td class="bRight"></td>
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -908,7 +1601,7 @@
                                     <tr>
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th set-lan="html:Type" class="txtCenter">Type</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -938,9 +1631,9 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"balance"</span>: <span class="hljs-number">100000</span>
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50000</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -958,9 +1651,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            When a player places a bet, the Pretty Gaming system sends a request UserPlaceBet to the
-                            partner's system. The request will be timed out after 4 seconds and PlaceBetCancel will
-                            be sent.</label>
+                            เมื่อผู้เล่นวางเดิมพัน ระบบ AMB Lotto จะส่งคำขอ UserPlaceBet ไปยังระบบของคู่ธุรกิจ คำขอจะหมดเวลาหลังจาก 10 วินาทีและจะส่ง PlaceBetCancel</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -976,124 +1667,139 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td>Fixed value"UserPlaceBet"</td>
+                                        <td class="bRight">Fixed value"UserPlaceBet"</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object response.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerId</td>
+                                        <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td>Player identity form Pretty Gaming system.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td>User bet group record from one submit.</td>
+                                        <td class="bRight">User bet group record from one submit.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet type = Baccarat,4Point,Super6,CowCow, DragonTiger, Roulette,SicBo
+                                        <td class="bRight">Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1
                                         </td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">currency</td>
+                                        <td class="bRight">government</td>
                                         <td class="bRight">String</td>
-                                        <td>Standard ISO 3-character currency unit eg: CNY/USD/EUR . <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
-                                                class="aLink">currency list</a></td>
+                                        <td class="bRight">
+
+                                        </td>
+                                                <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">gameId</td>
+                                        <td class="bRight">drawId</td>
                                         <td class="bRight">Number</td>
-                                        <td>GameID</td>
+                                        <td class="bRight">Id ber ticket</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td>User bet amount.</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet amount.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">totalPayOutAmt</td>
+                                        <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
-                                        <td>totalPayOutAmt equals 0 when a player loses but not in every game, for
-                                            example, if a player places a bet in dragon tiger then he loses half of
-                                            the bet amount (when bets 100, then totalPayOutAmt equals 50).</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winLoseTurnOver</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Member win/lose turnover.</td>
+                                        <td class="bRight"></td>
+                                            <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td>List of bet position.</td>
+                                        <td class="bRight">List of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">txtId</td>
-                                        <td class="bRight">String</td>
-                                        <td>Transaction id of bet position.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">commissionRate</td>
+                                        <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td>Commission Rate.</td>
+                                        <td class="bRight">Bet id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutRate</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Rate payout when member win.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">betPosition</td>
+                                        <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet position.</td>
+                                        <td class="bRight">Status id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td>Bet amount of this reccord.</td>
+                                        <td class="bRight">Bet amount of this reccord.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutAmt</td>
+                                        <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        <td>Payout amount of this reccord.</td>
+                                        <td class="bRight">User bet total amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betDiscount</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Discount bet amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payOutRate</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Rate payout when member win.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betType</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td class="bRight">SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">createDate</td>
                                         <td class="bRight">String</td>
-                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">requestDate</td>
-                                        <td class="bRight">String</td>
-                                        <td>System request date. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1110,57 +1816,32 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBet"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"1004718"</span>,
-                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"Baccarat"</span>,
-                <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"THB"</span>,
-                <span class="hljs-attr">"gameId"</span>: <span class="hljs-number">146826</span>,
-                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-1400</span>,
-                <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"winLoseTurnOver"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"txtList"</span>: [
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aa5"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">1.95</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"banker"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-500</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aa9"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">4.5</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"bankerNatural"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-500</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aad"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">12</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"bankerPair"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-200</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8dec"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">1.5</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"big"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-200</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    }
-                ],
-                <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Pending"</span>,
-                <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>,
-                <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBet"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"superbas@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6494"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"thailotto"</span>,
+        <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">"20064"</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
+        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">10</span>,
+        <span class="hljs-attr">"txtList"</span>: [
+            {
+                <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">"10"</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">"10"</span>,
+                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>
+            }
+        ],
+        <span class="hljs-attr">"status"</span>: <span class="hljs-number">"pending"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-04 14:30:52"</span>
+    }
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1174,21 +1855,20 @@
                             <table class="table table-borderless table-striped" id="DataTable2">
                                 <thead class="rgba-green-slight">
                                     <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1263,8 +1943,8 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="352B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1280,13 +1960,14 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
-                            set-lan="html:when previous PlaceBet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            when previous PlaceBet is failed due to timeout or partner system error.Partner system
-                            should refund the user if the transaction has been done in the partner system side.If
-                            there are timeout or error, the request will be retried after n seconds within m
-                            tries.An expired request will move to the unsuccessful transaction list for back office
-                            to further process.Those unsuccessful transactions can be retry by the operator through
-                            the back office.</label>
+                            set-lan="html:when previous PlaceBet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1. ใช้ยกเลิกเมื่อ UserPlaceBet เกิดข้อผิดพลาด หรือ Time Out <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ใช้ยกเลิกกรณีที่ผู้เล่นต้องการยกเลิก <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 กรณียกเลิกทั้งตั๋ว Status ของตั๋วจะเป็น "Canceled" ซึ่งรายละเอียดในการเดิมพันแต่ละรายการ ทุกรายการของตั๋วนั้นจะมี "betStatus" เป็น "Canceled"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 กรณียกเลิกทีละเลข 
+Status ของตั๋วจะเป็นสถานะของตั๋วนั้น  ซึ่งรายละเอียดในการเดิมพันของรายการที่ต้องการยกเลิกจะมี "betStatus" เป็น "Canceled"
+
+</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -1302,124 +1983,145 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td>Fixed value"UserPlaceBetCancel"</td>
+                                        <td class="bRight">Fixed value"UserPlaceBetCancel"</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object response.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerId</td>
+                                        <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td>Player identity form Pretty Gaming system.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td>User bet group record from one submit.</td>
+                                        <td class="bRight">User bet group record from one submit.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet type = Baccarat,4Point,Super6,CowCow, DragonTiger, Roulette,SicBo
+                                        <td class="bRight">Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1
                                         </td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">currency</td>
+                                        <td class="bRight">government</td>
                                         <td class="bRight">String</td>
-                                        <td>Standard ISO 3-character currency unit eg: CNY/USD/EUR . <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
-                                                class="aLink">currency list</a></td>
+                                        <td class="bRight">
+
+                                        </td>
+                                                <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">gameId</td>
+                                        <td class="bRight">drawId</td>
                                         <td class="bRight">Number</td>
-                                        <td>GameID</td>
+                                        <td class="bRight">Id ber ticket</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td>User bet amount.</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet amount.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">totalPayOutAmt</td>
+                                        <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
-                                        <td>totalPayOutAmt equals 0 when a player loses but not in every game, for
-                                            example, if a player places a bet in dragon tiger then he loses half of
-                                            the bet amount (when bets 100, then totalPayOutAmt equals 50).</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winLoseTurnOver</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Member win/lose turnover.</td>
+                                        <td class="bRight"></td>
+                                            <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td>List of bet position.</td>
+                                        <td class="bRight">List of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">txtId</td>
-                                        <td class="bRight">String</td>
-                                        <td>Transaction id of bet position.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">commissionRate</td>
+                                        <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td>Commission Rate.</td>
+                                        <td class="bRight">Bet id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutRate</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Rate payout when member win.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">betPosition</td>
+                                        <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet position.</td>
+                                        <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betStatus</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Status id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td>Bet amount of this reccord.</td>
+                                        <td class="bRight">Bet amount of this reccord.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutAmt</td>
+                                        <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        <td>Payout amount of this reccord.</td>
+                                        <td class="bRight">User bet total amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betDiscount</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Discount bet amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payOutRate</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Rate payout when member win.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betType</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td class="bRight">SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">createDate</td>
                                         <td class="bRight">String</td>
-                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">requestDate</td>
-                                        <td class="bRight">String</td>
-                                        <td>System request date. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1436,57 +2138,32 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="353A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBetCancel"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"'startseamlessmember,"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"1004718"</span>,
-                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"Baccarat"</span>,
-                <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"THB"</span>,
-                <span class="hljs-attr">"gameId"</span>: <span class="hljs-number">146826</span>,
-                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-1400</span>,
-                <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"winLoseTurnOver"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"txtList"</span>: [
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aa5"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">1.95</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"banker"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-500</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aa9"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">4.5</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"bankerNatural"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-500</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8aad"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">12</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"bankerPair"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-200</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    },
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eaec8cdb9fe9212c6bd8dec"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">1.5</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"big"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-200</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    }
-                ],
-                <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Canceled"</span>,
-                <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>,
-                <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBetCancel"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"'superbas@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6542"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"thailotto"</span>,
+        <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">20064</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-80</span>,
+        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">80</span>,
+        <span class="hljs-attr">"txtList"</span>: [
+            {
+                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"9"</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Canceled"</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
+                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
+                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+            }
+        ],
+        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Canceled"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-09 20:53:31"</span>
+    }
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1500,21 +2177,20 @@
                             <table class="table table-borderless table-striped" id="DataTable2">
                                 <thead class="rgba-green-slight">
                                     <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1565,8 +2241,8 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="353B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1583,9 +2259,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:This interface will">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            This interface will be called after the platform pays, and the member's bet will be
-                            returned to the third-party system in time. If the call times out or does not receive a
-                            response, the system will re-call every minute until it succeeds.</label>
+                            ถ้ามีการออกผลรางวัล ระบบ AMB Lotto จะส่งคำขอ UserPlacePayout เมื่อมีการออกผลรางวัล</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -1601,174 +2275,155 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td>Fixed value"UserPlacePayout"</td>
+                                        <td class="bRight">Fixed value"UserPlacePayout"</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object respone.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerId</td>
+                                        <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td>Player identity form Pretty Gaming system.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td>User bet group record from one submit.</td>
+                                        <td class="bRight">User bet group record from one submit.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet type = Baccarat,4Point,Super6,CowCow, DragonTiger, Roulette,SicBo
+                                        <td class="bRight">Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1
                                         </td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">currency</td>
+                                        <td class="bRight">government</td>
                                         <td class="bRight">String</td>
-                                        <td>Standard ISO 3-character currency unit eg: CNY/USD/EUR . <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
-                                                class="aLink">currency list</a></td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">gameId</td>
+                                        <td class="bRight">drawId</td>
                                         <td class="bRight">Number</td>
-                                        <td>GameID</td>
+                                        <td class="bRight">Id ber ticket</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td>User bet amount.</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet amount.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">totalPayOutAmt</td>
+                                        <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
-                                        <td>totalPayOutAmt equals 0 when a player loses but not in every game, for
-                                            example, if a player places a bet in dragon tiger then he loses half of
-                                            the bet amount (when bets 100, then totalPayOutAmt equals 50).</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winLoseTurnOver</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Member win/lose turnover.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td>List of bet position.</td>
+                                        <td class="bRight">List of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">txtId</td>
-                                        <td class="bRight">String</td>
-                                        <td>Transaction id of bet position.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">commissionRate</td>
+                                        <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td>Commission Rate.</td>
+                                        <td class="bRight">Bet id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutRate</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Rate payout when member win.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">betPosition</td>
+                                        <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet position.</td>
+                                        <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betStatus</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Status id of bet position.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td>Bet amount of this reccord.</td>
+                                        <td class="bRight">Bet amount of this reccord.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betTotal</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">User bet total amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betDiscount</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Discount bet amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payOutRate</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Rate payout when member win.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Payout amount of this reccord.</td>
+                                        <td class="bRight">payOutAmt</td>
+                                        <td class="bRight">Payout amount of this reccord.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">result</td>
-                                        <td class="bRight">arrayobject</td>
+                                        <td class="bRight">SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
                                         <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">rsDr</td>
-                                        <td class="bRight">object</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">rsBc</td>
-                                        <td class="bRight">object</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">rsRu</td>
-                                        <td class="bRight">Number</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">rsSic</td>
-                                        <td class="bRight">Number</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winBc</td>
-                                        <td class="bRight">array</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winDr</td>
-                                        <td class="bRight">Number</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winRu</td>
-                                        <td class="bRight">Number</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winSic</td>
-                                        <td class="bRight">object</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">resultLink</td>
-                                        <td class="bRight">String</td>
-                                        <td>Link for show game reslut of this game Id.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">createDate</td>
                                         <td class="bRight">String</td>
-                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">requestDate</td>
-                                        <td class="bRight">String</td>
-                                        <td>System request date. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">result</td>
+                                        <td class="bRight">arrayobject</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">totalPayOutAmt</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1785,50 +2440,54 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="354A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlacePayout"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startseamlessmember@startapiseamless"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"1004831"</span>,
-                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"Baccarat"</span>,
-                <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"THB"</span>,
-                <span class="hljs-attr">"gameId"</span>: <span class="hljs-number">147846</span>,
-                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10000</span>,
-                <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">10000</span>,
-                <span class="hljs-attr">"winLoseTurnOver"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"txtList"</span>: [
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5eafdb00a875b774c30fffce"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">1</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"banker"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-10000</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">10000</span>
-                    }
-                ],
-                <span class="hljs-attr">"status"</span>: <span class="hljs-string">"SuccessfulPayment"</span>,
-                <span class="hljs-attr">"result"</span>: {
-                    <span class="hljs-attr">"rsBc"</span>: [
-                    <span class="hljs-string">"Object"</span>
-                    ],
-                    <span class="hljs-attr">"rsDr"</span>: [
-                    <span class="hljs-string">"Object"</span>
-                    ],
-                    <span class="hljs-attr">"rsRu"</span>: <span class="hljs-literal">null</span>,
-                    <span class="hljs-attr">"rsSic"</span>: <span class="hljs-literal">null</span>,
-                    <span class="hljs-attr">"winBc"</span>: [
-                    <span class="hljs-string">"Array"</span>
-                    ],
-                    <span class="hljs-attr">"winDr"</span>: <span class="hljs-literal">null</span>,
-                    <span class="hljs-attr">"winRu"</span>: <span class="hljs-literal">null</span>,
-                    <span class="hljs-attr">"winSic"</span>: []
-                },
-                <span class="hljs-attr">"resultLink"</span>: <span class="hljs-string">"https://admin-dev.prettygaming.asia/?gameId=147846"</span>,
-                <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-05-04 16:04:43"</span>,
-                <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-04 16:06:08"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"data"</span>: {
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"stockengland"</span>,
+    <span class="hljs-attr">"drawId"</span>: <span class="hljs-string">"21328"</span>,
+    <span class="hljs-attr">"result"</span>: {
+        <span class="hljs-attr">"row3"</span>: [
+                <span class="hljs-string">"333"</span>
+        ], 
+        <span class="hljs-attr">"top1"</span>: [
+                <span class="hljs-string">"3"</span>
+        ],
+        <span class="hljs-attr">"top2"</span>: [
+            <span class="hljs-string">"3"</span>
+        ], 
+        <span class="hljs-attr">"top3"</span>: [
+            <span class="hljs-string">"3"</span>
+        ], 
+        <span class="hljs-attr">"bottom1"</span>: [
+            <span class="hljs-string">"2"</span>
+        ], 
+        <span class="hljs-attr">"bottom2"</span>: [
+            <span class="hljs-string">"22"</span>
+        ]
+    },
+    <span class="hljs-attr">"status"</span>: <span class="hljs-string">"SuccessfulPayment"</span>,
+    <span class="hljs-attr">"txtList"</span>: [
+        {
+            <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"1"</span>,
+            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-string">10</span>,
+            <span class="hljs-attr">"betType"</span>: <span class="hljs-string">"top3"</span>,
+            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
+            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-string">pending</span>,
+            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-string">-10</span>,
+            <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-string">900</span>,
+            <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">0</span>
+        }
+    ],
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6577"</span>,
+        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-string">"30"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 19:39:57"</span>,
+        <span class="hljs-attr">"government"</span>: <span class="hljs-number">false</span>,
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-30</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">member1</span>,
+        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">-30</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-number">member1@compseamless</span>
+    },
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlacePayout"</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1846,17 +2505,16 @@
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1903,8 +2561,8 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="354B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -1914,7 +2572,7 @@
 
 
                 <div class="col-12" id="tab15">
-                    <lable><b style="color: #19A17A !important;">4.5.6 UserPayTips</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.6 UserPlaceREPayout</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2213,7 +2871,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tab16">
+                <!-- <div class="col-12" id="tab16">
                     <lable><b style="color: #19A17A !important;">4.5.7 UserPayTipsCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -3660,7 +4318,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <div class="btn-toolbar mb-12">
@@ -3675,7 +4333,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
 
         </div>
     </main>
