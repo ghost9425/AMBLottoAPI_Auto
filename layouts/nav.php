@@ -274,7 +274,7 @@
                         </div>
                     </li>
 
-                    <li id="manu5">
+                    <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>

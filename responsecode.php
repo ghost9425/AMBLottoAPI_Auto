@@ -417,8 +417,8 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#manu8 , #manu8 > a").addClass("active");
-        $("#manu8 > div").css("display", "block");
+        $("#manu5 , #manu5 > a").addClass("active");
+        $("#manu5 > div").css("display", "block");
 
         var URL = window.location.href;
         URL = URL.substring(URL.lastIndexOf('#') + 1);

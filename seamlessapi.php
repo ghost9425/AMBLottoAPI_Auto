@@ -3489,8 +3489,8 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#manu3 , #manu3 > a").addClass("active");
-        $("#manu3 > div").css("display", "block");
+        $("#manu4 , #manu4 > a").addClass("active");
+        $("#manu4 > div").css("display", "block");
 
         $(this).on("click", ".koh-faq-question", function () {
             $(this).parent().find(".koh-faq-answer").slideToggle();

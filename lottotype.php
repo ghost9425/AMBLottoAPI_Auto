@@ -32,7 +32,55 @@
                     </lable>
                 </div>
                 <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable1">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type
+                                        </th>
+                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
+                                            Required</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>System generate <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx#tabZero"
+                                                class="aLink">key</a> ID after crate Agent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Player account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betLimit</td>
+                                        <td class="bRight">arrayNumber</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>betLimit can containt <span style="color: red;">maximum 6 values</span>
+                                            depends on the currency. you can see the limits in this table: <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
+                                                class="aLink">Currency / Bet Limit</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
                             set-lan="html:3.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -42,7 +90,7 @@
                     <div class="col-12">
                         <img src="./API_files/seamless-dia.png" style="width: 80%; margin-left: 10%;">
                     </div>
-                </div>
+                </div> -->
                 <div class="pb-5"></div>
                 
                 <div class="col-12" id="tabFour">
