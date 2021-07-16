@@ -32,7 +32,26 @@
                     <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:3. Seamless API">3. Seamless API</span><i
+                                set-lan="text:3. Seamless API">3. Lotto Type</span><i
+                                class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li id="manu31"><a class="waves-effect submenu" href="lottotype.php#tabOne">
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.1
+                                        Key Type</span></a>
+                                </li>
+                                <li id="manu32"><a class="waves-effect submenu" href="lottotype.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
+                                        Key Sub Type</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li id="manu3">
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
+                                set-lan="text:3. Seamless API">3. Lotto Key</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
@@ -101,11 +120,11 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
                     <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:4. Transferwallet Api">4. Transferwallet Api</span><i
+                                set-lan="text:4. Transferwallet Api">4. Seamless API</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
@@ -161,8 +180,7 @@
                     </li>
                     <li id="manu8">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Service
-                                Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Transferwallet API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
@@ -193,8 +211,7 @@
 
                     <li id="manu5">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Currency / Bet
-                                Limit</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul id="sub_currency">
