@@ -2576,13 +2576,13 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-12">
+                    <!-- <div class="form-group col-12">
                         <label
                             set-lan="html:356">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             When a player places a bet, the Pretty Gaming system sends a request UserPayTips to the
                             partner's system. The request will be timed out after 4 seconds and PlaceBetCancel will
                             be sent.</label>
-                    </div>
+                    </div> -->
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
@@ -2591,131 +2591,179 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                     <div class="form-group col-9">
                         <div class="table-wrapper">
                             <table class="table table-borderless table-striped" id="DataTable356A">
-                                <thead class="rgba-green-slight">
+                            <thead class="rgba-green-slight">
                                     <tr>
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td>Fixed value"UserPayTips"</td>
+                                        <td class="bRight">Fixed value"UserPlacePayout"</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
+                                        <td class="bRight">Object response.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerId</td>
+                                        <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td>Player identity form Pretty Gaming system.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from Pretty Gaming system.</td>
+                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td>User bet group record from one submit.</td>
+                                        <td class="bRight">User bet group record from one submit.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td>Bet type = Baccarat,4Point,Super6,CowCow, DragonTiger, Roulette,SicBo
+                                        <td class="bRight">Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1
                                         </td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">currency</td>
+                                        <td class="bRight">government</td>
                                         <td class="bRight">String</td>
-                                        <td>Standard ISO 3-character currency unit eg: CNY/USD/EUR . <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
-                                                class="aLink">currency list</a></td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">gameId</td>
+                                        <td class="bRight">drawId</td>
                                         <td class="bRight">Number</td>
-                                        <td>GameID</td>
+                                        <td class="bRight">Id ber ticket</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td>User bet amount.</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet amount.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td>totalPayOutAmt equals 0 when a player loses but not in every game, for
-                                            example, if a player places a bet in dragon tiger then he loses half of
-                                            the bet amount (when bets 100, then totalPayOutAmt equals 50).</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">winLoseTurnOver</td>
+                                        <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
-                                        <td>Member win/lose turnover.</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object respone.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">txtId</td>
-                                        <td class="bRight">String</td>
+                                        <td class="bRight">arrayobject</td>
+                                        <td class="bRight">List of bet position.</td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">commissionRate</td>
+                                        <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
+                                        <td class="bRight"></td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutRate</td>
+                                        <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
+                                        <td class="bRight">Bet id of bet position.</td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">betPosition</td>
+                                        <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
+                                        <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betNumber</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betStatus</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Status id of bet position.</td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
+                                        <td class="bRight">Bet amount of this reccord.</td>
                                         <td></td>
                                     </tr>
-
+                                    <tr>
+                                        <td class="bRight">betTotal</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">User bet total amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betDiscount</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Discount bet amount.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">payOutRate</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Rate payout when member win.</td>
+                                        <td></td>
+                                    </tr>
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">payOutAmt</td>
+                                        <td class="bRight">Payout amount of this reccord.</td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td class="bRight">SuccessfulPayment,SuccessfulBet, Pending, Canceled.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">createDate</td>
                                         <td class="bRight">String</td>
-                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">requestDate</td>
+                                        <td class="bRight">result</td>
+                                        <td class="bRight">arrayobject</td>
+                                        <td class="bRight"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">resultlink</td>
                                         <td class="bRight">String</td>
-                                        <td>System request date. format(YYYY-MM-DD HH:mm:ss)</td>
+                                        <td class="bRight">Link for show bet reslut of this bet Id.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2732,33 +2780,57 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="356A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPayTips"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startseamlessmember"</span>,
-                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"1004718"</span>,
-                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"Tips"</span>,
-                <span class="hljs-attr">"currency"</span>: <span class="hljs-string">"THB"</span>,
-                <span class="hljs-attr">"gameId"</span>: <span class="hljs-number">146826</span>,
-                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-1400</span>,
-                <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"winLoseTurnOver"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"txtList"</span>: [
-                    {
-                    <span class="hljs-attr">"txtId"</span>: <span class="hljs-string">"5fe07f9724f30035d29ba03b"</span>,
-                    <span class="hljs-attr">"commissionRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">0</span>,
-                    <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"tips"</span>,
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">500</span>,
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-                    }
-                ],
-                <span class="hljs-attr">"status"</span>: <span class="hljs-string">"SuccessfulPayment"</span>,
-                <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>,
-                <span class="hljs-attr">"requestDate"</span>: <span class="hljs-string">"2020-05-03 20:36:13"</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceRePayout"</span>,
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6579"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"stockgerman"</span>,
+        <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21330</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
+        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">9000</span>,
+        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">9010</span>,
+        <span class="hljs-attr">"txtList"</span>: [
+            {
+                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
+                <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
+                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"111"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"true"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10</span>,
+                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">0</span>,
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
+                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">9000</span>
+            }
+        ],
+        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"SuccessfulPayment"</span>,
+        <span class="hljs-attr">"result"</span>: {
+            <span class="hljs-attr">"top3"</span>: [
+                <span class="hljs-string">"111"</span>
+            ],
+            <span class="hljs-attr">"row3"</span>: [
+                <span class="hljs-string">"111"</span>
+            ],
+            <span class="hljs-attr">"top2"</span>: [
+                <span class="hljs-string">"11"</span>
+            ],
+            <span class="hljs-attr">"bottom2"</span>: [
+                <span class="hljs-string">"00"</span>
+            ],
+            <span class="hljs-attr">"top1"</span>: [
+                <span class="hljs-string">"1"</span>
+            ],
+            <span class="hljs-attr">"bottom1"</span>: [
+                <span class="hljs-string">"0"</span>
+            ],
+        },
+        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21330"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
+    }
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -2776,17 +2848,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th  style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        <th set-lan="html:Remark" class="bRight txtCenter">Remark</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2812,28 +2883,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td>SUCCESS</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">911001</td>
-                                        <td>Insufficient balance.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911002</td>
-                                        <td>Account is Suspend.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911004</td>
-                                        <td>Session expired.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911005</td>
-                                        <td>Bet failed. Please try again.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911006</td>
-                                        <td>The game is under maintenance.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911007</td>
-                                        <td>You are not allowed to play this game.</td>
+                                        <td class="bRight">51101</td>
+                                        <td>Duplicate Transaction (no return).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">911008</td>
@@ -2843,10 +2894,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">911009</td>
                                         <td>Bad parameters.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">911010</td>
-                                        <td>Account is locked.</td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
