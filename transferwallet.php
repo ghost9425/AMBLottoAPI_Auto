@@ -94,7 +94,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://apiRoute/member/loginRequest
+                            https://dev-api.pirate168.com/apiRoute/member/loginRequest
                             </label>
                         </div>
                         <div class="col-12">
@@ -1016,7 +1016,8 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
         <span class="hljs-attr">"data"</span>: {
             <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
@@ -1255,7 +1256,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/getUserBalanc
+                            https://dev-api.pirate168.com/apiRoute/api/getUserBalance
                             </label>
                         </div>
                         <div class="col-12">
@@ -1310,7 +1311,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>
@@ -1444,7 +1446,8 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
         <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
         <span class="hljs-attr">"data"</span>: {
@@ -1478,7 +1481,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/deposit
+                                https://dev-api.pirate168.com/apiRoute/api/deposit
                             </label>
                         </div>
                         <div class="col-12">
@@ -1546,7 +1549,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-            <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">{
+            <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">
+            {
             <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
             <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
             <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
@@ -1717,9 +1721,9 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-
         <span class="hljs-attr">"data"</span>: {
             <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
             <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
@@ -1753,7 +1757,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/withdraw
+                                https://dev-api.pirate168.com/apiRoute/api/withdraw
                             </label>
                         </div>
                         <div class="col-12">
@@ -1820,7 +1824,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
@@ -1988,9 +1993,9 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-
         <span class="hljs-attr">"data"</span>: {
             <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100</span>,
             <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
@@ -2024,7 +2029,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/memberBetHistories
+                                https://dev-api.pirate168.com/apiRoute/api/memberBetHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -2100,7 +2105,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"a18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
@@ -2108,7 +2114,7 @@
         <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
         <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1</span>    
-    }</code></pre>
+        }</code></pre>
                                     <script src="./API_files/ex4_8.js.download"></script>
                                 </div>
                             </div>
@@ -2462,7 +2468,8 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
         <span class="hljs-attr">"data"</span> {
             <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
@@ -2512,7 +2519,6 @@
                 <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
             }
     
-       
         }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -2536,7 +2542,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/betHistories
+                                https://dev-api.pirate168.com/apiRoute/api/betHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -2607,7 +2613,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-        <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
+        <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">
+        {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
         <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
@@ -3024,7 +3031,8 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">
+                {
                     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
                     <span class="hljs-attr">"data"</span> {
                         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
@@ -3082,21 +3090,22 @@
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
                             <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                                }
+                            ]
                         }
-                    ]
-                }
-            ],
-                                <span class="hljs-attr"> "totalDocs"</span>: <span class="hljs-number">1,</span>
-                                <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
-                                <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
-                                <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
-                                <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
-                                <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
-                                <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
-                                <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
+                    ],
+                            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
+                            <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false,</span>
+                            <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
+                            <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
+                            <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
                             },
                             <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
                         }
+
                     }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -3383,7 +3392,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/depositWithdrawHistory
+                                https://dev-api.pirate168.com/apiRoute/api/depositWithdrawHistory
                             </label>
                         </div>
                         <div class="col-12">
@@ -3439,7 +3448,8 @@
                                     <lable class="Point"><b style="color: #cfa137 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-            <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">{
+            <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">
+            {
             <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
             <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
             <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"78ff3b4f248e58bfb5de6545b471684f27f5ce959565d2c78df44dc74abc"</span>
@@ -3593,11 +3603,11 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-            <pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">{
+            <pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">
+            {
             <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-
-            <span class="hljs-attr">"data"</span>: {
-                
+            <span class="hljs-attr">"data"</span>: 
+            {
                 <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
                 <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
                 <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
@@ -3630,7 +3640,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://apiRoute/api/depositWithdrawHistoryByTransId
+                                https://dev-api.pirate168.com/apiRoute/api/depositWithdrawHistoryByTransId
                             </label>
                         </div>
                         <div class="col-12">
@@ -3667,7 +3677,8 @@
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td>
+                                        <!-- <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td> -->
+                                        <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
@@ -3838,20 +3849,21 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                        <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
-                        <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                        <span class="hljs-attr">"data"</span>: {
-                            <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-                            <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-                            <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-                            <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>,
-                            <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
-                            <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
-                            <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
-                        },
-                        <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
-                        }</code></pre>
+            <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">
+            {
+            <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
+            <span class="hljs-attr">"data"</span>: {
+                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
+                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+                <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>,
+                <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
+                <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
+                <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
+            },
+            <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
+            }</code></pre>
                                     <script src="./API_files/ex4_12B.js.download"></script>
                                 </div>
                             </div>
@@ -3859,10 +3871,6 @@
                     </div>
                 </div>
                 <div class="pb-5"></div>
-
-
-
-
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
                         <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
