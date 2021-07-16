@@ -395,9 +395,9 @@
                         <a href="material.php"
                             class="collapsible-header waves-effect">
                             <i class="sv-slim-icon far fa-report"></i><span>8. Material</span></a>
-                    </li>
-                    <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left"></i></a>
                     </li> -->
+                    <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left"></i></a>
+                    </li>
                 </ul>
             </li>
             <!--/. Side navigation links -->
