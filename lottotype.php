@@ -11,31 +11,31 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #19A17A !important;" set-lan="text:4. Seamless API">4. Seamless API</b></h1>
+                <h1><b style="color: #19A17A !important;" set-lan="text:3. Seamless API">3. Lotto Type</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.1 Introduction Seamless API">4.1
-                            Introduction Seamless API</b></lable>
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.1
+                    Key Type</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
-                            set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            set-lan="html:3.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             This section is to illustrate the detail of implementing seamless in external partner
                             system.</label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.2 Workflow">4.2 Workflow</b>
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.2 Key Sub Type</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
-                            set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            set-lan="html:3.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Preliminary information in order to run the API, the partner system must have prevalence
                             of commands So that the system can run the API under conditions.</label>
                     </div>
@@ -44,10 +44,171 @@
                     </div>
                 </div>
                 <div class="pb-5"></div>
+                
+                <div class="col-12" id="tabFour">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.4 login request">3.1 Key Type</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://api-dev.prettygaming.asia/apiRoute/member/loginRequest
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable1">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type
+                                        </th>
+                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
+                                            Required</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>System generate <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx#tabZero"
+                                                class="aLink">key</a> ID after crate Agent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Player account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betLimit</td>
+                                        <td class="bRight">arrayNumber</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>betLimit can containt <span style="color: red;">maximum 6 values</span>
+                                            depends on the currency. you can see the limits in this table: <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
+                                                class="aLink">Currency / Bet Limit</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
+                    <div class="col-12" id="tabFour">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.4 login request">3.2 Key Type</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://api-dev.prettygaming.asia/apiRoute/member/loginRequest
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable1">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type
+                                        </th>
+                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
+                                            Required</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">agentUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Agent account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">agentApiKey</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>System generate <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx#tabZero"
+                                                class="aLink">key</a> ID after crate Agent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>Player account , Account length is restricted to 36 chars at most</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betLimit</td>
+                                        <td class="bRight">arrayNumber</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>betLimit can containt <span style="color: red;">maximum 6 values</span>
+                                            depends on the currency. you can see the limits in this table: <a
+                                                href="https://service-api.prettygaming.asia/Page_API_Document/Bet_Limit.aspx"
+                                                class="aLink">Currency / Bet Limit</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-                <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.3 Setting">4.3 Setting</b></lable>
+                <!-- <div class="col-12" id="tabThree">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.3 Setting">3.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -71,24 +232,24 @@
                         </div>
                         <div class="pb-5"></div>
                         <label id="tabZero"
-                            set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.
+                            set-lan="html:3. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.
                             Define the following API information</label>
                         <div class="col-12">
                             <label
-                                set-lan="html:4.1 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.1 You can add multiple IP addresses by press the button</label>
+                                set-lan="html:3.1 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                3.1 You can add multiple IP addresses by press the button</label>
                             <img src="./API_files/003_2.jpg" style="height: 35px;">
                         </div>
                         <div class="col-12">
                             <label
-                                set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.2 You can click “API Document” button for preview Information</label>
-                            <img src="./API_files/003_4.jpg" style="height: 35px;">
+                                set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                3.2 You can click “API Document” button for preview Information</label>
+                            <img src="./API_files/003_3.jpg" style="height: 35px;">
                         </div>
                         <div class="col-12">
                             <label
-                                set-lan="html:4.3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.3 You can click “Save Profile” button for saving data</label>
+                                set-lan="html:3.3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                3.3 You can click “Save Profile” button for saving data</label>
                             <img src="./API_files/003_4.jpg" style="height: 35px;">
                         </div>
                         <div class="col-12">
@@ -96,11 +257,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="pb-5"></div>
+                <div class="pb-5"></div> -->
 
 
-                <div class="col-12" id="tabFour">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.4 login request">4.4 login
+                <!-- <div class="col-12" id="tabFour">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.4 login request">3.4 login
                             request</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -563,7 +724,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5 Call Back Service">4.5 Call Back
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.5 Call Back Service">3.5 Call Back
                             Service</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -580,7 +741,7 @@
                 <lable><b style="color: #19A17A !important;"></b></lable>
                 <div class="pb-4"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.1 GetUserBalance">4.5.1
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.5.1 GetUserBalance">3.5.1
                             GetUserBalance</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -754,7 +915,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.2 UserPlaceBet">4.5.2
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.5.2 UserPlaceBet">3.5.2
                             UserPlaceBet</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1078,7 +1239,7 @@
 
 
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #19A17A !important;">4.5.3 UserPlaceBetCancel</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.5.3 UserPlaceBetCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1380,7 +1541,7 @@
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #19A17A !important;">4.5.4 UserPlacePayout</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.5.4 UserPlacePayout</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1718,7 +1879,7 @@
 
 
                 <div class="col-12" id="tab15">
-                    <lable><b style="color: #19A17A !important;">4.5.5 UserPayTips</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.5.5 UserPayTips</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2018,7 +2179,7 @@
 
 
                 <div class="col-12" id="tab16">
-                    <lable><b style="color: #19A17A !important;">4.5.6 UserPayTipsCancel</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.5.6 UserPayTipsCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2294,7 +2455,7 @@
 
 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #19A17A !important;">4.5.7 Response Code</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.5.7 Response Code</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2394,10 +2555,10 @@
                 <div class="pb-5"></div>
 
 
-                <lable id="tabEleven"><b style="color: #19A17A !important;">4.6 Optional API</b></lable>
+                <lable id="tabEleven"><b style="color: #19A17A !important;">3.6 Optional API</b></lable>
                 <div class="pb-4"></div>
                 <div class="col-12" id="tabFourteen">
-                    <lable><b style="color: #19A17A !important;">4.6.1 memberBetHistories</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.6.1 memberBetHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2745,7 +2906,7 @@
 
 
                 <div class="col-12" id="tabTwelve">
-                    <lable><b style="color: #19A17A !important;">4.6.2 betHistories</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.6.2 betHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3198,7 +3359,7 @@
 
 
                 <div class="col-12" id="tabThirteen">
-                    <lable><b style="color: #19A17A !important;">4.6.3 getMemberWinLoseTurnOver</b></lable>
+                    <lable><b style="color: #19A17A !important;">3.6.3 getMemberWinLoseTurnOver</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3479,7 +3640,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </main>

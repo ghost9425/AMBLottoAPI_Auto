@@ -12,11 +12,11 @@
             </style>
 
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #cfa137 !important;">5. Service Respond Code</b></h1>
+                <h1><b style="color: #cfa137 !important;">6. Service Respond Code</b></h1>
                 <div class="pb-3"></div>
 
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #cfa137 !important;">5.1 Member Authen</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.1 Member Authen</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #cfa137 !important;">5.2 Token</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.2 Token</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #cfa137 !important;">5.3 System</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.3 System</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #cfa137 !important;">5.4 Validator</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.4 Validator</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -173,7 +173,7 @@
                 </div>
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #cfa137 !important;">5.5 Caculator</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.5 Caculator</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -203,7 +203,7 @@
                 </div>
 
                 <div class="col-12" id="tabSix">
-                    <lable><b style="color: #cfa137 !important;">5.6 Seamless API</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.6 Seamless API</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -333,7 +333,7 @@
                 </div>
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #cfa137 !important;">5.7 Service Respone</b></lable>
+                    <lable><b style="color: #cfa137 !important;">6.7 Service Respone</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>

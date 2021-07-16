@@ -22,7 +22,7 @@
 
                 </div>
                 <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                    <h1><b style="color: #19A17A !important;">PrettyGaming Integration Form</b></h1>
+                    <h1><b style="color: #19A17A !important;">AMBLOTTO Integration Form</b></h1>
                     <div class="btn-toolbar mb-3" role="toolbar">
                         <div class="form-group col-12" style="margin-left: 4rem;">
                             <a href="https://service-api.prettygaming.asia/Download/PrettyGaming_integration_form.docx"

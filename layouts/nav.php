@@ -32,7 +32,26 @@
                     <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:3. Seamless API">3. Seamless API</span><i
+                                set-lan="text:3. Seamless API">3. Lotto Type</span><i
+                                class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li id="manu31"><a class="waves-effect submenu" href="lottotype.php#tabOne">
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.1
+                                        Key Type</span></a>
+                                </li>
+                                <li id="manu32"><a class="waves-effect submenu" href="lottotype.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
+                                        Key Sub Type</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li id="manu3">
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
+                                set-lan="text:3. Seamless API">3. Lotto Key</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
@@ -101,71 +120,135 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
                     <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:4. Transferwallet Api">4. Transferwallet Api</span><i
+                                set-lan="text:4. Transferwallet Api">4. Seamless API</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu41"><a class="waves-effect submenu" href="transferwallet.php#tabOne">
-                                        <span class="sv-normal" set-lan="text:4.1 Introduction Transferwallet API">4.1
-                                            Introduction Transferwallet API</span></a>
+                                <li id="manu41"><a class="waves-effect submenu" href="seamlessapi.php#tabOne">
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">4.1
+                                            Introduction
+                                            Seamless API</span></a>
                                 </li>
-                                <li id="manu42"><a class="waves-effect submenu" href="transferwallet.php#tabTwo">
-                                        <span class="sv-normal" set-lan="text:4.2 Workflow">4.2
+                                <li id="manu42"><a class="waves-effect submenu" href="seamlessapi.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">4.2
                                             Workflow</span></a>
                                 </li>
-                                <li id="manu43"><a class="waves-effect submenu" href="transferwallet.php#tabThree">
-                                        <span class="sv-normal" set-lan="text:4.3 Setting">4.3
+                                <li id="manu43"><a class="waves-effect submenu" href="seamlessapi.php#tabThree">
+                                        <span class="sv-normal" set-lan="text:3.3 Setting">4.3
                                             Setting</span></a>
                                 </li>
-                                <li id="manu44"><a class="waves-effect submenu" href="transferwallet.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:4.4 login request">4.4 login
+                                <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
+                                        <span class="sv-normal" set-lan="text:3.4 login request">4.4 login
                                             request</span></a>
                                 </li>
-                                <li id="manu45"><a class="waves-effect submenu" href="transferwallet.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:4.5 getUserBalance">4.5
-                                            getUserBalance</span></a>
+                                <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
+                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">4.5
+                                            Call Back Service</span></a>
                                 </li>
-                                <li id="manu46"><a class="waves-effect submenu" href="transferwallet.php#tabSix">
-                                        <span class="sv-normal" set-lan="html:4.6">4.6 deposit</span></a>
+                                <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
+                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">4.5.1
+                                            GetUserBalance</span></a>
                                 </li>
-                                <li id="manu47"><a class="waves-effect submenu" href="transferwallet.php#tabSeven">
-                                        <span class="sv-normal" set-lan="html:4.7">4.7 withdrawal</span></a>
+                                <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
+                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">4.5.2
+                                            UserPlaceBet</span></a>
                                 </li>
-                                <li id="manu48"><a class="waves-effect submenu" href="transferwallet.php#tabEight">
-                                        <span class="sv-normal" set-lan="html:4.8">4.8
+                                <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
+                                        <span class="sv-normal" set-lan="text:3.5.3">4.5.3
+                                            UserPlaceBetCancel</span></a>
+                                </li>
+                                <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
+                                        <span class="sv-normal" set-lan="text:3.5.4">4.5.4
+                                            UserPlacePayout</span></a>
+                                </li>
+                                <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
+                                        <span class="sv-normal">4.5.5 UserPayTips</span></a>
+                                </li>
+                                <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
+                                        <span class="sv-normal">4.5.6 UserPayTipsCancel</span></a>
+                                </li>
+                                <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
+                                        <span class="sv-normal">4.5.7 Response Code</span></a>
+                                </li>
+                                <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
+                                        <span class="sv-normal" set-lan="text:3.6">4.6 Optional
+                                            API</span></a>
+                                </li>
+                                <li id="manu461"><a class="waves-effect submenu" href="seamlessapi.php#tabFourteen">
+                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.1
                                             memberBetHistories</span></a>
                                 </li>
-                                <li id="manu49"><a class="waves-effect submenu" href="transferwallet.php#tabNine">
-                                        <span class="sv-normal" set-lan="html:4.9">4.9
+                                <li id="manu462"><a class="waves-effect submenu" href="seamlessapi.php#tabTwelve">
+                                        <span class="sv-normal" set-lan="text:3.6.2">4.6.2
                                             betHistories</span></a>
                                 </li>
-                                <li id="manu410"><a class="waves-effect submenu" href="transferwallet.php#tabTen">
-                                        <span class="sv-normal" set-lan="html:4.10">4.10
+                                <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
+                                        <span class="sv-normal" set-lan="text:3.6.3">4.6.3
                                             getMemberWinLoseTurnOver</span></a>
-                                </li>
-                                <li id="manu411"><a class="waves-effect submenu" href="transferwallet.php#tab11">
-                                        <span class="sv-normal" set-lan="html:4.11">4.11
-                                            depositWithdrawHistory</span></a>
-                                </li>
-                                <li id="manu412"><a class="waves-effect submenu" href="transferwallet.php#tab12">
-                                        <span class="sv-normal" set-lan="html:4.12">4.12
-                                            depositWithdrawHistoryByTransId</span></a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li id="manu8">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Service
-                                Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Transferwallet API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
-                        <div class="collapsible-body">
-                            <ul>
+                        <div class="collapsible-body"> 
+                        <ul>
+                                <li id="manu51"><a class="waves-effect submenu" href="transferwallet.php#tabOne">
+                                        <span class="sv-normal" set-lan="text:4.1 Introduction Transferwallet API">5.1
+                                            Introduction Transferwallet API</span></a>
+                                </li>
+                                <li id="manu52"><a class="waves-effect submenu" href="transferwallet.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:4.2 Workflow">5.2
+                                            Workflow</span></a>
+                                </li>
+                                <li id="manu53"><a class="waves-effect submenu" href="transferwallet.php#tabThree">
+                                        <span class="sv-normal" set-lan="text:4.3 Setting">5.3
+                                            Setting</span></a>
+                                </li>
+                                <li id="manu54"><a class="waves-effect submenu" href="transferwallet.php#tabFour">
+                                        <span class="sv-normal" set-lan="text:4.4 login request">5.4 login
+                                            request</span></a>
+                                </li>
+                                <li id="manu55"><a class="waves-effect submenu" href="transferwallet.php#tabFive">
+                                        <span class="sv-normal" set-lan="text:4.5 getUserBalance">5.5
+                                            getUserBalance</span></a>
+                                </li>
+                                <li id="manu56"><a class="waves-effect submenu" href="transferwallet.php#tabSix">
+                                        <span class="sv-normal" set-lan="html:4.6">5.6 deposit</span></a>
+                                </li>
+                                <li id="manu57"><a class="waves-effect submenu" href="transferwallet.php#tabSeven">
+                                        <span class="sv-normal" set-lan="html:4.7">5.7 withdrawal</span></a>
+                                </li>
+                                <li id="manu58"><a class="waves-effect submenu" href="transferwallet.php#tabEight">
+                                        <span class="sv-normal" set-lan="html:4.8">5.8
+                                            memberBetHistories</span></a>
+                                </li>
+                                <li id="manu59"><a class="waves-effect submenu" href="transferwallet.php#tabNine">
+                                        <span class="sv-normal" set-lan="html:4.9">5.9
+                                            betHistories</span></a>
+                                </li>
+                                <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tabTen">
+                                        <span class="sv-normal" set-lan="html:4.10">5.10
+                                            getMemberWinLoseTurnOver</span></a>
+                                </li>
+                                <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
+                                        <span class="sv-normal" set-lan="html:4.11">5.11
+                                            depositWithdrawHistory</span></a>
+                                </li>
+                                <li id="manu512"><a class="waves-effect submenu" href="transferwallet.php#tab12">
+                                        <span class="sv-normal" set-lan="html:4.12">5.12
+                                            depositWithdrawHistoryByTransId</span></a>
+                                </li>
+                            </ul>
+
+                            <!-- <ul>
                                 <li id="manu81"><a class="waves-effect submenu" href="responsecode.php#tabOne">
                                         <span class="sv-normal">5.1 Member Authen</span></a>
                                 </li>
@@ -187,17 +270,39 @@
                                 <li id="manu87"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
                                         <span class="sv-normal">5.7 Service Respone</span></a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </li>
 
                     <li id="manu5">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Currency / Bet
-                                Limit</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
-                            <ul id="sub_currency">
+                            <ul>
+                                <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
+                                        <span class="sv-normal">6.1 Member Authen</span></a>
+                                </li>
+                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
+                                        <span class="sv-normal">6.2 Token</span></a>
+                                </li>
+                                <li id="manu63"><a class="waves-effect submenu" href="responsecode.php#tabThree">
+                                        <span class="sv-normal">6.3 System</span></a>
+                                </li>
+                                <li id="manu64"><a class="waves-effect submenu" href="responsecode.php#tabFour">
+                                        <span class="sv-normal">6.4 Validator</span></a>
+                                </li>
+                                <li id="manu65"><a class="waves-effect submenu" href="responsecode.php#tabFive">
+                                        <span class="sv-normal">6.5 Caculator</span></a>
+                                </li>
+                                <li id="manu66"><a class="waves-effect submenu" href="responsecode.php#tabSix">
+                                        <span class="sv-normal">6.6 Seamless API</span></a>
+                                </li>
+                                <li id="manu67"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
+                                        <span class="sv-normal">6.7 Service Respone</span></a>
+                                </li>
+                            </ul>
+                            <!-- <ul id="sub_currency">
                                 <li id="manu51"><a class="waves-effect submenu"
                                         href="currency.php#tab1"><span
                                             class="sv-normal" set-lan="html:6.1">6.1 Currency</span></a></li>
@@ -264,10 +369,10 @@
                                         href="currency.php#tab18"><span
                                             class="sv-normal" set-lan="html:6.18">6.18 KRW - South Korean won</span></a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </li>
-                    <li id="manu6">
+                    <!-- <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:6">7. Game Detail</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
@@ -292,7 +397,7 @@
                             <i class="sv-slim-icon far fa-report"></i><span>8. Material</span></a>
                     </li>
                     <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left"></i></a>
-                    </li>
+                    </li> -->
                 </ul>
             </li>
             <!--/. Side navigation links -->

@@ -11,36 +11,36 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #cfa137 !important;" data-translate="4" set-lan="text:4. Transferwallet Api">4.
+                <h1><b style="color: #cfa137 !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
                         Transferwallet Api</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:4.1 Introduction Transferwallet API">4.1
+                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
                             Introduction Transferwallet API</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:5.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             This section is to illustrate the detail of implementing transferwallet in external partner
                             system.</label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:4.2 Workflow">4.2 Workflow</b></lable>
+                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.2 Workflow">5.2 Workflow</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:5.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Preliminary information in order to run the API, the partner system must have prevalence of
                             commands So that the system can run the API under conditions</label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:4.3 Setting">4.3 Setting</b></lable>
+                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.3 Setting">5.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -75,7 +75,7 @@
                         <div class="col-12">
                             <label set-lan="html:3.3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 3.3 You can click “Save Profile” button for saving data</label>
-                            <img src="./API_files/003_4.jpg" style="height: 35px;">
+                            <img src="./API_files/003_5.jpg" style="height: 35px;">
                         </div>
                         <div class="col-12">
                             <img src="./API_files/003_5.jpg" style="width: 80%; margin-left: 10%;">
@@ -86,7 +86,7 @@
 
 
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:4.4 login request">4.4 login request</b>
+                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.4 login request">5.4 login request</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -528,7 +528,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #cfa137 !important;" set-lan="text:4.5 getUserBalance">4.5
+                    <lable><b style="color: #cfa137 !important;" set-lan="text:5.5 getUserBalance">5.5
                             getUserBalance</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -745,7 +745,7 @@
 
 
                 <div class="col-12" id="tabSix">
-                    <lable><b style="color: #cfa137 !important;">4.6 deposit</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.6 deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -809,7 +809,7 @@
                                     <tr>
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
-                                        <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">4.12 depositWithdrawHistoryByTransId</a></td>
+                                        <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">5.12 depositWithdrawHistoryByTransId</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -998,7 +998,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #cfa137 !important;">4.7 withdrawal</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.7 withdrawal</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1062,7 +1062,7 @@
                                     <tr>
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
-                                        <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">4.12 depositWithdrawHistoryByTransId</a></td>
+                                        <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">5.12 depositWithdrawHistoryByTransId</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1252,7 +1252,7 @@
 
 
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #cfa137 !important;">4.8 memberBetHistories</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.8 memberBetHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1596,7 +1596,7 @@
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #cfa137 !important;">4.9 betHistories</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.9 betHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1990,8 +1990,8 @@
                                             <span class="hljs-attr">"betPosition"</span>: <span class="hljs-string">"tiger"</span>,
                                             <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">-100</span>,
                                             <span class="hljs-attr">"ip"</span>: <span class="hljs-string">"305.00.440.440"</span>,
-                                            <span class="hljs-attr">"updateDate"</span>: <span class="hljs-string">"2020-07-16T07:04:44.270Z"</span>,
-                                            <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-07-16T07:04:44.270Z"</span>,
+                                            <span class="hljs-attr">"updateDate"</span>: <span class="hljs-string">"2020-07-16T07:04:45.270Z"</span>,
+                                            <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2020-07-16T07:04:45.270Z"</span>,
                                             <span class="hljs-attr">"__v"</span>: <span class="hljs-number">0</span>,
                                             <span class="hljs-attr">"result"</span>: {
                                                 <span class="hljs-attr">"rsBc"</span>: {
@@ -2041,7 +2041,7 @@
 
 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #cfa137 !important;">4.10 getMemberWinLoseTurnOver</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.10 getMemberWinLoseTurnOver</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2304,7 +2304,7 @@
 
 
                 <div class="col-12" id="tab11">
-                    <lable><b style="color: #cfa137 !important;">4.11 depositWithdrawHistory</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.11 depositWithdrawHistory</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2494,7 +2494,7 @@
 
 
                 <div class="col-12" id="tab12">
-                    <lable><b style="color: #cfa137 !important;">4.12 depositWithdrawHistoryByTransId</b></lable>
+                    <lable><b style="color: #cfa137 !important;">5.12 depositWithdrawHistoryByTransId</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
