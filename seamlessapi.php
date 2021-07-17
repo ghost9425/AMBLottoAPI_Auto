@@ -2168,14 +2168,14 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #19A17A !important;">4.5.5 UserPlacePayout</b></lable>
+                    <lable><b style="color: #19A17A !important;">4.5.5 UserPlaceReToRunning</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
                             set-lan="html:This interface will">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ถ้ามีการออกผลรางวัล ระบบ AMB Lotto จะส่งคำขอ UserPlacePayout เมื่อมีการออกผลรางวัล</label>
+                            ถ้ามีการออกผลรางวัล ระบบ AMB Lotto จะส่งคำขอ UserPlaceReToRunning เมื่อมีการออกผลรางวัล</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
@@ -2198,7 +2198,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Fixed value"UserPlacePayout"</td>
+                                        <td class="bRight">Fixed value"UserPlaceReToRunning"</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
@@ -2377,7 +2377,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">-30</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-number">member1@compseamless</span>
     },
-    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlacePayout"</span>
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceReToRunning"</span>
 }</code></pre>
                                 </div>
                             </div>
@@ -2493,7 +2493,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Fixed value"UserPlacePayout"</td>
+                                        <td class="bRight">Fixed value"UserPlaceReToRunning"</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
