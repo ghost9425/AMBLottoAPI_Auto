@@ -3876,12 +3876,12 @@
             </div>
             <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='lottotype.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
                     <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='transferwallet.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
                     </div>
