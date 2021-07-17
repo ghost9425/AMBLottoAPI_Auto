@@ -32,9 +32,30 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">10001</td>
-                                        <td>Invalid Username or Password.</td>
+                                        <td class="bRight">61001</td>
+                                        <td>Invalid UserAgent or ApiKey</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">71009</td>
+                                        <td>invalid UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71010</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71010</td>
+                                        <td>invalid AgentKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71011</td>
+                                        <td>invalid AgentKey ,key not Match</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71014</td>
+                                        <td>invalid UserMember</td>
+                                    </tr>
+                                 
                                 </tbody>
                             </table>
                         </div>
@@ -58,21 +79,14 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">500</td>
-                                        <td>Unauthorized.</td>
+                                        <td class="bRight">61001</td>
+                                        <td>IP address is not allowed.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">501</td>
-                                        <td>Your position is not available for use with this function.</td>
+                                        <td class="bRight">71017</td>
+                                        <td>transId has already existed</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">503</td>
-                                        <td>Invalid access token.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">5001</td>
-                                        <td>This token has already been replaced.</td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
@@ -96,21 +110,18 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">999</td>
-                                        <td>DATABASE ERROR PLEASE TRY AGAIN.</td>
+                                        <td class="bRight">51101</td>
+                                        <td>Duplicate Transaction (no return).</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">11000</td>
-                                        <td>E11000 duplicate key error collection (สร้างซ้ำไอดีเดิม).</td>
+                                        <td class="bRight">51102</td>
+                                        <td>Transaction not found.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">11001</td>
-                                        <td>required error.</td>
+                                        <td class="bRight">71012</td>
+                                        <td>login fail</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">11002</td>
-                                        <td>CastError.</td>
-                                    </tr>
+                                  
                                 </tbody>
                             </table>
                         </div>
@@ -134,37 +145,54 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">991</td>
-                                        <td>Bet exceeds table limit.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">992</td>
-                                        <td>This position can use only one currency.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">993</td>
-                                        <td>invalid bet limit id.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">994</td>
-                                        <td>invalid bet limit parameter please input bet limit more than 1 but not more
-                                            than 6 value.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">995</td>
-                                        <td>invalid currency.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">996</td>
-                                        <td>Invalid input filed with special characters.</td>
+                                        <td class="bRight">997</td>
+                                        <td>invalid input format 'balance' field.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">997</td>
-                                        <td>invalid input format.</td>
+                                        <td>invalid input format 'page' field.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">998</td>
-                                        <td>missing filed.</td>
+                                        <td class="bRight">997</td>
+                                        <td>invalid input format 'limit' field.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bRight">90003</td>
+                                        <td>limit should be greater than or equal to 1 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">90003</td>
+                                        <td>limit should be greater than 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71019</td>
+                                        <td>invalid transId</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71020</td>
+                                        <td>invalid referenceid</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>invalid input format 'startDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>Invalid filed 'page'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71023</td>
+                                        <td>invalid input format 'endDate' field.</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td class="bRight">71024</td>
+                                        <td>page should be greater than 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71025</td>
+                                        <td>balance should be greater than 0</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -189,13 +217,10 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">801</td>
+                                        <td class="bRight">911001</td>
                                         <td>Insufficient balance.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">802</td>
-                                        <td>Amount of position tracking exceeds the amount available.</td>
-                                    </tr>
+                                  
                                 </tbody>
                             </table>
                         </div>
@@ -224,108 +249,50 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">71002</td>
-                                        <td>missing filed 'agentApiKey'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71003</td>
-                                        <td>Invalid agentUsername or apiKey.</td>
+                                        <td>missing filed 'playerUsername'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71004</td>
-                                        <td>Invalid agentUsername or apiKey.</td>
+                                        <td>missing filed 'agentApiKey'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">41001</td>
+                                        <td>Error Request body is not an object.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71005</td>
-                                        <td>playerUsername must be between 4 and 24 characters long",
-                                            error_filed:"playerUsername".</td>
+                                        <td>playerUsername must be between 4 and 24 characters long.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71005</td>
+                                        <td>playerUsername must be between 4 and 36 characters long.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71006</td>
-                                        <td>username must not contain any special characters and can only contain
-                                            letters a-z and numbers 0-9.</td>
+                                        <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71007</td>
-                                        <td>invalid bet limit id.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71008</td>
-                                        <td>System detects double request bets. Please wait 1 minute to proceed again.
+                                        <td class="bRight">71029</td>
+                                        <td>missing filed 'transId'.
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>Bet below the limit.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71010</td>
-                                        <td>Bet more than the limit.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71011</td>
-                                        <td>Game ID not found.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71012</td>
-                                        <td>No more bets.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71013</td>
-                                        <td>Up line amount is not enough to accept your bet. Please contact your up
-                                            line.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71014</td>
-                                        <td>Invalid request body.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71015</td>
-                                        <td>Can request up to 5 times per minute.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71016</td>
                                         <td>Can request up to 15 times per minute.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71017</td>
-                                        <td>Can request up to 30 times per minute.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71018</td>
+                                        <td class="bRight">71026</td>
                                         <td>missing filed 'startDate'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71019</td>
+                                        <td class="bRight">71027</td>
                                         <td>missing filed 'endDate'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71020</td>
-                                        <td>Invalid filed 'startDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71021</td>
-                                        <td>Invalid filed 'endDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71022</td>
+                                        <td class="bRight">71028</td>
                                         <td>missing filed 'ref'.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">71023</td>
-                                        <td>Ref not found.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71024</td>
-                                        <td>Can't bet Big and Small in games 40 and above.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911008</td>
-                                        <td>Player not found.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911009</td>
-                                        <td>ip not allowed to connect to this api server.</td>
-                                    </tr>
+                                 
                                 </tbody>
                             </table>
                         </div>
@@ -349,12 +316,12 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">0</td>
-                                        <td>Bet successfully placed.</td>
+                                        <td class="bRight">061001</td>
+                                        <td>request error Player not found.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">911001</td>
-                                        <td>Insufficient balance.</td>
+                                        <td class="bRight">61001</td>
+                                        <td>request error callback url requst error destination error</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">911002</td>
