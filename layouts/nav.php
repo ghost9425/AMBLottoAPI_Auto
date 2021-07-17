@@ -171,14 +171,14 @@
                                             UserPlacePayout</span></a>
                                 </li>
                                 <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
-                                        <span class="sv-normal">4.5.6 UserPayTips</span></a>
+                                        <span class="sv-normal">4.5.6 UserPlaceReToRunning</span></a>
                                 </li>
-                                <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
+                                <!--<li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
                                         <span class="sv-normal">4.5.7 UserPayTipsCancel</span></a>
                                 </li>
                                 <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
                                         <span class="sv-normal">4.5.8 Response Code</span></a>
-                                </li>
+                                </li> -->
                                 <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
                                         <span class="sv-normal" set-lan="text:3.6">4.6 Optional
                                             API</span></a>
@@ -191,10 +191,10 @@
                                         <span class="sv-normal" set-lan="text:3.6.2">4.6.2
                                             betHistories</span></a>
                                 </li>
-                                <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
+                                <!-- <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
                                         <span class="sv-normal" set-lan="text:3.6.3">4.6.3
                                             getMemberWinLoseTurnOver</span></a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </li>
