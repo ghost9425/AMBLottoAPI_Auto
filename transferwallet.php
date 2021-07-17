@@ -12,7 +12,7 @@
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
                 <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
-                        Transferwallet Api</b></h1>
+                        Transferwallet API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
@@ -58,7 +58,7 @@
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             2.คลิกเมนูบัญชีและเลือกเมนูโปรไฟล์</label>
                         <div class="col-12">
-                            <img src="./API_files/Account002.png" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/2.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label id="tabZero" set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.กำหนดข้อมูล API ต่อไปนี้</label>
@@ -3870,21 +3870,22 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="pb-5"></div>
-                <div class="btn-toolbar mb-12">
+              
+            </div>
+            <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='lottotype.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
                     <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='transferwallet.php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
                     </div>
                 </div>
-            </div>
-
         </div>
     </main>
 </div>
