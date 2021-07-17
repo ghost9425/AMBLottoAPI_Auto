@@ -256,7 +256,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>success</td>
+                                        <td>Success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -706,7 +706,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td class="bRight">success</td>
+                                        <td class="bRight">Success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">911009</td>
@@ -1673,9 +1673,7 @@
                                         <td class="bRight">government</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">
-
                                         </td>
->
                                     </tr>
                                     <tr>
                                         <td class="bRight">drawId</td>
@@ -1690,7 +1688,7 @@
                                     <tr>
                                         <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight"></td>>
+                                        <td class="bRight"></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
