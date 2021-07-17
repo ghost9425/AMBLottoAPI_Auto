@@ -22,7 +22,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ในส่วนนี้จะแสดงรายละเอียดเพื่ออธิบายการทำงานของระบบ seamless ระบบของคู่ธุรกิจ</label>
+                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Seamless เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก</label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
@@ -52,9 +52,7 @@
                     <div class="form-group col-12">
                         <label
                             set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API 
-                            ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน 
-                            แล้วทำตามขั้นตอนการตั้งค่า ดังนี้
+                            *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน แล้วทำตามขั้นตอนการตั้งค่า ดังนี้
 </label>
                         <label
                             set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.เข้าสู่ระบบ</label>
@@ -1564,7 +1562,7 @@
                                     <tr>
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
-                                        <th set-lan="html:Type" class="txtCenter">Type</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
