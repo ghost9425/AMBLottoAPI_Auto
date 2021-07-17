@@ -1904,9 +1904,9 @@
                             set-lan="html:when previous PlaceBet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             1. ใช้ยกเลิกเมื่อ UserPlaceBet เกิดข้อผิดพลาด หรือ Time Out <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ใช้ยกเลิกกรณีที่ผู้เล่นต้องการยกเลิก <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 กรณียกเลิกทั้งตั๋ว Status ของตั๋วจะเป็น "Canceled" ซึ่งรายละเอียดในการเดิมพันแต่ละรายการ ทุกรายการของตั๋วนั้นจะมี "betStatus" เป็น "Canceled"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 กรณียกเลิกทั้งตั๋ว Status ของตั๋วจะเป็น "Cancel" ซึ่งรายละเอียดในการเดิมพันแต่ละรายการ ทุกรายการของตั๋วนั้นจะมี "betStatus" เป็น "Cancel"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 กรณียกเลิกทีละเลข 
-Status ของตั๋วจะเป็นสถานะของตั๋วนั้น  ซึ่งรายละเอียดในการเดิมพันของรายการที่ต้องการยกเลิกจะมี "betStatus" เป็น "Canceled"
+Status ของตั๋วจะเป็นสถานะของตั๋วนั้น  ซึ่งรายละเอียดในการเดิมพันของรายการที่ต้องการยกเลิกจะมี "betStatus" เป็น "Cancel"
 
 </label>
                     </div>
@@ -2544,11 +2544,6 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">User bet amount.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">totalPayOutAmt</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight"></td>
-                                    </tr>
-                                    <tr>
                                         <td class="bRight">validTurn</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight"></td>
@@ -2618,16 +2613,6 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">String</td>
                                         <td class="bRight">The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">result</td>
-                                        <td class="bRight">arrayobject</td>
-                                        <td class="bRight"></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">resultlink</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight">Link for show bet reslut of this bet Id.</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -2643,55 +2628,33 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="356A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceRePayout"</span>,
+    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceReToRunning"</span>,
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
-        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6579"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"stockgerman"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6623"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"yeekeelotto"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
-        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21330</span>,
-        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
-        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">9000</span>,
-        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">9010</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21607</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
+        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">9100</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
+                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjYyMy0x"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"111"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"true"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
+                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"22"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Pending"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">9000</span>
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
+                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
             }
         ],
-        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Success"</span>,
-        <span class="hljs-attr">"result"</span>: {
-            <span class="hljs-attr">"top3"</span>: [
-                <span class="hljs-string">"111"</span>
-            ],
-            <span class="hljs-attr">"row3"</span>: [
-                <span class="hljs-string">"111"</span>
-            ],
-            <span class="hljs-attr">"top2"</span>: [
-                <span class="hljs-string">"11"</span>
-            ],
-            <span class="hljs-attr">"bottom2"</span>: [
-                <span class="hljs-string">"00"</span>
-            ],
-            <span class="hljs-attr">"top1"</span>: [
-                <span class="hljs-string">"1"</span>
-            ],
-            <span class="hljs-attr">"bottom1"</span>: [
-                <span class="hljs-string">"0"</span>
-            ],
-        },
-        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21330"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
+        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Pending"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-17 17:50:53"</span>
     }
 }</code></pre>
                                 </div>
