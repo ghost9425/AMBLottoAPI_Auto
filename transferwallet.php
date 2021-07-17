@@ -2251,7 +2251,7 @@
                                         <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.
+                                        <td>Success,SuccessfulBet, Pending, Cancel.
                                         </td>
                                     </tr>
                                     <tr>
@@ -2786,10 +2786,10 @@
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">status</td>
+                                        <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.
+                                        <td>Success,SuccessfulBet, Pending, Cancel.
                                         </td>
                                     </tr>
                                     <tr>
@@ -2817,7 +2817,7 @@
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">betstatus</td>
+                                        <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Status id of bet position.</td>
@@ -3053,7 +3053,7 @@
                     <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
                     <span class="hljs-attr">"totalPayOutAmt"</span>:<span class="hljs-number"> 0,</span>
                     <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-30,</span>
-                    <span class="hljs-attr"> "status"</span>: <span class="hljs-number">"pending",</span>
+                    <span class="hljs-attr"> "Status"</span>: <span class="hljs-number">"pending",</span>
                     <span class="hljs-attr"> "txtList"</span>: [
                         {
                             <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0x",</span>
