@@ -12,11 +12,11 @@
             </style>
 
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #cfa137 !important;">6. Service Respond Code</b></h1>
+                <h1><b style="color: #19A17A !important;">6. Service Respond Code</b></h1>
                 <div class="pb-3"></div>
 
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #cfa137 !important;">6.1 Member Authen</b></lable>
+                    <lable><b style="color: #19A17A !important;">6.1 Member Authen</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -36,25 +36,22 @@
                                         <td>Invalid UserAgent or ApiKey</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
+                                        <td class="bRight">61002</td>
+                                        <td>IP address is not allowed.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71010</td>
-                                        <td></td>
+                                        <td class="bRight">61003</td>
+                                        <td>request error Player not found.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71010</td>
-                                        <td>invalid AgentKey</td>
+                                        <td class="bRight">61004</td>
+                                        <td>request error callback url requst error destination error</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71011</td>
-                                        <td>invalid AgentKey ,key not Match</td>
+                                        <td class="bRight">61005</td>
+                                        <td>(Other error)</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">71014</td>
-                                        <td>invalid UserMember</td>
-                                    </tr>
+                                 
                                  
                                 </tbody>
                             </table>
@@ -62,8 +59,8 @@
                     </div>
                 </div>
 
-                <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #cfa137 !important;">6.2 Token</b></lable>
+                <!-- <div class="col-12" id="tabTwo">
+                    <lable><b style="color: #19A17A !important;">6.2 Token</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -94,7 +91,7 @@
                 </div>
 
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #cfa137 !important;">6.3 System</b></lable>
+                    <lable><b style="color: #19A17A !important;">6.3 System</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -129,7 +126,7 @@
                 </div>
 
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #cfa137 !important;">6.4 Validator</b></lable>
+                    <lable><b style="color: #19A17A !important;">6.4 Validator</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -201,7 +198,7 @@
                 </div>
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #cfa137 !important;">6.5 Caculator</b></lable>
+                    <lable><b style="color: #19A17A !important;">6.5 Caculator</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -228,7 +225,7 @@
                 </div>
 
                 <div class="col-12" id="tabSix">
-                    <lable><b style="color: #cfa137 !important;">6.6 Seamless API</b></lable>
+                    <lable><b style="color: #19A17A !important;">6.6 Seamless API</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -297,10 +294,10 @@
                             </table>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #cfa137 !important;">6.7 Service Respone</b></lable>
+                <div class="col-12" id="tabTwo">
+                    <lable><b style="color: #19A17A !important;">6.2 Service Respone</b></lable>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-1"></div>
@@ -316,12 +313,124 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">061001</td>
-                                        <td>request error Player not found.</td>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">61001</td>
-                                        <td>request error callback url requst error destination error</td>
+                                        <td class="bRight">41001</td>
+                                        <td>Error Request body is not an object.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">41002</td>
+                                        <td>invalid input format 'balance', 'page', 'limit',  field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">51101</td>
+                                        <td>Duplicate Transaction (no return).</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">51102</td>
+                                        <td>Transaction not found.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71001</td>
+                                        <td>missing filed 'agentUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71002</td>
+                                        <td>missing filed 'playerUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71003</td>
+                                        <td>Invalid agentUsername or apiKey.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71004</td>
+                                        <td>missing filed 'agentApiKey'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71005</td>
+                                        <td>playerUsername must be between 4 and 24 characters long.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71006</td>
+                                        <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71007</td>
+                                        <td>missing filed 'transId'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71008</td>
+                                        <td>System detects double request bets. Please wait 1 minute to proceed again.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71010</td>
+                                        <td>invalid ApiKey or UserAgent</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71012</td>
+                                        <td>login fail</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71014</td>
+                                        <td>invalid UserMember</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71016</td>
+                                        <td>Can request up to 15 times per minute.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71017</td>
+                                        <td>transId has already existed</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71019</td>
+                                        <td>invalid transId</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71020</td>
+                                        <td>invalid referenceid</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>invalid input format 'startDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>Invalid filed 'page'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71023</td>
+                                        <td>invalid input format 'endDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71024</td>
+                                        <td>page should be greater than 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71025</td>
+                                        <td>balance should be greater than 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71026</td>
+                                        <td>missing filed 'startDate'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71027</td>
+                                        <td>missing filed 'endDate'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71028</td>
+                                        <td>missing filed 'ref'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">90003</td>
+                                        <td>limit should be greater than or equal to 1 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">911001</td>
+                                        <td>Insufficient balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">911002</td>

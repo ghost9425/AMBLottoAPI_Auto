@@ -287,7 +287,7 @@
                                 <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
                                         <span class="sv-normal">6.1 Member Authen</span></a>
                                 </li>
-                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
+                                <!-- <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">6.2 Token</span></a>
                                 </li>
                                 <li id="manu63"><a class="waves-effect submenu" href="responsecode.php#tabThree">
@@ -301,9 +301,9 @@
                                 </li>
                                 <li id="manu66"><a class="waves-effect submenu" href="responsecode.php#tabSix">
                                         <span class="sv-normal">6.6 Seamless API</span></a>
-                                </li>
-                                <li id="manu67"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
-                                        <span class="sv-normal">6.7 Service Respone</span></a>
+                                </li> -->
+                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
+                                        <span class="sv-normal">6.2 Service Respone</span></a>
                                 </li>
                             </ul>
                             <!-- <ul id="sub_currency">
