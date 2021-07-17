@@ -2248,7 +2248,7 @@
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">status</td>
+                                        <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.
@@ -2490,7 +2490,7 @@
                             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-50,</span>
-                            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"pending",</span>
+                            <span class="hljs-attr">"Status"</span>: <span class="hljs-number">"pending",</span>
                             <span class="hljs-attr">"txtList"</span>: [
                                 {
                                     <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
@@ -2817,7 +2817,7 @@
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">betStatus</td>
+                                        <td class="bRight">betstatus</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Status id of bet position.</td>
@@ -3042,7 +3042,7 @@
                             <span class="hljs-attr">"docs"</span>: [
                 {
                     <span class="hljs-attr">"no"</span>: 1,</span>
-                    <span class="hljs-attr"> "playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
+                    <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"superbas@agentapi",</span>
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
                     <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6555,</span>
