@@ -12,7 +12,7 @@
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
                 <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
-                        Transferwallet Api</b></h1>
+                        Transferwallet API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
@@ -58,7 +58,7 @@
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             2.คลิกเมนูบัญชีและเลือกเมนูโปรไฟล์</label>
                         <div class="col-12">
-                            <img src="./API_files/Account002.png" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/2.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label id="tabZero" set-lan="html:4. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.กำหนดข้อมูล API ต่อไปนี้</label>
@@ -2248,7 +2248,7 @@
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">status</td>
+                                        <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>SuccessfulPayment,SuccessfulBet, Pending, Canceled.
@@ -2490,7 +2490,7 @@
                             <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-50,</span>
-                            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"pending",</span>
+                            <span class="hljs-attr">"Status"</span>: <span class="hljs-number">"pending",</span>
                             <span class="hljs-attr">"txtList"</span>: [
                                 {
                                     <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYwOS0x",</span>
@@ -2817,7 +2817,7 @@
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">betStatus</td>
+                                        <td class="bRight">betstatus</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Status id of bet position.</td>
@@ -3042,7 +3042,7 @@
                             <span class="hljs-attr">"docs"</span>: [
                 {
                     <span class="hljs-attr">"no"</span>: 1,</span>
-                    <span class="hljs-attr"> "playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
+                    <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"superbas@agentapi",</span>
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
                     <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6555,</span>
@@ -3870,21 +3870,22 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="pb-5"></div>
-                <div class="btn-toolbar mb-12">
+              
+            </div>
+            <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='lottotype.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
                     <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='transferwallet.php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
                     </div>
                 </div>
-            </div>
-
         </div>
     </main>
 </div>
