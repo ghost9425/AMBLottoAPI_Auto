@@ -4034,7 +4034,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             </table>
                         </div>
                     </div>
-                    <div class="form-group col-12 ex">
+                    <!-- <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;">Calculation Description</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -4064,7 +4064,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="koh-tab-content col-12">
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
