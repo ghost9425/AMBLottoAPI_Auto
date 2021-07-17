@@ -2251,7 +2251,7 @@
                                         <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Cancel.
+                                        <td>Success,SuccessfulBet, Pending, Cancel.
                                         </td>
                                     </tr>
                                     <tr>
@@ -2789,7 +2789,7 @@
                                         <td class="bRight">Status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>SuccessfulPayment,SuccessfulBet, Pending, Cancel.
+                                        <td>Success,SuccessfulBet, Pending, Cancel.
                                         </td>
                                     </tr>
                                     <tr>
