@@ -149,12 +149,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Object respone.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">username</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
-                                    </tr>
+                                  
                                 </tbody>
                             </table>
                         </div>
@@ -910,7 +905,7 @@
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
@@ -980,30 +975,18 @@
                                         <td class="bRight">71006</td>
                                         <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+                               
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71011</td>
-                                        <td>invalid AgentKey</td>
-                                    </tr> -->
+                         
                                     <tr>
                                         <td class="bRight">71012</td>
                                         <td>login fail</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">71014</td>
-                                        <td>invalid UserMember</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">61001</td>
-                                        <td>IP address is not allowed.</td>
-                                    </tr>
+                                  
+                                   
                                 </tbody>
                             </table>
                         </div>
@@ -1358,13 +1341,13 @@
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Total balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -1524,7 +1507,7 @@
                                     <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
-                                        <td></td>
+                                        <td>Deposit balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
@@ -1595,25 +1578,25 @@
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Deposit balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Balance after Deposit  of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Balance after Deposit  of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
@@ -1631,7 +1614,7 @@
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1677,18 +1660,12 @@
                                         <td class="bRight">71007</td>
                                         <td>missing filed 'transId'.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+                            
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71011</td>
-                                        <td>invalid AgentKey ,key not Match</td>
-                                    </tr> -->
+                             
                                     <tr>
                                         <td class="bRight">71014</td>
                                         <td>invalid UserMember.</td>
@@ -1797,7 +1774,7 @@
                                     <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
-                                        <td></td>
+                                        <td>Withdraw balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
@@ -1868,25 +1845,25 @@
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Withdraw balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Balance after Withdraw of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Balance after Withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
@@ -1904,7 +1881,7 @@
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1950,10 +1927,7 @@
                                         <td class="bRight">71007</td>
                                         <td>missing filed 'transId'.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+                               
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -2077,7 +2051,7 @@
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        <td></td>
+                                        <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
@@ -2174,7 +2148,7 @@
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system..</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2204,13 +2178,13 @@
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Round of drawagent ex. yeekeelotto round 88 (default = 1)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
-                                        <td class="bRight">String</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
@@ -2228,26 +2202,28 @@
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">Status</td>
+                                        <td class="bRight">status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Success,SuccessfulBet, Pending, Cancel.
+                                        <!-- <td>Success,SuccessfulBet, Pending, Cancel.
+                                        </td> -->
+                                        <td>Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>List of bet position.</td>
+                                        <td>Bet Detail.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -2271,13 +2247,19 @@
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Status id of bet position.</td>
+                                        <td>Status of bet data(Pending).</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betKey</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Bet amount of this reccord.</td>
+                                        <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
@@ -2336,27 +2318,27 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Next page number</td>
                                     </tr>
 
                                     <tr>
@@ -2408,10 +2390,7 @@
                                         <td class="bRight">71004</td>
                                         <td>missing filed 'playerUsername'.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+ 
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -2582,7 +2561,7 @@
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        <td></td>
+                                        <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
@@ -2709,7 +2688,7 @@
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2739,13 +2718,13 @@
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Round of drawagent ex. yeekeelotto round 88</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
-                                        <td class="bRight">String</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
@@ -2763,26 +2742,28 @@
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">Status</td>
+                                        <td class="bRight">status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Success,SuccessfulBet, Pending, Cancel.
+                                        <td>Success, Pending, Cancel.
                                         </td>
+                                        <!-- <td>Success,SuccessfulBet, Pending, Cancel.
+                                        </td> -->
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>List of bet position.</td>
+                                        <td>Bet Detail.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -2806,13 +2787,19 @@
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Status id of bet position.</td>
+                                        <td>Status of bet data(Pending).</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">betKey</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Bet amount of this reccord.</td>
+                                        <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
@@ -2871,27 +2858,27 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
-                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Boolean</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Next page number</td>
                                     </tr>
 
                                     <tr>
@@ -2936,10 +2923,6 @@
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
 
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -2978,7 +2961,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="form-group col-12 ex">
+                    <!-- <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A  !important;">Calculation Description</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3008,7 +2991,7 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="koh-tab-content col-12">
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
@@ -3483,7 +3466,7 @@
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -3507,7 +3490,7 @@
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Transaction amount.</td>
                                     </tr>
 
                                     <tr>
@@ -3520,7 +3503,7 @@
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -3557,10 +3540,7 @@
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+                              
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -3595,7 +3575,7 @@
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b"</span>,
         <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
-        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
+        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>,
         <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
@@ -3729,7 +3709,7 @@
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Player Id from partner system.</td>
                                     </tr>
 
                                     <tr>
@@ -3754,7 +3734,7 @@
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Transaction amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferDate</td>
@@ -3766,7 +3746,7 @@
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
 
                                 </tbody>
@@ -3800,10 +3780,8 @@
                                         <td class="bRight">71002</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71009</td>
-                                        <td>invalid UserAgent</td>
-                                    </tr> -->
+                               
+                                
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
