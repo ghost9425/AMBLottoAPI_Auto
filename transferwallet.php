@@ -248,31 +248,31 @@
                     }
                 },
                 <span class="hljs-attr">"hanoylotto"</span>: {
-                    <span class="hljs-attr">  "bottom1"</span>: {
+                    <span class="hljs-attr">"bottom1"</span>: {
                         <span class="hljs-attr">  "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string">200000,</span>
                         <span class="hljs-attr"> "min"</span>:<span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">4.2</span>
                     },
-                    <span class="hljs-attr"> "bottom2"</span>: {
+                    <span class="hljs-attr">"bottom2"</span>: {
                         <span class="hljs-attr"> "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string">20000,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">90</span>
                     },
-                    <span class="hljs-attr">   "row3"</span>: {
+                    <span class="hljs-attr">"row3"</span>: {
                         <span class="hljs-attr">   "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string">20000,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">150</span>
                     },
-                    <span class="hljs-attr"> "top1"</span>: {
+                    <span class="hljs-attr">"top1"</span>: {
                         <span class="hljs-attr">  "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string">200000,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">3.2</span>
                     },
-                    <span class="hljs-attr"> "top2"</span>: {
+                    <span class="hljs-attr">"top2"</span>: {
                         <span class="hljs-attr">  "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">20000,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
@@ -298,7 +298,7 @@
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">15</span>
                     },
-                    <span class="hljs-attr">  "row3"</span>: {
+                    <span class="hljs-attr">"row3"</span>: {
                         <span class="hljs-attr">  "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">600,</span>
                         <span class="hljs-attr">"min"</span>: <span class="hljs-string">1,</span>
@@ -310,20 +310,20 @@
                         <span class="hljs-attr"> "min"</span>:<span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">40</span>
                     },
-                    <span class="hljs-attr"> "top3"</span>: {
+                    <span class="hljs-attr">"top3"</span>: {
                         <span class="hljs-attr">   "discount"</span>:  <span class="hljs-string">0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string"> 600,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>:  <span class="hljs-string">350</span>
                     },
-                    <span class="hljs-attr"> "top4"</span>: {
+                    <span class="hljs-attr">"top4"</span>: {
                         <span class="hljs-attr">"discount"</span>:  <span class="hljs-string">0,</span>
                         <span class="hljs-attr">"max"</span>:  <span class="hljs-string">600,</span>
                         <span class="hljs-attr">"min"</span>:  <span class="hljs-string">1,</span>
                         <span class="hljs-attr">"payout"</span>:  <span class="hljs-string">1000</span>
                     }
                 },
-                <span class="hljs-attr"> "hanoylottospecial"</span>: {
+                <span class="hljs-attr">"hanoylottospecial"</span>: {
                     <span class="hljs-attr">  "bottom1"</span>: {
                         <span class="hljs-attr">      "discount"</span>:  <span class="hljs-string">0,</span>
                         <span class="hljs-attr">      "max"</span>:  <span class="hljs-string">200000,</span>
@@ -336,25 +336,25 @@
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>:  <span class="hljs-string">90</span>
                     },
-                    <span class="hljs-attr"> "row3"</span>: {
+                    <span class="hljs-attr">"row3"</span>: {
                         <span class="hljs-attr">  "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr"> "max"</span>:<span class="hljs-string"> 20000,</span>
                         <span class="hljs-attr">  "min"</span>:<span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>:<span class="hljs-string"> 150</span>
                     },
-                    <span class="hljs-attr"> "top1"</span>: {
+                    <span class="hljs-attr">"top1"</span>: {
                         <span class="hljs-attr">  "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr">  "max"</span>: <span class="hljs-string">200000,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">3.2</span>
                     },
-                    <span class="hljs-attr"> "top2"</span>: {
+                    <span class="hljs-attr">"top2"</span>: {
                         <span class="hljs-attr">   "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr">  "max"</span>:<span class="hljs-string"> 20000,</span>
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">90</span>
                     },
-                    <span class="hljs-attr"> "top3"</span>: {
+                    <span class="hljs-attr">"top3"</span>: {
                         <span class="hljs-attr"> "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">5000,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
@@ -374,7 +374,7 @@
                         <span class="hljs-attr">"min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">15</span>
                     },
-                    <span class="hljs-attr"> "row3"</span>: {
+                    <span class="hljs-attr">"row3"</span>: {
                         <span class="hljs-attr">  "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">600,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
@@ -386,13 +386,13 @@
                         <span class="hljs-attr"> "min"</span>:<span class="hljs-string"> 1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">40</span>
                     },
-                    <span class="hljs-attr"> "top3"</span>: {
+                    <span class="hljs-attr">"top3"</span>: {
                         <span class="hljs-attr">  "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">600,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">350</span>
                     },
-                    <span class="hljs-attr">   "top4"</span>: {
+                    <span class="hljs-attr">"top4"</span>: {
                         <span class="hljs-attr">  "discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr"> "max"</span>:<span class="hljs-string"> 600,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
@@ -406,7 +406,7 @@
                         <span class="hljs-attr">  "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr">  "payout"</span>: <span class="hljs-string">4.2</span>
                     },
-                    <span class="hljs-attr"> "bottom2"</span>: {
+                    <span class="hljs-attr">"bottom2"</span>: {
                         <span class="hljs-attr"> "discount"</span>:<span class="hljs-string"> 0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">20000,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
@@ -418,13 +418,13 @@
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string"> 150</span>
                     },
-                    <span class="hljs-attr"> "top1"</span>:{
+                    <span class="hljs-attr">"top1"</span>:{
                         <span class="hljs-attr">"discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr"> "max"</span>: <span class="hljs-string">200000,</span>
                         <span class="hljs-attr"> "min"</span>: <span class="hljs-string">1,</span>
                         <span class="hljs-attr"> "payout"</span>: <span class="hljs-string">3.2</span>
                     },
-                    <span class="hljs-attr"> "top2"</span>:{
+                    <span class="hljs-attr">"top2"</span>:{
                         <span class="hljs-attr">"discount"</span>: <span class="hljs-string">0,</span>
                         <span class="hljs-attr">"max"</span>: <span class="hljs-string">20000,</span>
                         <span class="hljs-attr">"min"</span>: <span class="hljs-string">1,</span>
@@ -956,16 +956,20 @@
                                         <td>success</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">61002</td>
+                                        <td>IP address is not allowed.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71002</td>
-                                        <td>missing filed 'agentApiKey'.</td>
+                                        <td>missing filed 'playerUsername'. </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
+                                        <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71005</td>
@@ -1016,211 +1020,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;" set-lan="text:** Optional">** Optional for
-                                direct/re-direct link.</b></lable>
-                    </div>
-                    <div class="form-group col-12">
-                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            You can add a value (BAC, DRA, SIC, ROU, MUL) to the parameter in the of the link
-                            (&amp;game=) to redirect players to the specific games</label>
-                    </div>
-                    <div class="col-8">
-                        <a href="https://service-api.prettygaming.asia/img/zip/game_icons.rar" style="float: right;" class="Point" download=""><i class="fa fa-download" aria-hidden="true"></i>
-                            <label class="Point">&nbsp;Download Icon</label></a>
-                    </div>
-                    <div class="form-group col-3"></div>
-                    <div class="form-group col-2"></div>
-                    <div class="form-group col-6">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th class="bRight txtCenter" style="width: 200px;">Name</th>
-                                        <th class="bRight txtCenter" style="width: 210px;">Value of parameter</th>
-                                        <th class="txtCenter" style="width: 210px;">Image icon</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight txtMid">Baccarat</td>
-                                        <td class="bRight txtCenter txtMid">BAC</td>
-                                        <td class="bRight txtCenter bBottom" style="background-color: gray;">
-                                            <img src="./API_files/baccarat.png" class="IconSize">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Dragon-Tiger</td>
-                                        <td class="bRight txtCenter txtMid">DRA</td>
-                                        <td class="bRight txtCenter bBottom" style="background-color: gray;">
-                                            <img src="./API_files/dragon tiger.png" class="IconSize">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Roulette</td>
-                                        <td class="bRight txtCenter txtMid">ROU</td>
-                                        <td class="bRight txtCenter bBottom" style="background-color: gray;">
-                                            <img src="./API_files/roulette.png" class="IconSize">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">SicBo</td>
-                                        <td class="bRight txtCenter txtMid">SIC</td>
-                                        <td class="bRight txtCenter bBottom" style="background-color: gray;">
-                                            <img src="./API_files/sic bo.png" class="IconSize">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Multi-Table</td>
-                                        <td class="bRight txtCenter txtMid">MUL</td>
-                                        <td class="bRight txtCenter" style="background-color: gray;">
-                                            <img src="./API_files/multi-table.png" class="IconSize">
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Game direct link</b></lable>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.9rem;">
-                        <div class="col-12">
-                            <label class="txtHead">Baccarat
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=BAC</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Dragon-Tiger
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=DRA</label>
-
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Roulette
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=ROU</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">SicBo
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=SIC</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Multi-Table
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=MUL</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Language</b></lable>
-                    </div>
-                    <div class="form-group col-12">
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Remark: please use exactly code with example.</label>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-2"></div>
-                    <div class="form-group col-6">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th class="bRight txtCenter" style="width: 200px;">Language</th>
-                                        <th class="txtCenter" style="width: 210px;">Value of parameter</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight txtMid">English</td>
-                                        <td class="txtCenter txtMid">EN</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Thai</td>
-                                        <td class="txtCenter txtMid">TH</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Chinese Mandarin</td>
-                                        <td class="txtCenter txtMid">CNM</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Chinese Cantonese</td>
-                                        <td class="txtCenter txtMid">CNC</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Korean</td>
-                                        <td class="txtCenter txtMid">KOR</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight txtMid">Vietnam</td>
-                                        <td class="txtCenter txtMid">VT</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.87rem;">
-                        <div class="col-12">
-                            <label class="txtHead">English
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=EN</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Thai
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=TH</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Chinese Mandarin
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=CNM</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Chinese Cantonese
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=CNC</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Korean
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=KOR</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Vietnam
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;</label><label class="txtHead">lang=VT</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Signout re-direct optional link:</b></lable>
-                    </div>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.681rem;">
-                        <div class="col-12">
-                            <label class="txtHead">Baccarat
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=BAC&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Dragon-Tiger
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=DRA&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Roulette
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=ROU&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">SicBo
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=SIC&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Multi-Table
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;game=MUL&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5"></div> -->
-
 
                 <div class="col-12" id="tabFive">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.5 getUserBalance">5.5
@@ -1405,10 +1204,7 @@
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">71011</td>
-                                        <td>invalid AgentKey ,key not Match</td>
-                                    </tr> -->
+                            
                                     <tr>
                                         <td class="bRight">71014</td>
                                         <td>invalid UserMember.</td>
@@ -1427,12 +1223,12 @@
                                 <div class="koh-faq-answer col-9">
 <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50</span>,
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
@@ -1495,8 +1291,7 @@
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <!-- <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td>
-                                     -->
+                                      
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
@@ -1512,7 +1307,6 @@
                                     <tr>
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
-                                        <!-- <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">5.12 depositWithdrawHistoryByTransId</a></td> -->
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                 </tbody>
@@ -1698,8 +1492,8 @@
         <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
         <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">100</span>,
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
@@ -1965,8 +1759,8 @@
         <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23</span>,
         <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">0</span>,
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4"</span>,
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
@@ -2071,7 +1865,7 @@
                                 <div class="koh-faq-answer col-9">
 <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"a18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
@@ -2156,12 +1950,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Player username from partner system.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">datetime</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
-                                    </tr>
+                                
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
@@ -2214,8 +2003,7 @@
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <!-- <td>Success,SuccessfulBet, Pending, Cancel.
-                                        </td> -->
+                                       
                                         <td>Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).
                                         </td>
                                     </tr>
@@ -2225,12 +2013,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Bet Detail.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">betKey</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>txtList แต่ละตัว โดยการนำ ticketid-betid แล้วเข้ารหัส base64</td>
-                                    </tr>
+                            
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
@@ -2383,14 +2166,10 @@
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71003</td>
+                                        <td class="bRight">71004</td>
                                         <td>Invalid agentUsername or apiKey.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
-                                    </tr>
- 
+                            
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -2446,7 +2225,7 @@
             <span class="hljs-attr">"docs"</span>: [
                     {
                     <span class="hljs-attr">"no"</span>: <span class="hljs-number">1,</span>
-                    <span class="hljs-attr"> "playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
+                    <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
                     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"testuserapi001@agentapi",</span>
                     <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-15 18:44:36",</span>
                     <span class="hljs-attr">"ticketId"</span>:<span class="hljs-number"> 6609,</span>
@@ -2474,7 +2253,7 @@
                         ]
                     }
                 ],
-                <span class="hljs-attr"> "totalDocs"</span>: <span class="hljs-number">1,</span>
+                <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-number">1,</span>
                 <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1,</span>
                 <span class="hljs-attr">"totalPages"</span>: <span class="hljs-number">1,</span>
                 <span class="hljs-attr">"page"</span>: <span class="hljs-number">1,</span>
@@ -2482,9 +2261,9 @@
                 <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
                 <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
                 <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null,</span>
-            },
-            <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
-        }
+            }
+        },
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
     }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -2546,7 +2325,7 @@
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent</td>
-                                        <!-- <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Seamless_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td> -->
+                                        
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
@@ -2584,45 +2363,15 @@
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05"</span>,
-    <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>
+    <span class="hljs-attr">"page"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"limit"</span>: <span class="hljs-number">1</span>
 }</code></pre>
                                     <script src="./API_files/ex4_9.js.download"></script>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Bet Position</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">BACCARAT</td>
-                                        <td>'banker', 'player', 'tie', 'bankerPair', 'playerPair', 'big', 'small',
-                                            'bankerNatural', 'playerNatural', 'super6'</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">DRAGON TIGER</td>
-                                        <td>'dragon','tiger'</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">TIPS DEALER</td>
-                                        <td>'tips'</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div> -->
+                
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
@@ -2682,7 +2431,7 @@
                                         <td class="bRight">docs</td>
                                         <td class="bRight">arrayobject</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
+                                        <td>Array of documents.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
@@ -2696,12 +2445,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Player username from partner system.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">datetime</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
-                                    </tr>
+                                  
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
@@ -2756,8 +2500,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Success, Pending, Cancel.
                                         </td>
-                                        <!-- <td>Success,SuccessfulBet, Pending, Cancel.
-                                        </td> -->
+                                      
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
@@ -2765,12 +2508,7 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Bet Detail.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">betKey</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>txtList แต่ละตัว โดยการนำ ticketid-betid แล้วเข้ารหัส base64</td>
-                                    </tr>
+\
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
@@ -2919,16 +2657,13 @@
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71002</td>
+                                        <td class="bRight">71004</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
-
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-
-
                                     <tr>
                                         <td class="bRight">71022</td>
                                         <td>invalid input format 'startDate' field.</td>
@@ -2961,37 +2696,7 @@
                             </table>
                         </div>
                     </div>
-                    <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Calculation Description</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable47D">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">validAmt</td>
-                                        <td>validAmt = betAmt</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">payOutAmt</td>
-                                        <td>payOutAmt = (betAmt(absolute) * payOutRate) + payOutCom</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">winLose</td>
-                                        <td>winLose = payOutAmt - validAmt</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div> -->
+                 
                     <div class="koh-tab-content col-12">
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
@@ -3008,56 +2713,56 @@
         <span class="hljs-attr">"endDate"</span>: <span class="hljs-number">"2021-07-20 15:04:05",</span>
         <span class="hljs-attr">"result"</span>: {
             <span class="hljs-attr">"docs"</span>: [
-    {
-    <span class="hljs-attr">"no"</span>: 1,</span>
-    <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
-    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"superbas@agentapi",</span>
-    <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
-    <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6555,</span>
-    <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
-    <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
-    <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
-    <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">30,</span>
-    <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
-    <span class="hljs-attr">"totalPayOutAmt"</span>:<span class="hljs-number"> 0,</span>
-    <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-30,</span>
-    <span class="hljs-attr"> "Status"</span>: <span class="hljs-number">"pending",</span>
-    <span class="hljs-attr"> "txtList"</span>: [
-        {
-            <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0x",</span>
-            <span class="hljs-attr">"betId"</span>:<span class="hljs-number"> "1",</span>
-            <span class="hljs-attr">"betType"</span>:<span class="hljs-number"> "top6",</span>
-            <span class="hljs-attr">"betNumber"</span>:<span class="hljs-number"> "555666",</span>
-            <span class="hljs-attr">"betStatus"</span>:<span class="hljs-number"> "pending",</span>
-            <span class="hljs-attr">"betAmt"</span>:<span class="hljs-number"> 10,</span>
-            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
-            <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
-            <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
-            <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
-        },
-        {
-            <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0y",</span>
-            <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"2",</span>
-            <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
-            <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"923548",</span>
-            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
-            <span class="hljs-attr">"betTotal"</span>:<span class="hljs-number"> 10,</span>
-            <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
-            <span class="hljs-attr">"payOutRate"</span>:<span class="hljs-number"> 50000,</span>
-            <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
-        },
-        {
-            <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0z",</span>
-            <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"3",</span>
-            <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
-            <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"055475",</span>
-            <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-            <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
-            <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
-            <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
-            <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
-            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                {
+                <span class="hljs-attr">"no"</span>: 1,</span>
+                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-number">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57",</span>
+                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-number">"superbas@agentapi",</span>
+                <span class="hljs-attr">"datetime"</span>: <span class="hljs-number">"2021-07-14 18:00:39",</span>
+                <span class="hljs-attr">"ticketId"</span>: <span class="hljs-number">6555,</span>
+                <span class="hljs-attr">"type"</span>: <span class="hljs-number">"thailotto",</span>
+                <span class="hljs-attr">"round"</span>:<span class="hljs-number"> 1,</span>
+                <span class="hljs-attr">"goverment"</span>: <span class="hljs-number">false,</span>
+                <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">30,</span>
+                <span class="hljs-attr">"discount"</span>: <span class="hljs-number">0,</span>
+                <span class="hljs-attr">"totalPayOutAmt"</span>:<span class="hljs-number"> 0,</span>
+                <span class="hljs-attr">"totalBalanceAmt"</span>: <span class="hljs-number">-30,</span>
+                <span class="hljs-attr"> "Status"</span>: <span class="hljs-number">"pending",</span>
+                <span class="hljs-attr"> "txtList"</span>: [
+                {
+                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0x",</span>
+                    <span class="hljs-attr">"betId"</span>:<span class="hljs-number"> "1",</span>
+                    <span class="hljs-attr">"betType"</span>:<span class="hljs-number"> "top6",</span>
+                    <span class="hljs-attr">"betNumber"</span>:<span class="hljs-number"> "555666",</span>
+                    <span class="hljs-attr">"betStatus"</span>:<span class="hljs-number"> "pending",</span>
+                    <span class="hljs-attr">"betAmt"</span>:<span class="hljs-number"> 10,</span>
+                    <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
+                    <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
+                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
+                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
+                },
+                {
+                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0y",</span>
+                    <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"2",</span>
+                    <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
+                    <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"923548",</span>
+                    <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
+                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
+                    <span class="hljs-attr">"betTotal"</span>:<span class="hljs-number"> 10,</span>
+                    <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
+                    <span class="hljs-attr">"payOutRate"</span>:<span class="hljs-number"> 50000,</span>
+                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
+                },
+                {
+                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0z",</span>
+                    <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"3",</span>
+                    <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
+                    <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"055475",</span>
+                    <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
+                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
+                    <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
+                    <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
+                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
+                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
                 }
             ]
         }
@@ -3070,9 +2775,9 @@
             <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false,</span>
             <span class="hljs-attr">"prevPage"</span>: <span class="hljs-number">null,</span>
             <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
-            },
-            <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-        }
+            }
+        },
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
 }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -3082,268 +2787,7 @@
                 </div>
                 <div class="pb-5"></div>
 
-<!-- 
-                <div class="col-12" id="tabTen">
-                    <lable><b style="color: #19A17A  !important;">5.10 getMemberWinLoseTurnOver</b></lable>
-                </div>
-                <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox">
-                        <div class="col-12">
-                            <label class="txtHead">Method : </label>
-                            <label>Post</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">Url : </label>
-                            <label>
-                                https://api-dev.prettygaming.asia/apiRoute/api/getMemberWinLoseTurnOver
-                            </label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">
-                                headers :
-                            </label>
-                            <label>
-                                content-type application/json
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
-                        </lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable410A">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">agentUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td>Agent account , Account length is restricted to 36 chars at most.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">agentApiKey</td>
-                                        <td class="bRight">String</td>
-                                        <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">startDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">endDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"startapiTransferwallet"</span>,
-                                    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"ae6330a9-6c2f-1bd3-3122-47ddad703de9"</span>,
-                                    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startTransferwalletmember"</span>,
-                                    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2019-05-03 20:36:13"</span>,
-                                    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2020-05-20 20:36:13"</span>
-                                    }</code></pre>
-                                    <script src="./API_files/ex4_10.js.download"></script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable410B">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Result Code Reference.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">msg</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Information message.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Object respone.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerApiId</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from partner system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerApiUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from Pretty Gaming system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">startDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">endDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">turnOver</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable410C">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'balance' field.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71001</td>
-                                        <td>missing filed 'agentUsername'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71002</td>
-                                        <td>missing filed 'agentApiKey'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71003</td>
-                                        <td>Invalid agentUsername or apiKey.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71015</td>
-                                        <td>Can request up to 5 times per minute.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71018</td>
-                                        <td>missing filed 'startDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71019</td>
-                                        <td>missing filed 'endDate'.</td>
-                                    </tr>
 
-                                    <tr>
-                                        <td class="bRight">71020</td>
-                                        <td>Invalid filed 'startDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71021</td>
-                                        <td>Invalid filed 'endDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911008</td>
-                                        <td>Player not found.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Respond
-                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
-                                    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                                    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                                    <span class="hljs-attr">"data"</span>: {
-                                        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                                        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startTransferwalletmember"</span>,
-                                        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startTransferwalletmember@startapiTransferwallet"</span>,
-                                        <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2019-05-03 20:36:13"</span>,
-                                        <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2020-05-20 20:36:13"</span>,
-                                        <span class="hljs-attr">"turnOver"</span>: <span class="hljs-number">0</span>
-                                    }
-                                    }</code></pre>
-                                    <script src="./API_files/ex4_10B.js.download"></script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5"></div> -->
 
 
                 <div class="col-12" id="tabTen">
@@ -3397,7 +2841,7 @@
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent</td>
-                                        <!-- <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td> -->
+                                       
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
@@ -3469,17 +2913,18 @@
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerApiUsername</td>
+                                        <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
+                                  
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
@@ -3528,16 +2973,13 @@
                                         <td class="bRight">0</td>
                                         <td>SUCCESS</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'balance' field.</td>
-                                    </tr>
+                            
                                     <tr>
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71001</td>
+                                        <td class="bRight">71004</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                               
@@ -3571,8 +3013,8 @@
     <span class="hljs-attr">"data"</span>: 
     {
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b"</span>,
         <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
         <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>,
@@ -3639,7 +3081,6 @@
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <!-- <td>System generate <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0" class="aLink">key</a> ID after crate Agent</td> -->
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
@@ -3716,13 +3157,13 @@
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from partner system.</td>
+                                        <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
@@ -3777,25 +3218,21 @@
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71002</td>
+                                        <td class="bRight">71004</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
-                               
-                                
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71019</td>
-                                        <td>invalid transId</td>
+                                        <td class="bRight">71020</td>
+                                        <td>invalid referenceid</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71029</td>
-                                        <td>missing filed 'transId'.</td>
+                                        <td class="bRight">71028</td>
+                                        <td>missing filed 'ref'.</td>
                                     </tr>
-
-
                                 </tbody>
                             </table>
                         </div>
@@ -3814,10 +3251,11 @@
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86"</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi"</span>,
-        <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>,
+        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b"</span>,
         <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>,
-        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35"</span>
+        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2021-07-15 15:05:08"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>
+        
     },
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
