@@ -173,12 +173,12 @@
                                 <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
                                         <span class="sv-normal">4.5.6 UserPlaceReToRunning</span></a>
                                 </li>
-                                <!--<li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
-                                        <span class="sv-normal">4.5.7 UserPayTipsCancel</span></a>
+                                <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
+                                        <span class="sv-normal">4.5.7 UserPayReward (Coming soon)</span></a>
                                 </li>
                                 <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
-                                        <span class="sv-normal">4.5.8 Response Code</span></a>
-                                </li> -->
+                                        <span class="sv-normal">4.5.8 UserPayRewardCancel (Coming soon)</span></a>
+                                </li>
                                 <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
                                         <span class="sv-normal" set-lan="text:3.6">4.6 Optional
                                             API</span></a>
