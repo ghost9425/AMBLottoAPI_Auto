@@ -1952,6 +1952,12 @@
                                     </tr>
                                 
                                     <tr>
+                                        <td class="bRight">datetime</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight txtCenter">Yes</td>
@@ -2445,7 +2451,12 @@
                                         <td class="bRight txtCenter">Yes</td>
                                         <td>Player username from partner system.</td>
                                     </tr>
-                                  
+                                    <tr>
+                                        <td class="bRight">datetime</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight txtCenter">Yes</td>
+                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                    </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
