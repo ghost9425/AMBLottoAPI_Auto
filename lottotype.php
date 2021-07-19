@@ -278,72 +278,72 @@
                                         <tr>
                                             <td class="bRight txtCenter">1</td>
                                             <td class="bRight">top6</td>
-                                            <td class="bRight">6ตัวบน</td>
+                                            <td class="bRight">6 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">2</td>
                                             <td class="bRight">top5</td>
-                                            <td class="bRight">5ตัวบน</td>
+                                            <td class="bRight">5 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">3</td>
                                             <td class="bRight">top4</td>
-                                            <td class="bRight">4ตัวบน</td>
+                                            <td class="bRight">4 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">4</td>
                                             <td class="bRight">row4</td>
-                                            <td class="bRight">4ตัวโต๊ด</td>
+                                            <td class="bRight">4 โต๊ด</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">5</td>
                                             <td class="bRight">top3</td>
-                                            <td class="bRight">3ตัวบน</td>
+                                            <td class="bRight">3 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">6</td>
                                             <td class="bRight">bottom3</td>
-                                            <td class="bRight">3ตัวล่าง</td>
+                                            <td class="bRight">3 ตัวล่าง</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">7</td>
                                             <td class="bRight">row3</td>
-                                            <td class="bRight">3ตัวโต๊ด</td>
+                                            <td class="bRight">3 โต๊ด</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">8</td>
                                             <td class="bRight">top2</td>
-                                            <td class="bRight">2ตัวบน</td>
+                                            <td class="bRight">2 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">9</td>
                                             <td class="bRight">bottom2</td>
-                                            <td class="bRight">2ตัวล่าง</td>
+                                            <td class="bRight">2 ตัวล่าง</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">10</td>
                                             <td class="bRight">row2</td>
-                                            <td class="bRight">2ตัวโต๊ด</td>
+                                            <td class="bRight">2 โต๊ด</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">11</td>
                                             <td class="bRight">back2</td>
-                                            <td class="bRight">2ตัวหลัง</td>
+                                            <td class="bRight">2 ตัวหลัง</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">12</td>
                                             <td class="bRight">front2</td>
-                                            <td class="bRight">2ตัวหน้า</td>
+                                            <td class="bRight">2 ตัวหน้า</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">13</td>
                                             <td class="bRight">top1</td>
-                                            <td class="bRight">1ตัวบน</td>
+                                            <td class="bRight">1 ตัวบน</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">14</td>
                                             <td class="bRight">bottom1</td>
-                                            <td class="bRight">1ตัวล่าง</td>
+                                            <td class="bRight">1 ตัวล่าง</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight txtCenter">15</td>
