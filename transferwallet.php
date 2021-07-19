@@ -119,8 +119,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="txtCenter bRight">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -128,25 +127,25 @@
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                   
@@ -1112,8 +1111,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1121,43 +1119,43 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Total balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from Pretty Gaming system.</td>
                                     </tr>
 
@@ -1344,8 +1342,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1353,61 +1350,61 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Deposit balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Balance after Deposit  of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Balance after Deposit  of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
@@ -1611,8 +1608,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1620,61 +1616,61 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Withdraw balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Balance after Withdraw of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Balance after Withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
@@ -1889,8 +1885,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1898,117 +1893,117 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">endDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">result</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">docs</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system..</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                 
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet group record from one submit.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Round of drawagent ex. yeekeelotto round 88 (default = 1)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">discount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                        
                                         <td>Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).
                                         </td>
@@ -2016,124 +2011,124 @@
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet Detail.</td>
                                     </tr>
                             
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet id of bet position.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Status of bet data(Pending).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet total amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betDiscount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betNumber</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutRate</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Rate payout when member win.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Payout amount of this reccord.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Total number of documents in collection that match a query.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Limit that was used.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPages</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Total number of pages.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Next page number</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                 </tbody>
@@ -2390,8 +2385,6 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -2399,116 +2392,116 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">endDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">result</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">docs</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Array of documents.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet group record from one submit.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Round of drawagent ex. yeekeelotto round 88</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">discount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Success, Pending, Cancel.
                                         </td>
                                       
@@ -2516,124 +2509,124 @@
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet Detail.</td>
                                     </tr>
 \
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet id of bet position.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Status of bet data(Pending).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet total amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betDiscount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betNumber</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>User bet number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutRate</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Rate payout when member win.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Payout amount of this reccord.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Total number of documents in collection that match a query.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Limit that was used.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPages</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Total number of pages.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Next page number</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                 </tbody>
@@ -2892,8 +2885,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -2901,64 +2893,64 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                   
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Deposit/Withdraw transaction reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Transaction amount.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">transferDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
                                 </tbody>
@@ -3133,8 +3125,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
+                                        
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -3142,62 +3133,62 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player Id from partner system.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Transaction amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferDate</td>
                                         <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        
                                         <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
 
