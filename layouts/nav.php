@@ -174,10 +174,10 @@
                                         <span class="sv-normal">4.5.6 UserPlaceReToRunning</span></a>
                                 </li>
                                 <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
-                                        <span class="sv-normal">4.5.7 UserPayReward (Coming soon)</span></a>
+                                        <span class="sv-normal">4.5.7 UserPayReward</span></a>
                                 </li>
                                 <li id="manu458"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
-                                        <span class="sv-normal">4.5.8 UserPayRewardCancel (Coming soon)</span></a>
+                                        <span class="sv-normal">4.5.8 UserPayRewardCancel</span></a>
                                 </li>
                                 <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
                                         <span class="sv-normal" set-lan="text:3.6">4.6 Optional
