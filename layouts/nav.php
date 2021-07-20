@@ -238,17 +238,18 @@
                                         <span class="sv-normal" set-lan="html:4.9">5.9
                                             betHistories</span></a>
                                 </li>
-                                <!-- <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tabTen">
-                                        <span class="sv-normal" set-lan="html:4.10">5.10
-                                            getMemberWinLoseTurnOver</span></a>
-                                </li> -->
+                         
                                 <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tab10">
-                                        <span class="sv-normal" set-lan="html:4.11">5.10
+                                        <span class="sv-normal" set-lan="html:4.10">5.10
                                             depositWithdrawHistory</span></a>
                                 </li>
                                 <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
-                                        <span class="sv-normal" set-lan="html:4.12">5.11
+                                        <span class="sv-normal" set-lan="html:4.11">5.11
                                             depositWithdrawHistoryByTransId</span></a>
+                                </li>
+                                <li id="manu512"><a class="waves-effect submenu" href="transferwallet.php#tab12">
+                                        <span class="sv-normal" set-lan="html:4.12">5.12
+                                            GetListBetResult</span></a>
                                 </li>
                             </ul>
 
