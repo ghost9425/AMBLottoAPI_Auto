@@ -14,7 +14,7 @@
                 <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
                         Transferwallet API</b></h1>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabOne">
+                <div class="col-12" id="tab1">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
                             Introduction Transferwallet API</b></lable>
                 </div>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabTwo">
+                <div class="col-12" id="tab2">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.2 Workflow">5.2 Workflow</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabThree">
+                <div class="col-12" id="tab3">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.3 Setting">5.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -78,7 +78,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tabFour">
+                <div class="col-12" id="tab4">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.4 login request">5.4 login request</b>
                     </lable>
                 </div>
@@ -1020,7 +1020,7 @@
                         </div>
                     </div>
 
-                <div class="col-12" id="tabFive">
+                <div class="col-12" id="tab5">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.5 getUserBalance">5.5
                             getUserBalance</b></lable>
                 </div>
@@ -1239,7 +1239,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tabSix">
+                <div class="col-12" id="tab6">
                     <lable><b style="color: #19A17A  !important;">5.6 deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1504,7 +1504,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tabSeven">
+                <div class="col-12" id="tab7">
                     <lable><b style="color: #19A17A  !important;">5.7 withdrawal</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1770,7 +1770,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tabEight">
+                <div class="col-12" id="tab8">
                     <lable><b style="color: #19A17A  !important;">5.8 memberBetHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -2275,7 +2275,7 @@
                 <div class="pb-5"></div>
 
 
-                <div class="col-12" id="tabNine">
+                <div class="col-12" id="tab9">
                     <lable><b style="color: #19A17A  !important;">5.9 betHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -2794,7 +2794,7 @@
 
 
 
-                <div class="col-12" id="tabTen">
+                <div class="col-12" id="tab10">
                     <lable><b style="color: #19A17A  !important;">5.10 depositWithdrawHistory</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -3291,8 +3291,8 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#manu8 , #manu8 > a").addClass("active");
-        $("#manu8 > div").css("display", "block");
+        $("#manu5 , #manu5 > a").addClass("active");
+        $("#manu5 > div").css("display", "block");
 
         $(this).on("click", ".koh-faq-question", function() {
             $(this).parent().find(".koh-faq-answer").slideToggle();
@@ -3302,7 +3302,7 @@
         var URL = window.location.href;
         URL = URL.substring(URL.lastIndexOf('#') + 1);
 
-        var page = 4;
+        var page = 5;
         var link = url_link(page, URL);
         $("#" + link + " , #" + link + " > a").addClass("active");
     });

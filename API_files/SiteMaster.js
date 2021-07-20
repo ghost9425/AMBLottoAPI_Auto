@@ -87,26 +87,49 @@ function url_link(p, id) {
             AA = "manu45";
         }
         if (id == "tabSix") {
-            AA = "manu46";
+            AA = "manu451";
+        }
+        if (id == "tabSixs") {
+            AA = "manu452";
         }
         if (id == "tabSeven") {
-            AA = "manu47";
+            AA = "manu453";
         }
         if (id == "tabEight") {
-            AA = "manu48";
+            AA = "manu454";
         }
         if (id == "tabNine") {
-            AA = "manu49";
+            AA = "manu455";
+        }
+        if (id == "tab15") {
+            AA = "manu456";
+        }
+        if (id == "tab16") {
+            AA = "manu457";
         }
         if (id == "tabTen") {
-            AA = "manu410";
+            AA = "manu458";
         }
-        if (id == "tab11") {
-            AA = "manu411";
+        if (id == "tabEleven") {
+            AA = "manu46";
         }
-        if (id == "tab12") {
-            AA = "manu412";
+        if (id == "tabFourteen") {
+            AA = "manu461";
         }
+        if (id == "tabTwelve") {
+            AA = "manu462";
+        }
+        
+
+
+
+
+
+
+
+
+
+
     }
     if (p == 5) {
         if (id == "tab1") {
