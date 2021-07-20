@@ -22,7 +22,7 @@
                     <h1><b style="color: #19A17A !important;">AMBLOTTO Integration Form</b></h1>
                     <div class="btn-toolbar mb-3" role="toolbar">
                         <div class="form-group col-12" style="margin-left: 4rem;">
-                            <a href="https://service-api.prettygaming.asia/Download/PrettyGaming_integration_form.docx"
+                            <a href="./API_files/AMBLOTTOVIP_integration_form.docx"
                                 class="Point colorDownload" download=""><i class="fa fa-download"
                                     aria-hidden="true"></i>
                                 <label class="Point">&nbsp;Download</label></a>
