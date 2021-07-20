@@ -1012,7 +1012,7 @@
         <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off",</span>
         <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
     },
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS",</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
                                     <script src="./API_files/ex4_4B.js.download"></script>
                                 </div>
@@ -1180,7 +1180,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -1428,7 +1428,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -1493,7 +1493,7 @@
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4",</span>
     },
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
                                     <script src="./API_files/ex4_6B.js.download"></script>
                                 </div>
@@ -1571,7 +1571,7 @@
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
-                                        <!-- <td>Optional: should be Unique key from your system. reference to <a href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx#tab12" class="aLink">5.12 depositWithdrawHistoryByTransId</a></td> -->
+                                        
                                     </tr>
                                 </tbody>
                             </table>
@@ -1694,7 +1694,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -1759,7 +1759,7 @@
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
         <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4",</span>
     },
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
                                     <script src="./API_files/ex4_7B.js.download"></script>
                                 </div>
@@ -2152,7 +2152,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -2264,7 +2264,7 @@
                 <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null,</span>
             }
         },
-        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
     }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -2650,7 +2650,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">41001</td>
@@ -2781,7 +2781,7 @@
             <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
             }
         },
-        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS",</span>
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
                                     <script src="./API_files/ex4_8B.js.download"></script>
                                 </div>
@@ -2974,7 +2974,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                             
                                     <tr>
@@ -3023,7 +3023,7 @@
         <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2020-07-13 16:22:35",</span>
         <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT",</span>
     },
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS",</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
                                     <script src="./API_files/ex4_11B.js.download"></script>
                                 </div>
@@ -3213,7 +3213,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71001</td>
@@ -3286,7 +3286,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/depositWithdrawHistoryByTransId
+                                https://dev-api.pirate168.com/apiRoute/api/GetListBetResult
                             </label>
                         </div>
                         <div class="col-12">
@@ -3326,9 +3326,19 @@
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">transId</td>
+                                        <td class="bRight">lottotype</td>
                                         <td class="bRight">String</td>
-                                        <td>transId Unique from your system type Deposit / Withdrawal</td>
+                                        <td>Key of lotto type.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">startDate</td>
+                                        <td class="bRight">Date</td>
+                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">endDate</td>
+                                        <td class="bRight">Date</td>
+                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -3344,7 +3354,9 @@
 <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
-    <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>
+    <span class="hljs-attr">"lottotype"</span>: <span class="hljs-string">"stockrussia",</span>
+    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05",</span>
+    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>
 }
 </code></pre>
                                     <script src="./API_files/ex4_12A.js.download"></script>
@@ -3372,8 +3384,17 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
                                         <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">date</td>
+                                        <td class="bRight">String</td>
+                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
@@ -3381,56 +3402,25 @@
                                         
                                         <td>Information message.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        
-                                        <td>Object respone.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerApiId</td>
-                                        <td class="bRight">String</td>
-                                        
-                                        <td>Player Id from partner system.</td>
-                                    </tr>
 
                                     <tr>
-                                        <td class="bRight">playerApiUsername</td>
+                                        <td class="bRight">result</td>
+                                        <td class="bRight">arrayobject</td>
+                                        
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">name_th</td>
                                         <td class="bRight">String</td>
                                         
-                                        <td>Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">name_en</td>
                                         <td class="bRight">String</td>
                                         
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td></td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">transId</td>
-                                        <td class="bRight">String</td>
-                                        
-                                        <td>transId Unique from your system type Deposit / Withdrawal</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">transferAmount</td>
-                                        <td class="bRight">Number</td>
-                                        
-                                        <td>Transaction amount.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">transferDate</td>
-                                        <td class="bRight">Date</td>
-                                        
-                                        <td>transId Unique from your system type Deposit / Withdrawal</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">type</td>
-                                        <td class="bRight">String</td>
-                                        
-                                        <td>Transaction type (DEPOSIT/WITHDRAW).</td>
-                                    </tr>
-
                                 </tbody>
                             </table>
                         </div>
@@ -3452,7 +3442,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
+                                        <td>success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71001</td>
@@ -3467,12 +3457,20 @@
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71020</td>
-                                        <td>invalid referenceid</td>
+                                        <td class="bRight">71011</td>
+                                        <td>invalid lottotype</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71028</td>
-                                        <td>missing filed 'ref'.</td>
+                                        <td class="bRight">71021</td>
+                                        <td>please input startDate and endDate</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>invalid input format 'startDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71023</td>
+                                        <td>invalid input format 'endDate' field.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -3488,18 +3486,44 @@
                                 <div class="koh-faq-answer col-9">
 <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
-    <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi",</span>
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"agentapi",</span>
-        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"ed7f691047408bf04b49e1479731a55e1e732ed9d1e8e17bda729f030d685b",</span>
-        <span class="hljs-attr">"transferAmount"</span>: <span class="hljs-number">100,</span>
-        <span class="hljs-attr">"transferDate"</span>: <span class="hljs-string">"2021-07-15 15:05:08",</span>
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEPOSIT"</span>
-        
-    },
-    <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"success"</span>
+    <span class="hljs-attr">"data"</span>: [
+        {
+            <span class="hljs-attr">"name_th"</span>: <span class="hljs-string">"หวยหุ้นรัสเซีย",</span>
+            <span class="hljs-attr">"name_en"</span>: <span class="hljs-string">"Stock Russia",</span>
+            <span class="hljs-attr">"date"</span>: <span class="hljs-string">"2021-07-20 00:00:00",</span>
+            <span class="hljs-attr">"result"</span>: {
+                <span class="hljs-attr">"top3"</span>: [
+                    <span class="hljs-attr">"123"</span>
+                ],
+                <span class="hljs-attr">"row3"</span>: [
+                    <span class="hljs-attr">"123",</span>
+                    <span class="hljs-attr">"132",</span>
+                    <span class="hljs-attr">"213",</span>
+                    <span class="hljs-attr">"231",</span>
+                    <span class="hljs-attr">"312",</span>
+                    <span class="hljs-attr">"321"</span>
+                ],
+                <span class="hljs-attr">"top2"</span>: [
+                    <span class="hljs-attr">"23"</span>
+                ],
+                <span class="hljs-attr">"bottom2"</span>: [
+                    "22"
+                ],
+                <span class="hljs-attr">"top1"</span>: [
+                    <span class="hljs-attr">"1",</span>
+                    <span class="hljs-attr">"2",</span>
+                    <span class="hljs-attr">"3"</span>
+                ],
+                <span class="hljs-attr">"bottom1"</span>: [
+                    <span class="hljs-attr">"2"</span>
+                ]
+            }
+        }
+    ],
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
+
+
                                     <script src="./API_files/ex4_12B.js.download"></script>
                                 </div>
                             </div>

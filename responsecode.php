@@ -59,242 +59,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #19A17A !important;">6.2 Token</b></lable>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper marTop">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">61001</td>
-                                        <td>IP address is not allowed.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71017</td>
-                                        <td>transId has already existed</td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;">6.3 System</b></lable>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper marTop">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">51101</td>
-                                        <td>Duplicate Transaction (no return).</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">51102</td>
-                                        <td>Transaction not found.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71012</td>
-                                        <td>login fail</td>
-                                    </tr>
-                                  
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12" id="tabFour">
-                    <lable><b style="color: #19A17A !important;">6.4 Validator</b></lable>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper marTop">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'balance' field.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'page' field.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'limit' field.</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="bRight">90003</td>
-                                        <td>limit should be greater than or equal to 1 </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">90003</td>
-                                        <td>limit should be greater than 0</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71019</td>
-                                        <td>invalid transId</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71020</td>
-                                        <td>invalid referenceid</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71022</td>
-                                        <td>invalid input format 'startDate' field.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71022</td>
-                                        <td>Invalid filed 'page'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71023</td>
-                                        <td>invalid input format 'endDate' field.</td>
-                                    </tr>
-                                   
-                                    <tr>
-                                        <td class="bRight">71024</td>
-                                        <td>page should be greater than 0</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71025</td>
-                                        <td>balance should be greater than 0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12" id="tabFive">
-                    <lable><b style="color: #19A17A !important;">6.5 Caculator</b></lable>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper marTop">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">911001</td>
-                                        <td>Insufficient balance.</td>
-                                    </tr>
-                                  
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12" id="tabSix">
-                    <lable><b style="color: #19A17A !important;">6.6 Seamless API</b></lable>
-                </div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper marTop">
-                            <table class="table table-borderless table-striped">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">71001</td>
-                                        <td>missing filed 'agentUsername'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71002</td>
-                                        <td>missing filed 'playerUsername'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71004</td>
-                                        <td>missing filed 'agentApiKey'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">41001</td>
-                                        <td>Error Request body is not an object.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71005</td>
-                                        <td>playerUsername must be between 4 and 24 characters long.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71005</td>
-                                        <td>playerUsername must be between 4 and 36 characters long.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71006</td>
-                                        <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71029</td>
-                                        <td>missing filed 'transId'.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71016</td>
-                                        <td>Can request up to 15 times per minute.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71026</td>
-                                        <td>missing filed 'startDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71027</td>
-                                        <td>missing filed 'endDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71028</td>
-                                        <td>missing filed 'ref'.</td>
-                                    </tr>
-                                 
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div> -->
+      
 
                 <div class="col-12" id="tabTwo">
                     <lable><b style="color: #19A17A !important;">6.2 Service Respone</b></lable>
@@ -369,6 +134,10 @@
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">71011</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">71012</td>
                                         <td>login fail</td>
                                     </tr>
@@ -393,13 +162,14 @@
                                         <td>invalid referenceid</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71022</td>
-                                        <td>invalid input format 'startDate' field.</td>
+                                        <td class="bRight">71021</td>
+                                        <td>please input startDate and endDate</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71022</td>
-                                        <td>Invalid filed 'page'.</td>
+                                        <td>invalid input format 'startDate' field.</td>
                                     </tr>
+                                   
                                     <tr>
                                         <td class="bRight">71023</td>
                                         <td>invalid input format 'endDate' field.</td>
