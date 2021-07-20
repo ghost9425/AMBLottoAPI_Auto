@@ -499,7 +499,7 @@
         var URL = window.location.href;
         URL = URL.substring(URL.lastIndexOf('#') + 1);
         
-        var page = 8;
+        var page = 6;
         console.log(url_link(page, URL));
         var link = url_link(page, URL);
         $("#" + link + " , #" + link + " > a").addClass("active");

@@ -4513,7 +4513,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         var URL = window.location.href;
         URL = URL.substring(URL.lastIndexOf('#') + 1);
 
-        var page = 3;
+        var page = 4;
         var link = url_link(page, URL);
         $("#" + link + " , #" + link + " > a").addClass("active");
     });
