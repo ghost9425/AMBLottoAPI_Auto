@@ -191,10 +191,10 @@
                                         <span class="sv-normal" set-lan="text:3.6.2">4.6.2
                                             betHistories</span></a>
                                 </li>
-                                <!-- <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
+                                <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
                                         <span class="sv-normal" set-lan="text:3.6.3">4.6.3
-                                            getMemberWinLoseTurnOver</span></a>
-                                </li> -->
+                                        GetListBetResult</span></a>
+                                </li>
                             </ul>
                         </div>
                     </li>
