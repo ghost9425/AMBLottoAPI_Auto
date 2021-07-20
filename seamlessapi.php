@@ -1708,7 +1708,7 @@
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Status of bet data(Pending, True, False).</td>
+                                        <td class="bRight">Status of bet data(Pending, True, False, Cancel).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
@@ -1969,10 +1969,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">government</td>
                                         <td class="bRight">Boolean</td>
-                                        <td class="bRight">If government = true is lottoset, If government = false is lotto.
-
-                                        </td>
-    
+                                        <td class="bRight">If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">drawId</td>
@@ -2069,7 +2066,6 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
         <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">20064</span>,
         <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-80</span>,
-        <span class="hljs-attr">"validTurn"</span>: <span class="hljs-number">80</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi0y"</span>,
@@ -2353,8 +2349,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight">betKey = endcode64("ticketId" - "betId") </td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">User bet number record key.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betNumber</td>
@@ -2369,7 +2365,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Status of bet data(Pending, True, False).</td>
+                                        <td class="bRight">Status of bet data(Pending, True, False, Cancel).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
@@ -2650,7 +2646,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight">List of bet position.</td>
+                                        <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -2841,11 +2837,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-5"></div>
 
 
-                <!-- <div class="col-12" id="tab16">
-                    <lable><b style="color: #19A17A !important;">4.5.7 UserPayTipsCancel</b></lable>
+                <div class="col-12" id="tab16">
+                    <lable><b style="color: #19A17A !important;">4.5.7 UserPayReward (Coming soon)</b></lable>
                 </div>
                 <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label
                             set-lan="html:357">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -3117,11 +3113,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-5"></div> -->
 
 
-                <!-- <div class="col-12" id="tabTen">
-                    <lable><b style="color: #19A17A !important;">4.5.8 Response Code</b></lable>
+                <div class="col-12" id="tabTen">
+                    <lable><b style="color: #19A17A !important;">4.5.8 UserPayRewardCancel (Coming soon)</b></lable>
                 </div>
                 <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
+                <!-- <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A !important;">Pretty Gaming API Respone</b></lable>
                     </div>
@@ -3454,12 +3450,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Status of bet data(Pending).</td>
+                                        <td class="bRight">Status of bet data(Pending, True, False, Cancel).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">betKey = endcode64("ticketId" - "betId") </td>
+                                        <td class="bRight">User bet number record key.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
@@ -3573,11 +3569,11 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     </tr>
                                     <tr>
                                         <td class="bRight">71002</td>
-                                        <td>missing filed 'agentApiKey'.</td>
+                                        <td>missing filed 'playerUsername'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
+                                        <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71010</td>
@@ -3935,12 +3931,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        <td class="bRight">List of bet position.</td>
+                                        <td class="bRight">Bet Detail.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Bet Detail.</td>
+                                        <td class="bRight">Bet id of bet position.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betType</td>
@@ -3950,12 +3946,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Status of bet data(Pending, True, False).</td>
+                                        <td class="bRight">Status of bet data(Pending, True, False, Cancel).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">betKey = endcode64("ticketId" - "betId") </td>
+                                        <td class="bRight">User bet number record key.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
@@ -4060,16 +4056,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td>Error Request body is not an object.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">41002</td>
+                                        <td>invalid input format 'balance', 'page', 'limit',  field.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71002</td>
-                                        <td>missing filed 'agentApiKey'.</td>
-                                    </tr>
-                                    <tr>
                                         <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
+                                        <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71010</td>
@@ -4210,8 +4206,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-5"></div>
 
 
-                <!-- <div class="col-12" id="tabThirteen">
-                    <lable><b style="color: #19A17A !important;">4.6.3 getMemberWinLoseTurnOver</b></lable>
+                <div class="col-12" id="tabThirteen">
+                    <lable><b style="color: #19A17A !important;">4.6.3 GetListBetResult</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -4225,7 +4221,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 Url :
                             </label>
                             <label>
-                                https://api-dev.prettygaming.asia/apiRoute/api/getMemberWinLoseTurnOver
+                                https://dev-api.pirate168.com/apiRoute/api/GetListBetResult
                             </label>
                         </div>
                         <div class="col-12">
@@ -4251,7 +4247,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -4263,14 +4259,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        <td>System generate <a
-                                                href="https://service-api.prettygaming.asia/Page_API_Document/Transferwallet_API.aspx?Action=0"
-                                                class="aLink">key</a> ID after crate Agent</td>
+                                        <td>System generate key ID after crate Agent.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">lottotype</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from partner system.</td>
+                                        <td>Key of lotto type.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
@@ -4297,12 +4291,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410A" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"startapiTransferwallet"</span>,
-                <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"ae6330a9-6c2f-1bd3-3122-47ddad703de9"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startTransferwalletmember"</span>,
-                <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2019-05-03 20:36:13"</span>,
-                <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2020-05-20 20:36:13"</span>
-            }</code></pre>
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi"</span>,
+    <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3"</span>,
+    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"stockrussia"</span>,
+    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>,
+    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-07-20 15:04:05"</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
@@ -4320,64 +4314,44 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
                                         </th>
-                                        <th style="width: 10%;" set-lan="html:Required" class="bRight txtCenter">
-                                            Required</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        <th style="width: 40%;" set-lan="html:Description" class="bRight">
+                                        Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
                                         <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">String</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">date</td>
+                                        <td class="bRight">String</td>
+                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Object respone.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">playerApiId</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
+                                        <td class="bRight">result</td>
+                                        <td class="bRight">arrayobject</td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">name_th</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from partner system.</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">playerApiUsername</td>
+                                        <td class="bRight">name_en</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Player username from Pretty Gaming system.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">startDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">endDate</td>
-                                        <td class="bRight">Date</td>
-                                        <td class="bRight txtCenter">Yes</td>
-                                        <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">turnOver</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight txtCenter">Yes</td>
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -4401,52 +4375,35 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 <tbody>
                                     <tr>
                                         <td class="bRight">0</td>
-                                        <td>SUCCESS</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">997</td>
-                                        <td>invalid input format 'balance' field.</td>
+                                        <td>Success</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentUsername'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71002</td>
+                                        <td class="bRight">71004</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71003</td>
-                                        <td>Invalid agentUsername or apiKey.</td>
+                                        <td class="bRight">71010</td>
+                                        <td>invalid ApiKey or UserAgent</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">71004</td>
-                                        <td>missing filed 'playerUsername'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71015</td>
-                                        <td>Can request up to 5 times per minute.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71018</td>
-                                        <td>missing filed 'startDate'.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">71019</td>
-                                        <td>missing filed 'endDate'.</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="bRight">71020</td>
-                                        <td>Invalid filed 'startDate'.</td>
+                                        <td class="bRight">71011</td>
+                                        <td>invalid lottotype</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">71021</td>
-                                        <td>Invalid filed 'endDate'.</td>
+                                        <td>please input startDate and endDate</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">911008</td>
-                                        <td>Player not found.</td>
+                                        <td class="bRight">71022</td>
+                                        <td>invalid input format 'startDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71023</td>
+                                        <td>invalid input format 'endDate' field.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -4462,22 +4419,48 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="410B" style="border-radius: 0.375rem;" class="hljs json">{
-                <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"SUCCESS"</span>,
-                <span class="hljs-attr">"data"</span>: {
-                <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"5eae90e32f7df02c92fde32d"</span>,
-                <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"startTransferwalletmember"</span>,
-                <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"startTransferwalletmember@startapiTransferwallet"</span>,
-                <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2019-05-03 20:36:13"</span>,
-                <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2020-05-20 20:36:13"</span>,
-                <span class="hljs-attr">"turnOver"</span>: <span class="hljs-number">0</span>
-                }
-            }</code></pre>
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-attr">"data"</span>: [
+        {
+            <span class="hljs-attr">"name_th"</span>: <span class="hljs-string">"หวยหุ้นรัสเซีย"</span>,
+            <span class="hljs-attr">"name_en"</span>: <span class="hljs-string">"Stock Russia"</span>,
+            <span class="hljs-attr">"date"</span>: <span class="hljs-string">"2021-07-20 00:00:00"</span>,
+            <span class="hljs-attr">"result"</span>: {
+                <span class="hljs-attr">"top3"</span>: [
+                    <span class="hljs-string">"123"</span> 
+                ],
+                <span class="hljs-attr">"row3"</span>: [
+                    <span class="hljs-string">"123"</span>,
+                    <span class="hljs-string">"132"</span>, 
+                    <span class="hljs-string">"213"</span>,
+                    <span class="hljs-string">"231"</span>, 
+                    <span class="hljs-string">"312"</span>, 
+                    <span class="hljs-string">"321"</span>  
+                ],
+                <span class="hljs-attr">"top2"</span>: [
+                    <span class="hljs-string">"23"</span> 
+                ],
+                <span class="hljs-attr">"bottom2"</span>: [
+                    <span class="hljs-string">"22"</span> 
+                ],
+                <span class="hljs-attr">"top1"</span>: [
+                    <span class="hljs-string">"1"</span>,
+                    <span class="hljs-string">"2"</span>,
+                    <span class="hljs-string">"3"</span>
+                ],
+                <span class="hljs-attr">"bottom1"</span>: [
+                    <span class="hljs-string">"2"</span> 
+                ]
+            }
+        }
+    ],
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"Success"</span>
+}</code></pre>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
 
                 <div class="btn-toolbar mb-12">
