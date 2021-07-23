@@ -1375,13 +1375,13 @@
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
                                         
-                                        <td>Balance before Deposit  of agent.</td>
+                                        <td>Balance after Deposit  of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
                                         
-                                        <td>Balance before Deposit  of member.</td>
+                                        <td>Balance after Deposit  of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">beforeAgentBalance</td>
@@ -1663,17 +1663,17 @@
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
                                         
-                                        <td>Balance before Withdraw of agent.</td>
+                                        <td>Balance after Withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">beforeAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Withdrawal  of member.</td>
+                                        <td>Balance before Withdraw of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">beforeMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Deposit  of member.</td>
+                                        <td>Balance before Withdraw  of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
