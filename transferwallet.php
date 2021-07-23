@@ -1384,6 +1384,16 @@
                                         <td>Balance after Deposit  of member.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">beforeAgentBalance</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Balance before Deposit  of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">beforeMemberBalance</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Balance before Deposit  of member.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         
@@ -1470,6 +1480,10 @@
                                         <td class="bRight">71025</td>
                                         <td>balance should be greater than 0</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">911001</td>
+                                        <td>Insufficient balance.</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1486,14 +1500,16 @@
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100,</span>
-        <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23,</span>
-        <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">100,</span>
+        <span class="hljs-attr">"afterAgentBalance"</span>:<span class="hljs-number">43813417.23,</span>
+        <span class="hljs-attr">"afterMemberBalance"</span>:<span class="hljs-number">100,</span>
+        <span class="hljs-attr">"beforeAgentBalance"</span>:<span class="hljs-number">43812886.55,</span>
+        <span class="hljs-attr">"beforeMemberBalance"</span>:<span class="hljs-number">369,</span>
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi",</span>
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
-        <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4",</span>
+        <span class="hljs-attr">"playerApiUsername"</span>:<span class="hljs-string">"testuserapi001@agentapi",</span>
+        <span class="hljs-attr">"playerUsername"</span>:<span class="hljs-string">"testuserapi001",</span>
+        <span class="hljs-attr">"ref"</span>:<span class="hljs-string">"1e77a9cfc9a8b05e613cc0a4f87c2226575c5e77f095d3411b0094b0e730d4",</span>
     },
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success"</span>
+    <span class="hljs-attr">"msg"</span>:<span class="hljs-string">"success"</span>
 }</code></pre>
                                     <script src="./API_files/ex4_6B.js.download"></script>
                                 </div>
@@ -1650,6 +1666,16 @@
                                         <td>Balance after Withdraw of member.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">beforeAgentBalance</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Balance before Deposit  of agent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">beforeMemberBalance</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Balance before Deposit  of member.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
                                         
@@ -1736,6 +1762,10 @@
                                         <td class="bRight">71025</td>
                                         <td>balance should be greater than 0</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">911001</td>
+                                        <td>Insufficient balance.</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1754,6 +1784,8 @@
         <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100,</span>
         <span class="hljs-attr">"afterAgentBalance"</span>: <span class="hljs-number">43813417.23,</span>
         <span class="hljs-attr">"afterMemberBalance"</span>: <span class="hljs-number">0,</span>
+        <span class="hljs-attr">"beforeAgentBalance"</span>:<span class="hljs-number">43812886.55,</span>
+        <span class="hljs-attr">"beforeMemberBalance"</span>:<span class="hljs-number">369,</span>
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentapi",</span>
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
