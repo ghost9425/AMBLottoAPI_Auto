@@ -924,12 +924,12 @@
                                     <tr>
                                         <td class="bRight">uriDesktop</td>
                                         <td class="bRight">String</td>
-                                        <td>AMBLotto link</td>
+                                        <td>AMB Lotto link but don't show web header</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">urlFullPage</td>
                                         <td class="bRight">String</td>
-                                        <td>AMBLotto link fullpage</td>
+                                        <td>AMB Lotto link fullpage</td>
                                     </tr>
                                 </tbody>
                             </table>
