@@ -228,12 +228,12 @@
                                     <tr>
                                         <td class="bRight">url</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">AMBLotto link</td>
+                                        <td class="bRight">AMB Lotto link but don't show web header</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">urlFullPage</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">AMBLotto link fullpage</td>
+                                        <td class="bRight">AMB Lotto link fullpage</td>
                                     </tr>
                                 </tbody>
                             </table>
