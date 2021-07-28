@@ -1994,7 +1994,7 @@
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
                                         
-                                        <td>Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td>Type of lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
@@ -2492,7 +2492,7 @@
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
                                         
-                                        <td>Bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
+                                        <td>Type of lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
