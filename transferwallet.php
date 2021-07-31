@@ -2035,8 +2035,7 @@
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        
-                                       
+           
                                         <td>Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).
                                         </td>
                                     </tr>
@@ -2101,12 +2100,20 @@
                                         
                                         <td>Rate payout when member win.</td>
                                     </tr>
-
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        
                                         <td>Payout amount of this reccord.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of rate follow by rateLevel.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -2281,7 +2288,9 @@
                             <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">50,</span>
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900,</span>
-                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0,</span>
+                            <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
                             }
                         ]
                     }
@@ -2544,7 +2553,7 @@
                                         
                                         <td>Bet Detail.</td>
                                     </tr>
-\
+
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
@@ -2595,16 +2604,25 @@
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutRate</td>
-                                        <td class="bRight">Number</td>
-                                        
+                                        <td class="bRight">Number</td>                                     
                                         <td>Rate payout when member win.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        
                                         <td>Payout amount of this reccord.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td>If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td>Amount of rate follow by rateLevel.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalDocs</td>
@@ -2774,31 +2792,9 @@
                     <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
                     <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
                     <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
-                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
-                },
-                {
-                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0y",</span>
-                    <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"2",</span>
-                    <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
-                    <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"923548",</span>
-                    <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
-                    <span class="hljs-attr">"betTotal"</span>:<span class="hljs-number"> 10,</span>
-                    <span class="hljs-attr">"betDiscount"</span>:<span class="hljs-number"> 0,</span>
-                    <span class="hljs-attr">"payOutRate"</span>:<span class="hljs-number"> 50000,</span>
-                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0</span>
-                },
-                {
-                    <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU1NS0z",</span>
-                    <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"3",</span>
-                    <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top6",</span>
-                    <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"055475",</span>
-                    <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"pending",</span>
-                    <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10,</span>
-                    <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10,</span>
-                    <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0,</span>
-                    <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">50000,</span>
-                    <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                    <span class="hljs-attr">"payOutAmt"</span>:<span class="hljs-number"> 0,</span>
+                    <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0,</span>
+                    <span class="hljs-attr">"rateLevelAmount"</span>:<span class="hljs-number"> 0</span>
                 }
             ]
         }
