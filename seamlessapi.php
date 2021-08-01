@@ -1736,6 +1736,16 @@
                                         <td class="bRight">User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).</td>
@@ -1762,29 +1772,31 @@
                                     <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBet"</span>,
     <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57"</span>,
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"superbas@agentapi"</span>,
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
-        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6494"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"thailotto"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6622"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"yeekeelotto"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
-        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">"20064"</span>,
-        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">"21605"</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjQ5NC0x"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"222"</span>,
+                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjYyMi0xMA=="</span>,
+                <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"10"</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
+                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"99"</span>,
                 <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Pending"</span>,
                 <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">"10"</span>,
                 <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">"10"</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
+                <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-number">"Pending"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-04 14:30:52"</span>
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-17 17:20:28"</span>
     }
 }</code></pre>
                                 </div>
@@ -2032,6 +2044,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Rate payout when member win.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Success Pending (รอผล), Cancel(ยกเลิก).</td>
@@ -2060,7 +2082,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"17305dd0a2769c38d3a589eb9488b9262c59b592432206e184f6687844be57"</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"'superbas@agentapi"</span>,
-        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"superbas"</span>,
         <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6542"</span>,
         <span class="hljs-attr">"type"</span>: <span class="hljs-string">"thailotto"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
@@ -2077,7 +2099,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
                 <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
             },
             {
                 <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi0z"</span>,
@@ -2089,79 +2112,8 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
                 <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi00"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"4"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"51"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi01"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"5"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"21"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi02"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"6"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"78"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi03"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"7"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"85"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi04"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"8"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"77"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
-            },
-            {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-number">"NjU0Mi05"</span>,
-                <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"9"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-number">"71"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Cancel"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-number">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Cancel"</span>,
@@ -2385,12 +2337,22 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">payOutRate</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Rate payout when member win.</td>
+                                        <td class="bRight">Rate payout when member win.(*recheck and update for lottoset.)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">payOutAmt</td>
                                         <td class="bRight">Payout amount of this reccord.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
@@ -2429,56 +2391,54 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <pre><code id="354A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlacePayout"</span>,
     <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"b1e841d527bfd02cc3c1d39bf7b2c0a351ddf7051b42d9c7ad1e8fbd9ccf80"</span>,
-        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1"</span>,
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
-        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6610"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"yeekeelotto"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6579"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"stockgerman"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
-        <span class="hljs-attr">"drawId"</span>: <span class="hljs-string">21498</span>,
-        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-string"> -900</span>,
-        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-string"> 0</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-string">21330</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-string"> -10</span>,
+        <span class="hljs-attr">"totalPayOutAmt"</span>: <span class="hljs-string"> 9000</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjYxMC0x"</span>,
+                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-string">"1"</span>,
                 <span class="hljs-attr">"betType"</span>: <span class="hljs-string">"top3"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"123"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-string">"False"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-string">900</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">1000</span>,
-                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">10</span>,
+                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"111"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-string">"True"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-string">10</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-string">10</span>,
+                <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">0</span>,
                 <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-string">900</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-string">0</span>
+                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-string">9000</span>,
+                <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-string">0</span>,
+                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-string">0</span>
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Success"</span>,
         <span class="hljs-attr">"result"</span>: {
             <span class="hljs-attr">"top3"</span>: [
-                <span class="hljs-string">"022"</span>
+                <span class="hljs-string">"111"</span>
             ],
             <span class="hljs-attr">"row3"</span>: [
-                <span class="hljs-string">"022"</span>,
-                <span class="hljs-string">"202"</span>,
-                <span class="hljs-string">"220"</span>
+                <span class="hljs-string">"111"</span>
             ],
             <span class="hljs-attr">"top2"</span>: [
-                <span class="hljs-string">"22"</span>
+                <span class="hljs-string">"11"</span>
             ],
             <span class="hljs-attr">"bottom2"</span>: [
-                <span class="hljs-string">"10"</span>
+                <span class="hljs-string">"00"</span>
             ],
             <span class="hljs-attr">"top1"</span>: [
-                <span class="hljs-string">"0"</span>,
-                <span class="hljs-string">"2"</span>
-            ],
-            <span class="hljs-attr">"bottom1"</span>: [
-                <span class="hljs-string">"0"</span>,
                 <span class="hljs-string">"1"</span>
             ],
+            <span class="hljs-attr">"bottom1"</span>: [
+                <span class="hljs-string">"0"</span>
+            ],
         },
-        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21498"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-16 17:15:16"</span>
+        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21330"</span>,
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
     }
 }</code></pre>
                                 </div>
@@ -2694,9 +2654,14 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Rate payout when member win.</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">payOutAmt</td>
-                                        <td class="bRight">payOutAmt</td>
-                                        <td class="bRight">Payout amount of this reccord.</td>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
@@ -2728,27 +2693,28 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"67239355aa8af3f4a6678e31cc3eb83a1612322fc2bf6b8f268b1660f1f37e"</span>,
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member1@compseamless"</span>,
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member1"</span>,
-        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6623"</span>,
-        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"yeekeelotto"</span>,
+        <span class="hljs-attr">"ticketId"</span>: <span class="hljs-string">"6579"</span>,
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"stockgerman"</span>,
         <span class="hljs-attr">"government"</span>: <span class="hljs-string">false</span>,
-        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21607</span>,
-        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-100</span>,
+        <span class="hljs-attr">"drawId"</span>: <span class="hljs-number">21330</span>,
+        <span class="hljs-attr">"totalBetAmt"</span>: <span class="hljs-number">-10</span>,
         <span class="hljs-attr">"txtList"</span>: [
             {
-                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjYyMy0x"</span>,
+                <span class="hljs-attr">"betKey"</span>: <span class="hljs-string">"NjU3OS0x"</span>,
                 <span class="hljs-attr">"betId"</span>: <span class="hljs-number">"1"</span>,
-                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"bottom2"</span>,
-                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"22"</span>,
-                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"Pending"</span>,
-                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">100</span>,
-                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">100</span>,
+                <span class="hljs-attr">"betType"</span>: <span class="hljs-number">"top3"</span>,
+                <span class="hljs-attr">"betNumber"</span>: <span class="hljs-string">"111"</span>,
+                <span class="hljs-attr">"betStatus"</span>: <span class="hljs-number">"True"</span>,
+                <span class="hljs-attr">"betAmt"</span>: <span class="hljs-number">10</span>,
+                <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">10</span>,
                 <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-string">0</span>,
-                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">90</span>,
-                <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-number">0</span>
+                <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
+                <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
             }
         ],
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"Pending"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-17 17:50:53"</span>
+        <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
     }
 }</code></pre>
                                 </div>
@@ -3535,6 +3501,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Payout amount of this reccord.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Total number of documents in collection that match a query.</td>
@@ -3705,14 +3681,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1</span>,
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
-                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>
+                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
+                            <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
                 }
             ],
-            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">40</span>,
+            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">63</span>,
             <span class="hljs-attr">"limit"</span>: <span class="hljs-string">1</span>,
-            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">40</span>,
+            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">63</span>,
             <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-string">false</span>,
             <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">true</span>,
@@ -4031,6 +4009,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                         <td class="bRight">Payout amount of this reccord.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">rateLevel</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">If 0=rate payout normal, If =1, 2, 3, 4 rate discount.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">rateLevelAmount</td>
+                                        <td class="bRight">float</td>
+                                        <td class="bRight">Amount of rate follow by rateLevel.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Total number of documents in collection that match a query.</td>
@@ -4228,14 +4216,16 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <span class="hljs-attr">"betTotal"</span>: <span class="hljs-number">1</span>,
                             <span class="hljs-attr">"betDiscount"</span>: <span class="hljs-literal">0</span>,
                             <span class="hljs-attr">"payOutRate"</span>: <span class="hljs-number">900</span>,
-                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>
+                            <span class="hljs-attr">"payOutAmt"</span>: <span class="hljs-literal">0</span>,
+                            <span class="hljs-attr">"rateLevel"</span>: <span class="hljs-number">0</span>,
+                            <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-literal">0</span>
                         }
                     ]
                 }
             ],
-            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">50</span>,
-            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">1</span>,
-            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">50</span>,
+            <span class="hljs-attr">"totalDocs"</span>: <span class="hljs-string">73</span>,
+            <span class="hljs-attr">"limit"</span>: <span class="hljs-string">10</span>,
+            <span class="hljs-attr">"totalPages"</span>: <span class="hljs-string">8</span>,
             <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
             <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-string">false</span>,
             <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-string">true</span>,
