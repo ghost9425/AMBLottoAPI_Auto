@@ -1472,7 +1472,7 @@
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Fixed value"GetUserDetail"</td>
+                                        <td class="bRight">Fixed value"GetUserBalance"</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
@@ -1482,12 +1482,12 @@
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight"></td>
+                                        <td class="bRight">Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player Id from partner system.</td>
+                                        <td class="bRight">Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
@@ -2236,7 +2236,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                                     <tr>
                                         <td class="bRight">service</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Fixed value"UserPlaceReToRunning"</td>
+                                        <td class="bRight">Fixed value"UserPlacePayout"</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
