@@ -22,8 +22,8 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:5.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Transferwallet เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก
-</label>
+                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Transferwallet เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก
+                        </label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
@@ -34,8 +34,8 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:5.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        ข้อมูลเบื้องต้นแสดงการทำงานในการเรียกใช้ API ของระบบคู่ธุรกิจ เพื่อให้ระบบสามารถเรียกใช้ API ได้ภายใต้เงื่อนไขได้อย่างถูกต้อง
-</label>
+                            ข้อมูลเบื้องต้นแสดงการทำงานในการเรียกใช้ API ของระบบคู่ธุรกิจ เพื่อให้ระบบสามารถเรียกใช้ API ได้ภายใต้เงื่อนไขได้อย่างถูกต้อง
+                        </label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
@@ -46,10 +46,10 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API 
-                            ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน 
+                            *หากคุณมีบัญชีหลัก โปรดสร้างบัญชีตัวแทน API
+                            ภายใต้บัญชีหลักของคุณและเข้าสู่ระบบด้วยบัญชีตัวแทน API ที่สร้างขึ้นก่อน
                             แล้วทำตามขั้นตอนการตั้งค่า ดังนี้
-</label>
+                        </label>
                         <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.เข้าสู่ระบบ</label>
                         <div class="col-12">
                             <img src="./API_files/Login001.png" style="width: 30%; margin-left: 10%;">
@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-12">
                             <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                3.2  คุณสามารถคลิกปุ่ม “บันทึก” เพื่อบันทึกข้อมูล</label>
+                                3.2 คุณสามารถคลิกปุ่ม “บันทึก” เพื่อบันทึกข้อมูล</label>
                         </div>
                         <div class="col-12">
                             <img src="./API_files/4.png" style="width: 80%; margin-left: 10%;">
@@ -94,7 +94,7 @@
                                 Url :
                             </label>
                             <label>
-                            https://dev-api.pirate168.com/apiRoute/member/loginRequest
+                                https://dev-api.pirate168.com/apiRoute/member/loginRequest
                             </label>
                         </div>
                         <div class="col-12">
@@ -119,7 +119,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="txtCenter bRight">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="txtCenter bRight">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -127,28 +127,28 @@
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
-                                  
+
                                 </tbody>
                             </table>
                         </div>
@@ -160,7 +160,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="3_4A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="3_4A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
@@ -978,18 +978,18 @@
                                         <td class="bRight">71006</td>
                                         <td>username must not contain any special characters and can only contain letters a-z and numbers 0-9.</td>
                                     </tr>
-                               
+
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                         
+
                                     <tr>
                                         <td class="bRight">71012</td>
                                         <td>login fail</td>
                                     </tr>
-                                  
-                                   
+
+
                                 </tbody>
                             </table>
                         </div>
@@ -1002,7 +1002,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="44B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
@@ -1020,6 +1020,628 @@
                         </div>
                     </div>
 
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #cfa137 !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
+                    </div>
+                    <div class="form-group col-12">
+                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; คุณสามารถเพิ่มค่าพารามิเตอร์ต่อท้ายในลิงค์ (&lottotype=) เพื่อเปลี่ยนเส้นทางให้ผู้เล่นไปยังหน้าแทง AMB Lotto ประเภทนั้นๆ</label>
+                    </div>
+                    <!-- <div class="col-8">
+                <a href="../img/zip/game_icons.rar" style="float: right;" class="Point" download=""><i class="fa fa-download" aria-hidden="true"></i>
+                    <label class="Point">&nbsp;Download Icon</label></a>
+            </div>
+            <div class="form-group col-3"></div> -->
+                    <div class="form-group col-2"></div>
+                    <div class="form-group col-6">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th class="bRight txtCenter" style="width: 200px;">Name</th>
+                                        <th class="bRight txtCenter" style="width: 210px;">Value of parameter</th>
+                                        <!-- <th class="txtCenter" style="width: 210px;">Image icon</th> -->
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยไทย</td>
+                                        <td class="bRight txtCenter txtMid">thailotto</td>
+                                        <!-- <td class="bRight txtCenter bBottom" style="background-color: gray;">
+                                    <img src="/img/game_icon/baccarat.png" class="IconSize"></td> -->
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยลาว(แทงแบบไทย)</td>
+                                        <td class="bRight txtCenter txtMid">laoslotto</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอย</td>
+                                        <td class="bRight txtCenter txtMid">hanoylotto</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอย(วีไอพี)</td>
+                                        <td class="bRight txtCenter txtMid">hanoylottovip</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวย ธกส.</td>
+                                        <td class="bRight txtCenter txtMid">baaclotto</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวย ออมสิน</td>
+                                        <td class="bRight txtCenter txtMid">gsblotto</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยปิงปอง</td>
+                                        <td class="bRight txtCenter txtMid">pingponglotto</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยลาว(แบบชุด)</td>
+                                        <td class="bRight txtCenter txtMid">laoslotto_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยยี่กี</td>
+                                        <td class="bRight txtCenter txtMid">yeekeelotto</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยมาเลย์</td>
+                                        <td class="bRight txtCenter txtMid">malaylotto</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอย(แบบชุด)</td>
+                                        <td class="bRight txtCenter txtMid">hanoylotto_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอยวีไอพี(แบบชุด)</td>
+                                        <td class="bRight txtCenter txtMid">hanoylottovip_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอยพิเศษ(แบบชุด)</td>
+                                        <td class="bRight txtCenter txtMid">hanoylottospecial_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยมาเลย์(แบบชุด)</td>
+                                        <td class="bRight txtCenter txtMid">malaylotto_set</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยฮานอย(พิเศษ)</td>
+                                        <td class="bRight txtCenter txtMid">hanoylottospecial</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นเกาหลี</td>
+                                        <td class="bRight txtCenter txtMid">stockkorea</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นจีน</td>
+                                        <td class="bRight txtCenter txtMid">stockchina</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นดาวโจนส์</td>
+                                        <td class="bRight txtCenter txtMid">stockdowjones</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นไต้หวัน</td>
+                                        <td class="bRight txtCenter txtMid">stocktaiwan</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นอังกฤษ</td>
+                                        <td class="bRight txtCenter txtMid">stockengland</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นอินเดีย</td>
+                                        <td class="bRight txtCenter txtMid">stockindia</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นฮั่งเส็ง</td>
+                                        <td class="bRight txtCenter txtMid">stockhangseng</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นอียิปต์</td>
+                                        <td class="bRight txtCenter txtMid">stockegypt</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นนิเคอิ</td>
+                                        <td class="bRight txtCenter txtMid">stocknikkei</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นสิงค์โปร</td>
+                                        <td class="bRight txtCenter txtMid">stocksingapore</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นไทย</td>
+                                        <td class="bRight txtCenter txtMid">stockthai</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นเยอรมัน</td>
+                                        <td class="bRight txtCenter txtMid">stockgerman</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">หวยหุ้นรัสเซีย</td>
+                                        <td class="bRight txtCenter txtMid">stockrussia</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #cfa137 !important;">AMB Lotto direct link</b></lable>
+                    </div>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox" style="font-size: 0.9rem;">
+                        <!-- <div class="col-12">
+                            <label class="txtHead">Baccarat :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=BAC</label>
+                        </div> -->
+                        <div class="col-12">
+                            <label class="txtHead">thailotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=thailotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> laoslotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=laoslotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottovip : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylottovip</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> baaclotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=baaclotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> gsblotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=gsblotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> pingponglotto :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=pingponglotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> laoslotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=laoslotto_set</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> yeekeelotto :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=yeekeelotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> malaylotto :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">lottotype=malaylotto</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylotto_set</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylottovip_set</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottospecial_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylottospecial_set</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> malaylotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=malaylotto_set</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottospecial :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=hanoylottospecial</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockkorea :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockkorea</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockchina :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockchina</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockdowjones :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockdowjones</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocktaiwan : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stocktaiwan</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockengland :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockengland</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockindia :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockindia</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockhangseng :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockhangseng</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockegypt : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockegypt</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocknikkei : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stocknikkei</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocksingapore :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stocksingapore</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockthai :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockthai</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockgerman :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockgerman</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockrussia : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off<label class="txtHead">&lottotype=stockrussia</label></label>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #cfa137 !important;">Language</b></lable>
+                    </div>
+                    <div class="form-group col-12">
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หมายเหตุ : กรุณาใช้รหัสตรงตามตัวอย่าง</label>
+                    </div>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-2"></div>
+                    <div class="form-group col-6">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th class="bRight txtCenter" style="width: 200px;">Language</th>
+                                        <th class="txtCenter" style="width: 210px;">Value of parameter</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight txtMid">English</td>
+                                        <td class="txtCenter txtMid">EN</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight txtMid">Thai</td>
+                                        <td class="txtCenter txtMid">TH</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox" style="font-size: 0.87rem;">
+                        <div class="col-12">
+                            <label class="txtHead">English :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=thailotto<label class="txtHead">&lang=EN</label></label>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="txtHead">Thai : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=laoslotto<label class="txtHead">&lang=TH</label></label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #cfa137 !important;">Signout re-direct optional link:</b></lable>
+                    </div>
+                </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox" style="font-size: 0.681rem;">
+                        <div class="col-12">
+                            <label class="txtHead">thailotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=thailotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">laoslotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=laoslotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottovip : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylottovip&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">baaclotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=baaclotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> gsblotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=gsblotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">pingponglotto :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=pingponglotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">laoslotto_set : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=laoslotto_set&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">yeekeelotto : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=yeekeelotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">malaylotto :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=malaylotto&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylotto_set&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottovip_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylottovip_set&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottospecial_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylottospecial_set&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">malaylotto_set :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=malaylotto_set&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottospecial :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=hanoylottospecial&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockkorea : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockkorea&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockchina :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockchina&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockdowjones :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockdowjones&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocktaiwan :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stocktaiwan&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockengland :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockengland&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockindia :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockindia&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockhangseng :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockhangseng&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockegypt :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockegypt&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocknikkei :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stocknikkei&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocksingapore :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stocksingapore&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockthai :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockthai&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockgerman :&nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockgerman&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockrussia : &nbsp;</label><label>
+                                https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiI
+                                sImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLC
+                                Jyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmo
+                                jd_m8MB7C0xxvahoWtPg&header=off&lottotype=stockrussia&url=<label class="txtHead">input your link here(full link with https://)</label></label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
                 <div class="col-12" id="tab5">
                     <lable><b style="color: #19A17A  !important;" set-lan="text:5.5 getUserBalance">5.5
                             getUserBalance</b></lable>
@@ -1034,7 +1656,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                            https://dev-api.pirate168.com/apiRoute/api/getUserBalance
+                                https://dev-api.pirate168.com/apiRoute/api/getUserBalance
                             </label>
                         </div>
                         <div class="col-12">
@@ -1089,7 +1711,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001"</span>
@@ -1111,7 +1733,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1119,43 +1741,43 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Total balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from Pretty Gaming system.</td>
                                     </tr>
 
@@ -1202,7 +1824,7 @@
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                            
+
                                     <tr>
                                         <td class="bRight">71014</td>
                                         <td>invalid UserMember.</td>
@@ -1219,7 +1841,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="45B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50,</span>
@@ -1289,7 +1911,7 @@
                                     <tr>
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
-                                      
+
                                         <td>System generate key ID after crate Agent</td>
                                     </tr>
                                     <tr>
@@ -1318,7 +1940,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="46A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
@@ -1342,7 +1964,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1350,71 +1972,71 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Deposit balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        
-                                        <td>Balance after Deposit  of agent.</td>
+
+                                        <td>Balance after Deposit of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        
-                                        <td>Balance after Deposit  of member.</td>
+
+                                        <td>Balance after Deposit of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">beforeAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Deposit  of agent.</td>
+                                        <td>Balance before Deposit of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">beforeMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Deposit  of member.</td>
+                                        <td>Balance before Deposit of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
@@ -1461,12 +2083,12 @@
                                         <td class="bRight">71007</td>
                                         <td>missing filed 'transId'.</td>
                                     </tr>
-                            
+
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
                                     </tr>
-                             
+
                                     <tr>
                                         <td class="bRight">71014</td>
                                         <td>invalid UserMember.</td>
@@ -1496,7 +2118,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="46B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100,</span>
@@ -1587,7 +2209,7 @@
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
-                                        
+
                                     </tr>
                                 </tbody>
                             </table>
@@ -1600,7 +2222,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="47A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
@@ -1624,7 +2246,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1632,37 +2254,37 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">addBalance</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Withdraw balance.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterAgentBalance</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Balance after Withdraw of agent.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">afterMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Balance after Withdraw of member.</td>
                                     </tr>
                                     <tr>
@@ -1673,30 +2295,30 @@
                                     <tr>
                                         <td class="bRight">beforeMemberBalance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Withdraw  of member.</td>
+                                        <td>Balance before Withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
@@ -1743,7 +2365,7 @@
                                         <td class="bRight">71007</td>
                                         <td>missing filed 'transId'.</td>
                                     </tr>
-                               
+
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -1778,7 +2400,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"addBalance"</span>: <span class="hljs-number">100,</span>
@@ -1891,7 +2513,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="48A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
@@ -1917,7 +2539,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -1925,179 +2547,179 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">endDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">result</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">docs</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system..</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
-                                
+
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet group record from one submit.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Type of lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Round of drawagent ex. yeekeelotto round 88 (default = 1)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">discount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-           
+
                                         <td>Success (Payment สำเร็จ), Pending (รอผล), Cancel(ยกเลิก).
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td>Bet Detail.</td>
                                     </tr>
-                            
+
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Bet id of bet position.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Status of bet data(Pending).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>User bet total amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betDiscount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betNumber</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>User bet number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutRate</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Rate payout when member win.</td>
                                     </tr>
                                     <tr>
@@ -2118,56 +2740,56 @@
                                     <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Total number of documents in collection that match a query.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Limit that was used.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPages</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Total number of pages.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Next page number</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                 </tbody>
@@ -2209,7 +2831,7 @@
                                         <td class="bRight">71004</td>
                                         <td>Invalid agentUsername or apiKey.</td>
                                     </tr>
-                            
+
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -2255,7 +2877,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span> {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
@@ -2367,7 +2989,7 @@
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent</td>
-                                        
+
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
@@ -2400,7 +3022,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="49A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-07-14 15:04:05",</span>
@@ -2413,7 +3035,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
                     </div>
@@ -2433,178 +3055,178 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">agentUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Agent account , Account length is restricted to 36 chars at most.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">startDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">endDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">result</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">docs</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td>Array of documents.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">datetime</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">ticketId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet group record from one submit.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Type of lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">round</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Round of drawagent ex. yeekeelotto round 88</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">goverment</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>If government = true is lottoset, If government = false is lotto.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBetAmt</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">discount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPayOutAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>totalPayOutAmt equals 0 when a player loses.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalBalanceAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Net of bet ticket</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">status</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Success, Pending, Cancel.
                                         </td>
-                                      
+
                                     </tr>
                                     <tr>
                                         <td class="bRight">txtList</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td>Bet Detail.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">betId</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Bet id of bet position.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betType</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>User bet type = top6,top5,top4,top3,top2,top1,row4,row3,row2,bottom3,bottom2,bottom1</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betStatus</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Status of bet data(Pending).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>betKey = endcode64("ticketId" - "betId") </td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betAmt</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Bet amount =betTotal-betDiscount</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betTotal</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>User bet total amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betDiscount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Discount bet amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betNumber</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>User bet number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">payOutRate</td>
-                                        <td class="bRight">Number</td>                                     
+                                        <td class="bRight">Number</td>
                                         <td>Rate payout when member win.</td>
                                     </tr>
 
@@ -2627,56 +3249,56 @@
                                     <tr>
                                         <td class="bRight">totalDocs</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Total number of documents in collection that match a query.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">limit</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Limit that was used.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">totalPages</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Total number of pages.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">page</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Current page number.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasprevPage</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>Has previous page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">hasnextPage</td>
                                         <td class="bRight">Boolean</td>
-                                        
+
                                         <td>Has next page (true, false)</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">prevPage</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Previous page number</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">nextPage</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Next page number</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                 </tbody>
@@ -2750,7 +3372,7 @@
                             </table>
                         </div>
                     </div>
-                 
+
                     <div class="koh-tab-content col-12">
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
@@ -2759,7 +3381,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="48B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span> {
         <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-number">"agentapi",</span>
@@ -2873,7 +3495,7 @@
                                         <td class="bRight">agentApiKey</td>
                                         <td class="bRight">String</td>
                                         <td>System generate key ID after crate Agent</td>
-                                       
+
                                     </tr>
                                     <tr>
                                         <td class="bRight">ref</td>
@@ -2891,7 +3513,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="411A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"ref"</span>: <span class="hljs-string">"78ff3b4f248e58bfb5de6545b471684f27f5ce959565d2c78df44dc74abc"</span>
@@ -2913,7 +3535,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -2921,64 +3543,64 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
-                                  
+
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Deposit/Withdraw transaction reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Transaction amount.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">transferDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
                                 </tbody>
@@ -3004,7 +3626,7 @@
                                         <td class="bRight">0</td>
                                         <td>success</td>
                                     </tr>
-                            
+
                                     <tr>
                                         <td class="bRight">71001</td>
                                         <td>missing filed 'agentUsername'.</td>
@@ -3013,7 +3635,7 @@
                                         <td class="bRight">71004</td>
                                         <td>missing filed 'agentApiKey'.</td>
                                     </tr>
-                              
+
                                     <tr>
                                         <td class="bRight">71010</td>
                                         <td>invalid ApiKey or UserAgent</td>
@@ -3039,7 +3661,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="411B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: 
     {
@@ -3130,7 +3752,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"transId"</span>: <span class="hljs-string">"15f0c27dbea3f3261f2cd6612676125127126761216541276512"</span>
@@ -3153,7 +3775,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -3161,62 +3783,62 @@
                                     <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Result Code Reference.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
-                                        
+
                                         <td>Object respone.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerApiId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player Id from partner system.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from partner system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Player username from AMBLotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferAmount</td>
                                         <td class="bRight">Number</td>
-                                        
+
                                         <td>Transaction amount.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transferDate</td>
                                         <td class="bRight">Date</td>
-                                        
+
                                         <td>transId Unique from your system type Deposit / Withdrawal</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">type</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Transaction type (DEPOSIT/WITHDRAW).</td>
                                     </tr>
 
@@ -3275,7 +3897,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: {
         <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"ff4003404239450abb86dd313cb138cabea9ded4f26993a72933d318b16e86",</span>
@@ -3295,7 +3917,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="pb-5"></div>
 
 
@@ -3379,7 +4001,7 @@
                                     <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="412A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agentapi",</span>
     <span class="hljs-attr">"agentApiKey"</span>: <span class="hljs-string">"18c089a2e49dfc1776b6abc2ea3ee909d43b10bc37dfd7195a7265da82f8b4a983a1ebf3",</span>
     <span class="hljs-attr">"lottotype"</span>: <span class="hljs-string">"stockrussia",</span>
@@ -3404,7 +4026,7 @@
                                         <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
                                             Parameter</th>
                                         <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-                                        
+
                                         <th set-lan="html:Description" class="txtCenter">Description</th>
                                     </tr>
                                 </thead>
@@ -3427,26 +4049,26 @@
                                     <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td>Information message.</td>
                                     </tr>
 
                                     <tr>
                                         <td class="bRight">result</td>
                                         <td class="bRight">arrayobject</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">name_th</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">name_en</td>
                                         <td class="bRight">String</td>
-                                        
+
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -3512,7 +4134,7 @@
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-<pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="412B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"data"</span>: [
         {
@@ -3557,22 +4179,22 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="pb-5"></div>
-              
+
             </div>
             <div class="btn-toolbar mb-12">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
-                            <lan set-lan="html:Back">Back</lan>
-                        </button>
-                    </div>
-                    <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
-                            <lan set-lan="html:Next">Next</lan>
-                        </button>
-                    </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
+                        <lan set-lan="html:Back">Back</lan>
+                    </button>
                 </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
+                        <lan set-lan="html:Next">Next</lan>
+                    </button>
+                </div>
+            </div>
         </div>
     </main>
 </div>
