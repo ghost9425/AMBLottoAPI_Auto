@@ -1009,8 +1009,8 @@
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentap",</span>
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
         <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk",</span>
-        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off",</span>
-        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
+        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&amp;header=off",</span>
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&amp;header=on"</span>
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
@@ -1172,265 +1172,153 @@
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.8rem;word-break:break-all">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">thailotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=thailotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=laoslotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylottovip</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">baaclotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=baaclotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">gsblotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=gsblotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">pingponglotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=pingponglotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto_set
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=laoslotto_set</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeelotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=yeekeelotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=malaylotto</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto_set
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylotto_set</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip_set
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylottovip_set</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial_set
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylottospecial_set</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto_set
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=malaylotto_set</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=hanoylottospecial </label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockkorea
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockkorea</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockchina
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockchina</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockdowjones
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockdowjones</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocktaiwan
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stocktaiwan</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockengland
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockengland</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockindia
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockindia</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockhangseng
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockhangseng</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockegypt
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockegypt</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocknikkei
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stocknikkei</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocksingapore
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stocksingapore</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockthai
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockthai</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockgerman
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockgerman</label></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockrussia
-                                        :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                    <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=stockrussia</label></label>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="divBox" style="font-size: 0.9rem; width: 790px;">
                         <!-- <div class="col-12">
-                            <label class="txtHead">Dragon-Tiger
-                                :&nbsp;</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label
-                                class="txtHead">game=DRA</label>
-
+                            <label class="txtHead">Baccarat :</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=BAC</label>
                         </div> -->
+                        <div class="col-12">
+                            <label class="txtHead">thailotto :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=thailotto</label>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="txtHead"> laoslotto : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=laoslotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottovip : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylottovip</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> baaclotto : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=baaclotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> gsblotto : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=gsblotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> pingponglotto :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=pingponglotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> laoslotto_set :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=laoslotto_set</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> yeekeelotto :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=yeekeelotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> malaylotto :</label
+                            ><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=malaylotto</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto_set :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylotto_set</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylotto_set :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylottovip_set</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottospecial_set :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylottospecial_set</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> malaylotto_set :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=malaylotto_set</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> hanoylottospecial :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=hanoylottospecial</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockkorea :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockkorea</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockchina :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockchina</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockdowjones :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockdowjones</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocktaiwan : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stocktaiwan</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockengland :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockengland</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockindia :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockindia</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockhangseng :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockhangseng</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockegypt : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockegypt</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocknikkei : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stocknikkei</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stocksingapore :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stocksingapore</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockthai :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">&lottotype=stockthai</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockgerman :</label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockgerman</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockrussia : </label>
+                            <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead">lottotype=stockrussia</label>
+                        </div>
+
+
                     </div>
                 </div>
 
@@ -1468,24 +1356,13 @@
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.87rem;word-break:break-all;">
+                    <div class="divBox" style="font-size: 0.87rem;">
                         <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px; max-width: 12.3%"><label class="txtHead">English
-                                :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=thailotto&amp;lang=EN</label></label>
-                                </div>
-                            </div>
+                            <label class="txtHead">English :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=thailotto&amp;</label><label class="txtHead">lang=EN</label>
                         </div>
+
                         <div class="col-12">
-                            <div class="row">
-                                <div class="col-2" style="padding-right:0px;padding-left: 2px; max-width: 12.3%"><label class="txtHead">Thai
-                                :&nbsp;</label></div>
-                                <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;<label class="txtHead" style="margin-bottom:0px">lottotype=laoslotto&amp;lang=TH</label></label>
-                                </div>
-                            </div>
+                            <label class="txtHead">Thai : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto&amp;</label><label class="txtHead">lang=TH</label>
                         </div>
                     </div>
                 </div>
@@ -1495,270 +1372,98 @@
                         <lable><b style="color: #cfa137 !important;">Signout re-direct optional link:</b></lable>
                     </div>
                 </div>
-
-                <div class="divBox" style="font-size: 0.681rem;word-break:break-all;">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">thailotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=thailotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox" style="font-size: 0.681rem; width: 790px;">
+                        <div class="col-12">
+                            <label class="txtHead">thailotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=thailotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">laoslotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottovip : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">baaclotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=baaclotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">baaclotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=baaclotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">gsblotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=gsblotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead"> gsblotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=gsblotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">pingponglotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=pingponglotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">pingponglotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=pingponglotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">laoslotto_set
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto_set&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">laoslotto_set : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">yeekeelotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=yeekeelotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">yeekeelotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=yeekeelotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">malaylotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylotto_set
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto_set&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottovip_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottovip_set
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip_set&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottospecial_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial_set
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial_set&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">malaylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">malaylotto_set
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto_set&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">hanoylottospecial :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">hanoylottospecial
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockkorea : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockkorea&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockkorea
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockkorea&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockchina :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockchina&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockchina
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockchina&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockdowjones :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockdowjones&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockdowjones
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockdowjones&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocktaiwan :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocktaiwan&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocktaiwan
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocktaiwan&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockengland :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockengland&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockengland
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockengland&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead"> stockindia :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockindia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockindia
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockindia&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockhangseng :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockhangseng&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockhangseng
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockhangseng&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockegypt :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockegypt&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockegypt
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockegypt&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocknikkei :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocknikkei&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocknikkei
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocknikkei&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stocksingapore :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocksingapore&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stocksingapore
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocksingapore&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockthai :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockthai&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockthai
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockthai&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockgerman :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockgerman&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockgerman
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px"> https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockgerman&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-2" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">stockrussia
-                                    :&nbsp;</label></div>
-                            <div class="col-10" style="padding-left:0px;">
-                                <label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxODksImV4cCI6MTYyNzE3ODYzMCwiaWF0IjoxNjI2MzE0NjMwLCJyb2xlIjoibWVtYmVyMUBjb21wc2VhbWxlc3MiLCJzdWIiOmZhbHNlfQ.eLfAFfTnSD80OajqxH6yWmojd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockrussia&amp;url=<label class="txtHead" style="margin-bottom:0px">input your link here(full link with https://)</label></label>
-                            </div>
+                        <div class="col-12">
+                            <label class="txtHead">stockrussia : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockrussia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                     </div>
                 </div>
+
+
+
+
 
 
                 <div class="col-12" id="tab5">
