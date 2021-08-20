@@ -1179,143 +1179,143 @@
                         <div class="col-12">
                             <label class="txtHead">thailotto :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=thailotto</label>
+                            <label class="txtHead">lotto=thailotto</label>
                         </div>
 
                         <div class="col-12">
                             <label class="txtHead"> laoslotto : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=laoslotto</label>
+                            <label class="txtHead">lotto=laoslotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylotto : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylotto</label>
+                            <label class="txtHead">lotto=hanoylotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylottovip : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylottovip</label>
+                            <label class="txtHead">lotto=hanoylottovip</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> baaclotto : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=baaclotto</label>
+                            <label class="txtHead">lotto=baaclotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> gsblotto : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=gsblotto</label>
+                            <label class="txtHead">lotto=gsblotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> pingponglotto :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=pingponglotto</label>
+                            <label class="txtHead">lotto=pingponglotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> laoslotto_set :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=laoslotto_set</label>
+                            <label class="txtHead">lotto=laoslotto_set</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> yeekeelotto :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=yeekeelotto</label>
+                            <label class="txtHead">lotto=yeekeelotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> malaylotto :</label
                             ><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=malaylotto</label>
+                            <label class="txtHead">lotto=malaylotto</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylotto_set :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylotto_set</label>
+                            <label class="txtHead">lotto=hanoylotto_set</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylotto_set :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylottovip_set</label>
+                            <label class="txtHead">lotto=hanoylottovip_set</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylottospecial_set :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylottospecial_set</label>
+                            <label class="txtHead">lotto=hanoylottospecial_set</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> malaylotto_set :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=malaylotto_set</label>
+                            <label class="txtHead">lotto=malaylotto_set</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> hanoylottospecial :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=hanoylottospecial</label>
+                            <label class="txtHead">lotto=hanoylottospecial</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockkorea :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockkorea</label>
+                            <label class="txtHead">lotto=stockkorea</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockchina :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockchina</label>
+                            <label class="txtHead">lotto=stockchina</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockdowjones :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockdowjones</label>
+                            <label class="txtHead">lotto=stockdowjones</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stocktaiwan : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stocktaiwan</label>
+                            <label class="txtHead">lotto=stocktaiwan</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockengland :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockengland</label>
+                            <label class="txtHead">lotto=stockengland</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockindia :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockindia</label>
+                            <label class="txtHead">lotto=stockindia</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockhangseng :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockhangseng</label>
+                            <label class="txtHead">lotto=stockhangseng</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockegypt : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockegypt</label>
+                            <label class="txtHead">lotto=stockegypt</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stocknikkei : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stocknikkei</label>
+                            <label class="txtHead">lotto=stocknikkei</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stocksingapore :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stocksingapore</label>
+                            <label class="txtHead">lotto=stocksingapore</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockthai :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">&lottotype=stockthai</label>
+                            <label class="txtHead">&lotto=stockthai</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead"> stockgerman :</label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockgerman</label>
+                            <label class="txtHead">lotto=stockgerman</label>
                         </div>
                         <div class="col-12">
                             <label class="txtHead">stockrussia : </label>
                             <label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
-                            <label class="txtHead">lottotype=stockrussia</label>
+                            <label class="txtHead">lotto=stockrussia</label>
                         </div>
 
 
@@ -1358,11 +1358,11 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox" style="font-size: 0.87rem;">
                         <div class="col-12">
-                            <label class="txtHead">English :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=thailotto&amp;</label><label class="txtHead">lang=EN</label>
+                            <label class="txtHead">English :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=thailotto&amp;</label><label class="txtHead">lang=EN</label>
                         </div>
 
                         <div class="col-12">
-                            <label class="txtHead">Thai : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto&amp;</label><label class="txtHead">lang=TH</label>
+                            <label class="txtHead">Thai : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=laoslotto&amp;</label><label class="txtHead">lang=TH</label>
                         </div>
                     </div>
                 </div>
@@ -1375,88 +1375,88 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox" style="font-size: 0.681rem; width: 790px;">
                         <div class="col-12">
-                            <label class="txtHead">thailotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=thailotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">thailotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=thailotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">laoslotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">laoslotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=laoslotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylottovip : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylottovip : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylottovip&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">baaclotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=baaclotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">baaclotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=baaclotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead"> gsblotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=gsblotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead"> gsblotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=gsblotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">pingponglotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=pingponglotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">pingponglotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=pingponglotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">laoslotto_set : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=laoslotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">laoslotto_set : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=laoslotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">yeekeelotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=yeekeelotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">yeekeelotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=yeekeelotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">malaylotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">malaylotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=malaylotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylottovip_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottovip_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylottovip_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylottovip_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylottospecial_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylottospecial_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylottospecial_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">malaylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=malaylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">malaylotto_set :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=malaylotto_set&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">hanoylottospecial :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=hanoylottospecial&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">hanoylottospecial :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=hanoylottospecial&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockkorea : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockkorea&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockkorea : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockkorea&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockchina :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockchina&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockchina :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockchina&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockdowjones :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockdowjones&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockdowjones :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockdowjones&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stocktaiwan :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocktaiwan&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stocktaiwan :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stocktaiwan&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockengland :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockengland&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockengland :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockengland&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead"> stockindia :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockindia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead"> stockindia :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockindia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockhangseng :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockhangseng&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockhangseng :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockhangseng&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockegypt :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockegypt&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockegypt :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockegypt&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stocknikkei :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocknikkei&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stocknikkei :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stocknikkei&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stocksingapore :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stocksingapore&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stocksingapore :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stocksingapore&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockthai :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockthai&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockthai :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockthai&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockgerman :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockgerman&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockgerman :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockgerman&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">stockrussia : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lottotype=stockrussia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
+                            <label class="txtHead">stockrussia : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=stockrussia&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
                     </div>
                 </div>
