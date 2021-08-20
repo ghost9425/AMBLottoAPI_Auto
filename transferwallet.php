@@ -1009,8 +1009,8 @@
         <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"testuserapi001@agentap",</span>
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"testuserapi001",</span>
         <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk",</span>
-        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off",</span>
-        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://dev-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
+        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=off",</span>
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test-front.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoxOCwiZXhwIjoxNjI3MjE0NzIzLCJpYXQiOjE2MjYzNTA3MjMsInJvbGUiOiJ0ZXN0dXNlcmFwaTAwMUBhZ2VudGFwaSIsInN1YiI6ZmFsc2V9.X7bkBS0nT8RBGHf7Y8abW4owQ_8pdtxMsDFMSMT3ndk&header=on"</span>
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"success",</span>
 }</code></pre>
