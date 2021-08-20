@@ -718,7 +718,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">English
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=thailotto&<label class="txtHead"style="margin-bottom:0px">lang=EN</label></label>
+                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=thailotto&<label class="txtHead"style="margin-bottom:0px">lang=en</label></label>
                                 </div>
                             </div>
                             <!-- <label class="txtHead">English
@@ -728,7 +728,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12" style="padding-right:0px;padding-left: 2px;"><label class="txtHead">Thai
-                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=laoslotto&<label class="txtHead"style="margin-bottom:0px">lang=TH</label></label>
+                                :&nbsp;</label><label style="margin-bottom:0px">https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&header=off&amp;lotto=laoslotto&<label class="txtHead"style="margin-bottom:0px">lang=th</label></label>
                                 </div>
                             </div>
                         </div>

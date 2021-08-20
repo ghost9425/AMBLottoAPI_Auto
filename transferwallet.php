@@ -1172,7 +1172,7 @@
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.9rem; width: 790px;">
+                    <div class="divBox" style="font-size: 0.9rem;">
                         <!-- <div class="col-12">
                             <label class="txtHead">Baccarat :</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=BAC</label>
                         </div> -->
@@ -1373,7 +1373,7 @@
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.681rem; width: 790px;">
+                    <div class="divBox" style="font-size: 0.681rem;margin:0">
                         <div class="col-12">
                             <label class="txtHead">thailotto : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=thailotto&amp;url=</label><label class="txtHead">input your link here(full link with https://)</label>
                         </div>
