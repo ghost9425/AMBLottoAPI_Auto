@@ -1172,7 +1172,7 @@
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox" style="font-size: 0.9rem;">
+                    <div class="divBox" style="font-size: 0.8rem;">
                         <!-- <div class="col-12">
                             <label class="txtHead">Baccarat :</label><label>http://m.hippo168.com/?tkuuid=5ebd1f57dc7cdc7900125a65&amp;</label><label class="txtHead">game=BAC</label>
                         </div> -->
@@ -1358,11 +1358,11 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox" style="font-size: 0.87rem;">
                         <div class="col-12">
-                            <label class="txtHead">English :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=thailotto&amp;</label><label class="txtHead">lang=EN</label>
+                            <label class="txtHead">English :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=thailotto&amp;</label><label class="txtHead">lang=en</label>
                         </div>
 
                         <div class="col-12">
-                            <label class="txtHead">Thai : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=laoslotto&amp;</label><label class="txtHead">lang=TH</label>
+                            <label class="txtHead">Thai : </label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;lotto=laoslotto&amp;</label><label class="txtHead">lang=th</label>
                         </div>
                     </div>
                 </div>
