@@ -129,6 +129,6 @@ pre {
     color: black;
     padding: 10px;
     margin-left: 9%;
-    width: 730px;
+    width: max-content;
     margin-bottom: 20px;
 }
