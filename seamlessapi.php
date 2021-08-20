@@ -2860,7 +2860,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <span class="hljs-string">"0"</span>
             ],
         },
-        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://dev-ag.pirate168.com/api/reward/21330"</span>,
+        <span class="hljs-attr">"resultlink"</span>: <span class="hljs-string">"https://test-front.pirate168.com/api/reward/21330"</span>,
         <span class="hljs-attr">"createDate"</span>: <span class="hljs-string">"2021-07-14 20:26:39"</span>
     }
 }</code></pre>
