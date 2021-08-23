@@ -103,6 +103,7 @@
                                 Url :
                             </label>
                             <label>
+
                                 https://test-front.pirate168.com/apiRoute/member/loginRequest
                             </label>
                         </div>
@@ -3663,7 +3664,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             <label>Post</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead">Url : </label>
+                            <label class="txtHead">Url : </label> 
                             <label>https://test-front.pirate168.com/apiRoute/api/memberBetHistories</label>
                         </div>
                         <div class="col-12">
