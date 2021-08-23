@@ -94,7 +94,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/member/loginRequest
+                                https://test-api.pirate168.com/apiRoute/member/tranferwallet/loginRequest
                             </label>
                         </div>
                         <div class="col-12">
@@ -1223,8 +1223,7 @@
                             <label class="txtHead">lotto=yeekeelotto</label>
                         </div>
                         <div class="col-12">
-                            <label class="txtHead"> malaylotto :</label
-                            ><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
+                            <label class="txtHead"> malaylotto :</label><label>https://test-front.pirate168.com/token?token=jd_m8MB7C0xxvahoWtPg&amp;header=off&amp;</label>
                             <label class="txtHead">lotto=malaylotto</label>
                         </div>
                         <div class="col-12">
@@ -1480,7 +1479,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/getUserBalance
+                                https://test-api.pirate168.com/apiRoute/api/getUserBalance
                             </label>
                         </div>
                         <div class="col-12">
@@ -1698,7 +1697,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/deposit
+                                https://test-api.pirate168.com/apiRoute/api/deposit
                             </label>
                         </div>
                         <div class="col-12">
@@ -1979,7 +1978,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/withdraw
+                                https://test-api.pirate168.com/apiRoute/api/withdraw
                             </label>
                         </div>
                         <div class="col-12">
@@ -2261,7 +2260,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/memberBetHistories
+                                https://test-api.pirate168.com/apiRoute/api/memberBetHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -2775,7 +2774,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/betHistories
+                                https://test-api.pirate168.com/apiRoute/api/betHistories
                             </label>
                         </div>
                         <div class="col-12">
@@ -3281,7 +3280,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/depositWithdrawHistory
+                                https://test-api.pirate168.com/apiRoute/api/depositWithdrawHistory
                             </label>
                         </div>
                         <div class="col-12">
@@ -3521,7 +3520,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/depositWithdrawHistoryByTransId
+                                https://test-api.pirate168.com/apiRoute/api/depositWithdrawHistoryByTransId
                             </label>
                         </div>
                         <div class="col-12">
@@ -3760,7 +3759,7 @@
                         <div class="col-12">
                             <label class="txtHead">Url : </label>
                             <label>
-                                https://dev-api.pirate168.com/apiRoute/api/GetListBetResult
+                                https://test-api.pirate168.com/apiRoute/api/GetListBetResult
                             </label>
                         </div>
                         <div class="col-12">
