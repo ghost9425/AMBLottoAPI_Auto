@@ -32,18 +32,29 @@
                     <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:3. Seamless API">3. Lotto Type</span><i
+                                set-lan="text:3. Seamless API">3. API Transferwallet</span><i
                                 class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu31"><a class="waves-effect submenu" href="lottotype.php#tabOne">
+                                <li id="manu31"><a class="waves-effect submenu" href="apitransferwallet.php#tabOne">
                                         <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.1
-                                        Key Type</span></a>
+                                        Deposit</span></a>
                                 </li>
-                                <li id="manu32"><a class="waves-effect submenu" href="lottotype.php#tabTwo">
+                                <li id="manu32"><a class="waves-effect submenu" href="apitransferwallet.php#tabTwo">
                                         <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
-                                        Key Sub Type</span></a>
+                                        Withdraw</span></a>
+                                </li>
+                                <li id="manu33"><a class="waves-effect submenu" href="apitransferwallet.php#tabThree">
+                                        <span class="sv-normal" set-lan="text:3.3 Setting">3.3
+                                        Getcreditagent</span></a>
+                                </li>
+                                <li id="manu34"><a class="waves-effect submenu" href="apitransferwallet.php#tabFour">
+                                        <span class="sv-normal" set-lan="text:3.4 login request">3.4 Getcreditmember </span></a>
+                                </li>
+                                <li id="manu35"><a class="waves-effect submenu" href="apitransferwallet.php#tabFive">
+                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">3.5
+                                        Validturn</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -121,7 +132,7 @@
                             </ul>
                         </div>
                     </li> -->
-                    <li id="manu4">
+                    <!-- <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
                                 set-lan="text:4. Transferwallet Api">4. Seamless API</span><i
@@ -197,8 +208,8 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
-                    <li id="manu5">
+                    </li> -->
+                    <!-- <li id="manu5">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Transferwallet API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
@@ -253,7 +264,7 @@
                                 </li>
                             </ul>
 
-                            <!-- <ul>
+                            <ul>
                                 <li id="manu81"><a class="waves-effect submenu" href="responsecode.php#tabOne">
                                         <span class="sv-normal">5.1 Member Authen</span></a>
                                 </li>
@@ -275,11 +286,11 @@
                                 <li id="manu87"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
                                         <span class="sv-normal">5.7 Service Respone</span></a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </div>
-                    </li>
+                    </li> -->
 
-                    <li id="manu6">
+                    <!-- <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
@@ -288,7 +299,7 @@
                                 <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
                                         <span class="sv-normal">6.1 Member Authen</span></a>
                                 </li>
-                                <!-- <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
+                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">6.2 Token</span></a>
                                 </li>
                                 <li id="manu63"><a class="waves-effect submenu" href="responsecode.php#tabThree">
@@ -302,12 +313,12 @@
                                 </li>
                                 <li id="manu66"><a class="waves-effect submenu" href="responsecode.php#tabSix">
                                         <span class="sv-normal">6.6 Seamless API</span></a>
-                                </li> -->
+                                </li>
                                 <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">6.2 Service Respone</span></a>
                                 </li>
                             </ul>
-                            <!-- <ul id="sub_currency">
+                            <ul id="sub_currency">
                                 <li id="manu51"><a class="waves-effect submenu"
                                         href="currency.php#tab1"><span
                                             class="sv-normal" set-lan="html:6.1">6.1 Currency</span></a></li>
@@ -374,9 +385,9 @@
                                         href="currency.php#tab18"><span
                                             class="sv-normal" set-lan="html:6.18">6.18 KRW - South Korean won</span></a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </div>
-                    </li>
+                    </li> -->
                     <!-- <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:6">7. Game Detail</span><i
