@@ -15,6 +15,21 @@
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
                     <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.1
+                    Introduction API Transferwallet</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12">
+                        <label set-lan="html:0. *">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        *หมายเหตุ ในส่วนนี้การเปิดใช้ระบบ Auto จะต้องแจ้งเปิด Prefix ใหม่กับทาง AMB Lotto Line:@ 
+                        <a href="https://line.me/ti/p/~@amblotto.vip" target="blank">
+                            @amblotto.vip
+                        </label>
+                    </div>
+                </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabTwo">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.2
                     Deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -219,8 +234,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.2 Withdraw</b>
+                <div class="col-12" id="tabThree">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.3 Withdraw</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -425,8 +440,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.3 Getcreditagent</b>
+                <div class="col-12" id="tabFour">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.4 Get Creditagent</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -593,8 +608,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabFour">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.4 Getcreditmember</b>
+                <div class="col-12" id="tabFive">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.5 Get Creditmember</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -771,8 +786,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabFive">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.5 Validturn</b>
+                <div class="col-12" id="tabSix">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.6 Validturn</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
