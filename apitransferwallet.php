@@ -287,12 +287,12 @@
                                         <tr>
                                             <td class="bRight">amount</td>
                                             <td class="bRight">Number</td>
-                                            <td class="bRight">Amount of deposit.</td>
+                                            <td class="bRight">Amount of withdraw.</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">transaction_ref</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">Transaction reference Unique from your system type deposit.</td>
+                                            <td class="bRight">Transaction reference Unique from your system type withdraw.</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">signature</td>
@@ -342,12 +342,12 @@
                                     <tr>
                                         <td class="bRight">after_balance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance after Deposit of member.</td>
+                                        <td>Balance after withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">before_balance</td>
                                         <td class="bRight">Number</td>
-                                        <td>Balance before Deposit of member.</td>
+                                        <td>Balance before withdraw of member.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">code</td>
@@ -425,174 +425,6 @@
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"message"</span>: <span class="hljs-string">"success",</span>
     <span class="hljs-attr">"ref"</span>: <span class="hljs-number">"5f1cd7c3fb68ae7c679f8c33966610670d32ff1e",</span>
-}</code></pre>
-                                    <script src="./API_files/ex4_7B.js.download"></script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-3"></div>
-                <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.3 Getcreditagent</b>
-                    </lable>
-                </div>
-                <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox">
-                        <div class="col-12">
-                            <label class="txtHead">Method : </label>
-                            <label>Post</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">
-                                Url :
-                            </label>
-                            <label>
-                                https://test-api.pirate168.com/v1/api/member/auto/getcreditagent
-                            </label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">
-                                headers :
-                            </label>
-                            <label>
-                                content-type application/json
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
-                        </lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                            <div class="table-wrapper">
-                                <table class="table table-borderless table-striped" id="DataTable1">
-                                    <thead class="rgba-green-slight">
-                                        <tr>
-                                            <th style="width:15%" set-lan="html:Parameter" class="txtCenter bRight">
-                                            Parameter</th>
-                                            <th style="width:20%" set-lan="html:Parameter" class="txtCenter bRight">
-                                            Type</th>
-                                            <th style="width:45%" set-lan="html:Type" class="txtCenter bRight">Description
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="bRight">agentId</td>
-                                            <td class="bRight">String</td>
-                                            <td class="bRight">Agent Id from partner system.</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bRight">signature</td>
-                                            <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT และใช้ key เป็น key ในการเข้ารหัส</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentId"</span>: <span class="hljs-string">"ntc123",</span>
-    <span class="hljs-attr">"signature"</span>: <span class="hljs-string">"52c4ef2da95b8071c425ecd0ef6ee970dbc04721ec5c5fb121e8aa42d29bcdd3"</span>
-}</code></pre>
-                                    <script src="./API_files/ex4_5.js.download"></script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
-                </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable45B">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
-
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Result Code Reference.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">message</td>
-                                        <td class="bRight">String</td>
-                                        <td>Information message.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">credit</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Total credit agent.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable45C">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">0</td>
-                                        <td>success</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">2033</td>
-                                        <td>invalid data value</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">2041</td>
-                                        <td>agent not found</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">2045</td>
-                                        <td>invalid siganture</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Response
-                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
-    <span class="hljs-attr">"credit"</span>: <span class="hljs-string">80922.99,</span>
-    <span class="hljs-attr">"message"</span>: <span class="hljs-number">"success",</span>
 }</code></pre>
                                     <script src="./API_files/ex4_7B.js.download"></script>
                                 </div>
@@ -882,7 +714,7 @@
                                     <tr>
                                         <td class="bRight">credit</td>
                                         <td class="bRight">Number</td>
-                                        <td>Total credit agent.</td>
+                                        <td>Total credit member.</td>
                                     </tr>
                                 </tbody>
                             </table>
