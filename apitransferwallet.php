@@ -18,14 +18,6 @@
                     Deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
-                <!-- <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="form-group col-12">
-                        <label
-                            set-lan="html:3.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            This section is to illustrate the detail of implementing seamless in external partner
-                            system.</label>
-                    </div>
-                </div> -->
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="divBox">
                         <div class="col-12">
@@ -156,7 +148,7 @@
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td>Result Code Reference.</td>
+                                        <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -362,7 +354,7 @@
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td>Result Code Reference.</td>
+                                        <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -420,8 +412,8 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"after_balance"</span>: <span class="hljs-number">14010,</span>
-    <span class="hljs-attr">"before_balance"</span>: <span class="hljs-string">14000,</span>
+    <span class="hljs-attr">"after_balance"</span>: <span class="hljs-number">14000,</span>
+    <span class="hljs-attr">"before_balance"</span>: <span class="hljs-string">14010,</span>
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
     <span class="hljs-attr">"message"</span>: <span class="hljs-string">"success",</span>
     <span class="hljs-attr">"ref"</span>: <span class="hljs-number">"5f1cd7c3fb68ae7c679f8c33966610670d32ff1e",</span>
@@ -928,7 +920,7 @@
                                     <tr>
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
-                                        <td>Result Code Reference.</td>
+                                        <td>Reference id Unique from AMB Lotto system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">username</td>
