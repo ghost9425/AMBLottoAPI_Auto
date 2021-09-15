@@ -24,12 +24,579 @@
                         *หมายเหตุ ในส่วนนี้การเปิดใช้ระบบ Auto จะต้องแจ้งเปิด Prefix ใหม่กับทาง AMB Lotto Line:@ 
                         <a href="https://line.me/ti/p/~@amblotto.vip" target="blank">
                             @amblotto.vip
-                        </label>
+                        </a>
                     </div>
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
                     <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.2
+                    Register</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com//v1/apiRoute/member/landing/register
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable1">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width:15%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                            <th style="width:20%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Type</th>
+                                            <th style="width:45%" set-lan="html:Type" class="txtCenter bRight">Description
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">username</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Username member.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">password</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Password for login.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">firstname</td>
+                                            <td class="bRight">Number</td>
+                                            <td class="bRight">Name must be matct with bank account.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">lastname</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Lastname must be matct with bank account.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">bank</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Bank name.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">acc_no</td>
+                                            <td class="bRight">Number</td>
+                                            <td class="bRight">Bank number.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">phone</td>
+                                            <td class="bRight">Number</td>
+                                            <td class="bRight">Bank number.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">agent</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">This member register under by this agent.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">master_member</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Copy payout and discount from this user.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"username"</span>: <span class="hljs-string">"member01",</span>
+    <span class="hljs-attr">"password"</span>: <span class="hljs-string">"aA444444",</span>
+    <span class="hljs-attr">"firstname"</span>: <span class="hljs-string">"test01",</span>
+    <span class="hljs-attr">"lastname"</span>: <span class="hljs-string">"test02",</span>
+    <span class="hljs-attr">"bank"</span>: <span class="hljs-string">"KBANK",</span>
+    <span class="hljs-attr">"acc_no"</span>: <span class="hljs-string">"0261294974",</span>
+    <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"0838259109",</span>
+    <span class="hljs-attr">"agent"</span>: <span class="hljs-string">"agenttest",</span>
+    <span class="hljs-attr">"master_member"</span>: <span class="hljs-string">"member1"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_5.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
+                </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
+
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">message</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2000</td>
+                                        <td>user already exixt</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2041</td>
+                                        <td>agent not found</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2043</td>
+                                        <td>กรุณาส่ง Prefix</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2043</td>
+                                        <td>กรุณาส่ง First Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2043</td>
+                                        <td>กรุณาส่ง Last Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2043</td>
+                                        <td>ไม่มี Prefix นี้ในระบบ</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2044</td>
+                                        <td>invalid bank name or bankstatus</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2051</td>
+                                        <td>invalid username</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2052</td>
+                                        <td>password len is < 8</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2053</td>
+                                        <td>invalid phone</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2054</td>
+                                        <td>invalid acc_no</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>*code 2043 มาจากระบบฝาก/ถอนอัตโนมัติ	
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Response
+                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
+    <span class="hljs-attr">"message"</span>: <span class="hljs-string">"success"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_7B.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                <div class="table-wrapper">
+                    <table class="table table-borderless table-striped" id="DataTable62">
+                        <thead class="rgba-green-slight">
+                            <tr>
+                                <th set-lan="html:Description" class="txtCenter bRight">Bank list</th>
+                                <th set-lan="html:Download" class="txtCenter" style="width: 20%;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bRight">SCB: ธนาคารไทยพาณิชย์</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">KBANK: ธนาคารกสิกรไทย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">BBL: ธนาคารกรุงเทพ</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">BAY: ธนาคารกรุงศรีอยุธยา</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">KTB: ธนาคารกรุงไทย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">BAAC: ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">TMB: ธนาคารทหารไทย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">ICBC: ธนาคารไอซีบีซี</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">TCD: ธนาคารไทยเครดิตเพื่อรายย่อย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">CITI: ธนาคารซิตี้แบงก์</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">SCBT: ธนาคารสแตนดาร์ดชาร์เตอร์ด</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">CIMB: ธนาคารซีไอเอ็มบีไทย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">UOB: ธนาคารยูโอบี</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">GSB: ธนาคารออมสิน</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">HSBC: ธนาคารเอชเอสบีซี</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">MIZUHO: ธนาคารมิซูโฮ</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">GHB: ธนาคารอาคารสงเคราะห์</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">LHBANK: ธนาคารแลนด์</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">TBANK: ธนาคารธนชาต</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">TISCO: ธนาคารทิสโก้</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">KKP: ธนาคารเกียรตินาคิน</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">IBANK: ธนาคารอิสลามแห่งประเทศไทย</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                            <tr>
+                                <td class="bRight">TMB: ธนาคารทีเอ็มบีธนชาต</td>
+                                <td class="txtCenter">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabThree">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.3
+                    Login request</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/v1/apiRoute/member/landing/login
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable1">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width:15%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                            <th style="width:20%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Type</th>
+                                            <th style="width:45%" set-lan="html:Type" class="txtCenter bRight">Description
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">agentUsername</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Agent account , Account length is restricted to 36 chars at most.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">playerUsername</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Player username from partner system.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">playerPassword</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Player password from partner system.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"agenttest",</span>
+    <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member2",</span>
+    <span class="hljs-attr">"playerPassword"</span>: <span class="hljs-string">"aA444444"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_5.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
+                </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
+
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerApiId</td>
+                                        <td class="bRight">String</td>
+                                        <td>Player Id from partner system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerApiUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Player username from AMBLotto system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">playerUsername</td>
+                                        <td class="bRight">String</td>
+                                        <td>Player username from partner system.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">tkUuid</td>
+                                        <td class="bRight">String</td>
+                                        <td>Can use only 1 time. limit to 24 hours from generate time.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">url</td>
+                                        <td class="bRight">String</td>
+                                        <td>AMB Lotto link but don't show web header</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">urlFullPage</td>
+                                        <td class="bRight">String</td>
+                                        <td>AMB Lotto link fullpage</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">message</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1006</td>
+                                        <td>Invalid UserAgent or ApiKey</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">41001</td>
+                                        <td>Error Request body is not an object.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71001</td>
+                                        <td>missing filed 'agentUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71002</td>
+                                        <td>missing filed 'playerUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71031</td>
+                                        <td>invalid username or password</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71005</td>
+                                        <td>playerUsername must be between 4 and 36 characters long.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Response
+                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
+    <span class="hljs-attr">"data"</span>: {
+        <span class="hljs-attr">"playerApiId"</span>: <span class="hljs-string">"066e56786c3458f6e7bb2e70c8de248d5d77184bee6db80b744fd68284b2",</span>
+        <span class="hljs-attr">"playerApiUsername"</span>: <span class="hljs-string">"member2@agenttest",</span>
+        <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member2@agenttest",</span>
+        <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8",</span>
+        <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://lotto.zonelotto.net/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8&header=off",</span>
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://lotto.zonelotto.net/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8&header=on"</span>
+    },
+    <span class="hljs-attr">"message"</span>: <span class="hljs-string">"success"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_7B.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabFour">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.4
                     Deposit</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -234,8 +801,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.3 Withdraw</b>
+                <div class="col-12" id="tabFive">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.5 Withdraw</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -440,8 +1007,8 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabFour">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.4 Get Creditagent</b>
+                <div class="col-12" id="tabSix">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.6 Get Creditagent</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -608,7 +1175,7 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabFive">
+                <div class="col-12" id="tabSeven">
                     <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.5 Get Creditmember</b>
                     </lable>
                 </div>
@@ -786,7 +1353,7 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-                <div class="col-12" id="tabSix">
+                <div class="col-12" id="tabEight">
                     <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.6 Validturn</b>
                     </lable>
                 </div>

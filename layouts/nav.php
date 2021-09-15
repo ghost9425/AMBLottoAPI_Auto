@@ -42,22 +42,30 @@
                                         Introduction API Transferwallet</span></a>
                                 </li>
                                 <li id="manu32"><a class="waves-effect submenu" href="apitransferwallet.php#tabTwo">
-                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.2
-                                        Deposit</span></a>
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
+                                            Register</span></a>
                                 </li>
                                 <li id="manu33"><a class="waves-effect submenu" href="apitransferwallet.php#tabThree">
-                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.3
-                                        Withdraw</span></a>
+                                        <span class="sv-normal" set-lan="text:3.3 Setting">3.3
+                                            Login request</span></a>
                                 </li>
                                 <li id="manu34"><a class="waves-effect submenu" href="apitransferwallet.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.3 Setting">3.4
-                                        Get Creditagent</span></a>
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.4
+                                        Deposit</span></a>
                                 </li>
                                 <li id="manu35"><a class="waves-effect submenu" href="apitransferwallet.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:3.4 login request">3.5 Get Creditmember </span></a>
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.5
+                                        Withdraw</span></a>
                                 </li>
                                 <li id="manu36"><a class="waves-effect submenu" href="apitransferwallet.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">3.6
+                                        <span class="sv-normal" set-lan="text:3.3 Setting">3.6
+                                        Get Creditagent</span></a>
+                                </li>
+                                <li id="manu37"><a class="waves-effect submenu" href="apitransferwallet.php#tabSeven">
+                                        <span class="sv-normal" set-lan="text:3.4 login request">3.7 Get Creditmember </span></a>
+                                </li>
+                                <li id="manu38"><a class="waves-effect submenu" href="apitransferwallet.php#tabEight">
+                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">3.8
                                         Validturn</span></a>
                                 </li>
                             </ul>
