@@ -1176,7 +1176,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.5 Get Creditmember</b>
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.7 Get Creditmember</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1354,7 +1354,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.6 Validturn</b>
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.8 Validturn</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
