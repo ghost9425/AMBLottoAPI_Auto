@@ -270,101 +270,101 @@
                         <thead class="rgba-green-slight">
                             <tr>
                                 <th set-lan="html:Description" class="txtCenter bRight">Bank list</th>
-                                <th set-lan="html:Download" class="txtCenter" style="width: 20%;"></th>
+                                <th set-lan="html:Download" class="txtCenter" style="width: 45%;">Description</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="bRight">SCB: ธนาคารไทยพาณิชย์</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">SCB</td>
+                                <td class="txtCenter">ธนาคารไทยพาณิชย์</td>
                             </tr>
                             <tr>
-                                <td class="bRight">KBANK: ธนาคารกสิกรไทย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">KBANK</td>
+                                <td class="txtCenter">ธนาคารกสิกรไทย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">BBL: ธนาคารกรุงเทพ</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">BBL</td>
+                                <td class="txtCenter">ธนาคารกรุงเทพ</td>
                             </tr>
                             <tr>
-                                <td class="bRight">BAY: ธนาคารกรุงศรีอยุธยา</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">BAY</td>
+                                <td class="txtCenter">ธนาคารกรุงศรีอยุธยา</td>
                             </tr>
                             <tr>
-                                <td class="bRight">KTB: ธนาคารกรุงไทย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">KTB</td>
+                                <td class="txtCenter">ธนาคารกรุงไทย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">BAAC: ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">BAAC</td>
+                                <td class="txtCenter">ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร</td>
                             </tr>
                             <tr>
-                                <td class="bRight">TMB: ธนาคารทหารไทย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">TMB</td>
+                                <td class="txtCenter">ธนาคารทหารไทย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">ICBC: ธนาคารไอซีบีซี</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">ICBC</td>
+                                <td class="txtCenter">ธนาคารไอซีบีซี</td>
                             </tr>
                             <tr>
-                                <td class="bRight">TCD: ธนาคารไทยเครดิตเพื่อรายย่อย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">TCD</td>
+                                <td class="txtCenter">ธนาคารไทยเครดิตเพื่อรายย่อย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">CITI: ธนาคารซิตี้แบงก์</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">CITI</td>
+                                <td class="txtCenter">ธนาคารซิตี้แบงก์</td>
                             </tr>
                             <tr>
-                                <td class="bRight">SCBT: ธนาคารสแตนดาร์ดชาร์เตอร์ด</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">SCBT</td>
+                                <td class="txtCenter">ธนาคารสแตนดาร์ดชาร์เตอร์ด</td>
                             </tr>
                             <tr>
-                                <td class="bRight">CIMB: ธนาคารซีไอเอ็มบีไทย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">CIMB</td>
+                                <td class="txtCenter">ธนาคารซีไอเอ็มบีไทย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">UOB: ธนาคารยูโอบี</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">UOB</td>
+                                <td class="txtCenter">ธนาคารยูโอบี</td>
                             </tr>
                             <tr>
-                                <td class="bRight">GSB: ธนาคารออมสิน</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">GSB</td>
+                                <td class="txtCenter">ธนาคารออมสิน</td>
                             </tr>
                             <tr>
-                                <td class="bRight">HSBC: ธนาคารเอชเอสบีซี</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">HSBC</td>
+                                <td class="txtCenter">ธนาคารเอชเอสบีซี</td>
                             </tr>
                             <tr>
-                                <td class="bRight">MIZUHO: ธนาคารมิซูโฮ</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">MIZUHO</td>
+                                <td class="txtCenter">ธนาคารมิซูโฮ</td>
                             </tr>
                             <tr>
-                                <td class="bRight">GHB: ธนาคารอาคารสงเคราะห์</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">GHB</td>
+                                <td class="txtCenter">ธนาคารอาคารสงเคราะห์</td>
                             </tr>
                             <tr>
-                                <td class="bRight">LHBANK: ธนาคารแลนด์</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">LHBANK</td>
+                                <td class="txtCenter">ธนาคารแลนด์</td>
                             </tr>
                             <tr>
-                                <td class="bRight">TBANK: ธนาคารธนชาต</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">TBANK</td>
+                                <td class="txtCenter">ธนาคารธนชาต</td>
                             </tr>
                             <tr>
-                                <td class="bRight">TISCO: ธนาคารทิสโก้</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">TISCO</td>
+                                <td class="txtCenter">ธนาคารทิสโก้</td>
                             </tr>
                             <tr>
-                                <td class="bRight">KKP: ธนาคารเกียรตินาคิน</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">KKP</td>
+                                <td class="txtCenter">ธนาคารเกียรตินาคิน</td>
                             </tr>
                             <tr>
-                                <td class="bRight">IBANK: ธนาคารอิสลามแห่งประเทศไทย</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">IBANK</td>
+                                <td class="txtCenter">ธนาคารอิสลามแห่งประเทศไทย</td>
                             </tr>
                             <tr>
-                                <td class="bRight">TMB: ธนาคารทีเอ็มบีธนชาต</td>
-                                <td class="txtCenter">-</td>
+                                <td class="txtCenter bRight">TMB</td>
+                                <td class="txtCenter">ธนาคารทีเอ็มบีธนชาต</td>
                             </tr>
                         </tbody>
                     </table>
