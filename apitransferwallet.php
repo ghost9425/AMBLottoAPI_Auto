@@ -103,7 +103,7 @@
                                         <tr>
                                             <td class="bRight">acc_no</td>
                                             <td class="bRight">Number</td>
-                                            <td class="bRight">Bank number.</td>
+                                            <td class="bRight">Account number.</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">phone</td>
