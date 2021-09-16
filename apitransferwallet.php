@@ -44,7 +44,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com//v1/apiRoute/member/landing/register
+                                https://test-api.pirate168.com/v1/apiRoute/member/landing/register
                             </label>
                         </div>
                         <div class="col-12">
@@ -108,7 +108,7 @@
                                         <tr>
                                             <td class="bRight">phone</td>
                                             <td class="bRight">Number</td>
-                                            <td class="bRight">Bank number.</td>
+                                            <td class="bRight">Phone number.</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">agent</td>
