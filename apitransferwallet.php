@@ -1594,7 +1594,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.9 Landing Result</b>
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.9 Draw Result</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>

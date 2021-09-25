@@ -70,7 +70,7 @@
                                 </li>
                                 <li id="manu39"><a class="waves-effect submenu" href="apitransferwallet.php#tabNine">
                                         <span class="sv-normal" set-lan="text:3.5.4">3.9
-                                        Landing Result</span></a>
+                                        Draw Result</span></a>
                                 </li>
                             </ul>
                         </div>
