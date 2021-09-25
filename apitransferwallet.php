@@ -611,7 +611,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/api/member/auto/deposit
+                                https://test-api.pirate168.com/v1/api/member/auto/deposit
                             </label>
                         </div>
                         <div class="col-12">
@@ -817,7 +817,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/api/member/auto/withdraw
+                                https://test-api.pirate168.com/v1/api/member/auto/withdraw
                             </label>
                         </div>
                         <div class="col-12">
@@ -1023,7 +1023,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/api/member/auto/getcreditagent
+                                https://test-api.pirate168.com/v1/api/member/auto/getcreditagent
                             </label>
                         </div>
                         <div class="col-12">
@@ -1191,7 +1191,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/api/member/auto/getcreditmember
+                                https://test-api.pirate168.com/v1/api/member/auto/getcreditmember
                             </label>
                         </div>
                         <div class="col-12">
@@ -1369,7 +1369,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/api/member/auto/validturn
+                                https://test-api.pirate168.com/v1/api/member/auto/validturn
                             </label>
                         </div>
                         <div class="col-12">
