@@ -1592,6 +1592,245 @@
                         </div>
                     </div>
                 </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabNine">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.9 Landing Result</b>
+                    </lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/member/landing/result
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable1">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width:15%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                            <th style="width:20%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Type</th>
+                                            <th style="width:45%" set-lan="html:Type" class="txtCenter bRight">Description
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">agentUsername</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Agent account , Account length is restricted to 36 chars at most.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">lottotype</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Key of lotto type.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">startDate</td>
+                                            <td class="bRight">Date</td>
+                                            <td class="bRight">Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">endDate</td>
+                                            <td class="bRight">Date</td>
+                                            <td class="bRight">Date type “yyyy-MM-dd HH:mm:ss” (GMT+7)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"amblotto1234",</span>
+    <span class="hljs-attr">"lottotype"</span>: <span class="hljs-string">"thailotto",</span>
+    <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-09-02 15:04:05",</span>
+    <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-09-16 15:04:05"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_5.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
+                </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
+
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">data</td>
+                                        <td class="bRight">Object</td>
+                                        <td>Object response.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">date</td>
+                                        <td class="bRight">String</td>
+                                        <td>The date the bet was placed. format(YYYY-MM-DD HH:mm:ss)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">result</td>
+                                        <td class="bRight">arrayobject</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">name_th</td>
+                                        <td class="bRight">String</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">name_en</td>
+                                        <td class="bRight">String</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">41001</td>
+                                        <td>Error Request body is not an object.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71001</td>
+                                        <td>missing filed 'agentUsername'.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71011</td>
+                                        <td>invalid lottotype</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71021</td>
+                                        <td>please input startDate and endDate</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71022</td>
+                                        <td>invalid input format 'startDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71023</td>
+                                        <td>invalid input format 'endDate' field.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">71034</td>
+                                        <td>invalid format Date</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Response
+                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
+    <span class="hljs-attr">"data"</span>: [
+        {
+            <span class="hljs-attr">"name_th"</span>: <span class="hljs-number">"หวยไทย",</span>
+            <span class="hljs-attr">"name_en"</span>: <span class="hljs-number">"Thai Lotto",</span>
+            <span class="hljs-attr">"date"</span>: <span class="hljs-number">"2021-09-16 00:00:00",</span>
+            <span class="hljs-attr">"result"</span>: {
+                <span class="hljs-attr">"top6"</span>: [
+                    <span class="hljs-number">"070935"</span>
+                ],
+                <span class="hljs-attr">"top3"</span>: [
+                    <span class="hljs-number">"935"</span>
+                ],
+                <span class="hljs-attr">"bottom3"</span>: [
+                    <span class="hljs-number">"609",</span>
+                    <span class="hljs-number">"817",</span>
+                    <span class="hljs-number">"379",</span>
+                    <span class="hljs-number">"007"</span>
+                ],
+                <span class="hljs-attr">"bottom2"</span>: [
+                    <span class="hljs-number">"90"</span>
+                ]
+            }
+        }
+    ],
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_7B.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
