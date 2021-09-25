@@ -665,7 +665,7 @@
                                         <tr>
                                             <td class="bRight">signature</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&amount=100.00   จำเป็นต้องมีทศนิยม 2 ตำแหน่งเสมอและ username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&amount=100.00   จำเป็นต้องมีทศนิยม 2 ตำแหน่งเสมอและ username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส กรุณาใช้ lowercase ในขณะที่เข้ารหัสและ body ที่ส่งมา</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -871,7 +871,7 @@
                                         <tr>
                                             <td class="bRight">signature</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&amount=100.00   จำเป็นต้องมีทศนิยม 2 ตำแหน่งเสมอและ username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&amount=100.00   จำเป็นต้องมีทศนิยม 2 ตำแหน่งเสมอและ username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส กรุณาใช้ lowercase ในขณะที่เข้ารหัสและ body ที่ส่งมา</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1062,7 +1062,7 @@
                                         <tr>
                                             <td class="bRight">signature</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT และใช้ key เป็น key ในการเข้ารหัส</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT และใช้ key เป็น key ในการเข้ารหัส กรุณาใช้ lowercase ในขณะที่เข้ารหัสและ body ที่ส่งมา</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1235,7 +1235,7 @@
                                         <tr>
                                             <td class="bRight">signature</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME และใช้ key เป็น key ในการเข้ารหัส</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME และใช้ key เป็น key ในการเข้ารหัส กรุณาใช้ lowercase ในขณะที่เข้ารหัสและ body ที่ส่งมา</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1418,7 +1418,7 @@
                                         <tr>
                                             <td class="bRight">signature</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&transaction_ref=xxxxx1 username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agentId=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&transaction_ref=xxxxx1 username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส กรุณาใช้ lowercase ในขณะที่เข้ารหัสและ body ที่ส่งมา</td>
                                         </tr>
                                     </tbody>
                                 </table>
