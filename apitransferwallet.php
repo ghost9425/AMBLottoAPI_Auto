@@ -44,7 +44,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/apiRoute/member/landing/register
+                                https://test-api.pirate168.com/apiRoute/member/landing/register/noaddress
                             </label>
                         </div>
                         <div class="col-12">
@@ -388,7 +388,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.pirate168.com/apiRoute/member/landing/login
+                                https://test-api.pirate168.com/apiRoute/member/landing/login/noaddress
                             </label>
                         </div>
                         <div class="col-12">
