@@ -138,7 +138,7 @@
     <span class="hljs-attr">"lastname"</span>: <span class="hljs-string">"test02",</span>
     <span class="hljs-attr">"bank"</span>: <span class="hljs-string">"KBANK",</span>
     <span class="hljs-attr">"acc_no"</span>: <span class="hljs-string">"0261294974",</span>
-    <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"0838259109",</span>
+    <span class="hljs-attr">"phone"</span>: <span class="hljs-string">"0812345678",</span>
     <span class="hljs-attr">"agent"</span>: <span class="hljs-string">"agenttest",</span>
     <span class="hljs-attr">"master_member"</span>: <span class="hljs-string">"member1"</span>
 }</code></pre>
