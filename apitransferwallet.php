@@ -2031,6 +2031,206 @@
                         </div>
                     </div>
                 </div>
+                <div class="pb-3"></div>
+                <div class="col-12" id="tabEleven">
+                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.11 Admin Update Password</b>
+                    </lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.pirate168.com/apiRoute/member/landing/admin/update/password/noaddress
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;" set-lan="text:Request Body">Request Body</b>
+                        </lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable1">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width:15%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Parameter</th>
+                                            <th style="width:20%" set-lan="html:Parameter" class="txtCenter bRight">
+                                            Type</th>
+                                            <th style="width:45%" set-lan="html:Type" class="txtCenter bRight">Description
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">agent</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">This member register under by this agent.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">key</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">username</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Username member login.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">new_password</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">New password for login.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">signature</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">signature เข้ารหัสโดยใช้วิธีเข้ารหัสแบบ SHA256 โดย plaintext แบบ agent=AGENT_USERNAME&key=KEY_OF_AGENT&username=MEMBER_USER_NAME&new_password=aA123456   username กับ agentId เป็น  lowercase และใช้ key เป็น key ในการเข้ารหัส</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"agent"</span>: <span class="hljs-string">"ntc123",</span>
+    <span class="hljs-attr">"key"</span>: <span class="hljs-string">"d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",</span>
+    <span class="hljs-attr">"username"</span>: <span class="hljs-string">"member4",</span>
+    <span class="hljs-attr">"new_password"</span>: <span class="hljs-string">"aA1234567",</span>
+    <span class="hljs-attr">"signature"</span>: <span class="hljs-string">"d89586ab6e049aeca372930442fad711090e0dfa9b7b8f986b4ef235cee6cc80"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_5.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Response Body</b></lable>
+                </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45B">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type</th>
+
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td>Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">message</td>
+                                        <td class="bRight">String</td>
+                                        <td>Information message.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 ex">
+                        <lable><b style="color: #19A17A  !important;">Service Response Code</b></lable>
+                    </div>
+                    <div class="form-group col-1"></div>
+                    <div class="form-group col-9">
+                        <div class="table-wrapper">
+                            <table class="table table-borderless table-striped" id="DataTable45C">
+                                <thead class="rgba-green-slight">
+                                    <tr>
+                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                            Parameter</th>
+                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bRight">0</td>
+                                        <td>update password success</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2031</td>
+                                        <td>user dose not exit</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2033</td>
+                                        <td>invalid character '\"' after object key:value pair</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2045</td>
+                                        <td>invalid siganture</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2052</td>
+                                        <td>password len is < 8</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2052</td>
+                                        <td>password need a_z</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2052</td>
+                                        <td>password need A_Z</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2052</td>
+                                        <td>password not contain spacebar</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">2059</td>
+                                        <td>invalid key</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #19A17A  !important;">Example Service Response
+                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="47B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0,</span>
+    <span class="hljs-attr">"message"</span>: <span class="hljs-number">"update password success"</span>
+}</code></pre>
+                                    <script src="./API_files/ex4_7B.js.download"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">

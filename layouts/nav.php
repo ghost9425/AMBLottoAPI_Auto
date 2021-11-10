@@ -76,6 +76,10 @@
                                         <span class="sv-normal" set-lan="text:3.5.4">3.10
                                         Update Password</span></a>
                                 </li>
+                                <li id="manu310"><a class="waves-effect submenu" href="apitransferwallet.php#tabEleven">
+                                        <span class="sv-normal" set-lan="text:3.5.4">3.11
+                                        Admin Update Password</span></a>
+                                </li>
                             </ul>
                         </div>
                     </li>
