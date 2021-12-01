@@ -584,7 +584,7 @@
         <span class="hljs-attr">"playerUsername"</span>: <span class="hljs-string">"member2@agenttest",</span>
         <span class="hljs-attr">"tkUuid"</span>: <span class="hljs-string">"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8",</span>
         <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://test.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8&header=off",</span>
-        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://lotto.zonelotto.net/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8&header=on"</span>
+        <span class="hljs-attr">"urlFullPage"</span>: <span class="hljs-string">"https://test.pirate168.com/token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6IiJ9.eyJhZ2VudGlkIjoyMiwiZXhwIjoxNjMyNTY3ODMxLCJpYXQiOjE2MzE3MDM4MzEsInJvbGUiOiJtZW1iZXIyQGFnZW50dGVzdCIsInN1YiI6ZmFsc2V9.rVIC-1-5FXPcwd5OtyGD0Ds51NwmjshY87hYHbGkdt8&header=on"</span>
     },
     <span class="hljs-attr">"message"</span>: <span class="hljs-string">"success"</span>
 }</code></pre>
