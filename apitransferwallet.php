@@ -78,7 +78,7 @@
                                         <tr>
                                             <td class="bRight">username</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">Username member.</td>
+                                            <td class="bRight">Username should be prefix followed by phone number.</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">password</td>
@@ -132,7 +132,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"username"</span>: <span class="hljs-string">"member01",</span>
+    <span class="hljs-attr">"username"</span>: <span class="hljs-string">"test0898765432",</span>
     <span class="hljs-attr">"password"</span>: <span class="hljs-string">"aA444444",</span>
     <span class="hljs-attr">"firstname"</span>: <span class="hljs-string">"test01",</span>
     <span class="hljs-attr">"lastname"</span>: <span class="hljs-string">"test02",</span>
