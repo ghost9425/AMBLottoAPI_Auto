@@ -1672,7 +1672,7 @@
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="45A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"amblotto1234",</span>
+    <span class="hljs-attr">"agentUsername"</span>: <span class="hljs-string">"ntc123",</span>
     <span class="hljs-attr">"lottotype"</span>: <span class="hljs-string">"thailotto",</span>
     <span class="hljs-attr">"startDate"</span>: <span class="hljs-string">"2021-09-02 15:04:05",</span>
     <span class="hljs-attr">"endDate"</span>: <span class="hljs-string">"2021-09-16 15:04:05"</span>
